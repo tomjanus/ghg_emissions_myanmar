@@ -1,0 +1,272 @@
+---
+title: "Notebook_2_process_hydropower"
+output:
+  html_document: default
+date: "2023-11-30"
+---
+
+# Notebook for processing power generation data from Burmese hydroelectric plants
+## Author: T. Janus
+## 02-12-2023
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r, echo=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+## 1. Load the pywr hydropower production timeseries data
+```{r, echo=FALSE, }
+pywr_output_folder <- file.path("bin","pywr_outputs")
+output_files <- c(
+  'outputs_irrawaddy.xlsx', 
+  'outputs_salween.xlsx', 
+  'outputs_sittaung.xlsx')
+hp_output <- dir(
+  pywr_output_folder, full.names=TRUE, 
+  pattern = "^outputs_.*\\.xlsx$") |> 
+  map_dfc(readxl::read_excel)
+hp_output<- hp_output[3:nrow(hp_output), ] |>
+  select(-matches("^Recorder"), -matches("^output"), -matches("^outflow"))
+
+res_names_interm <- sub("^__(?:[Tt])urbine_(.*?)__:energy$", "\\1", colnames(hp_output))
+res_names <- sub("^__(.*?)_(?:[Tt])urbine__:energy$", "\\1", res_names_interm)
+
+hp_output <- hp_output %>% setNames(res_names)
+```
+## 2. Load the ifc to pywr reservoir name dictionary
+```{r}
+ifc_to_pywr = read_csv(
+  file.path('config', 'ifc_pywr_name_map.csv'), 
+  show_col_types = FALSE)
+```
+### 2.1 Rename columns to ifc names in the pywr hydropower production data
+```{r, warning=FALSE}
+ifc_to_pywr <- ifc_to_pywr %>%
+  filter(pywr_name %in% colnames(hp_output))
+name_mapping <- setNames(ifc_to_pywr$pywr_name, ifc_to_pywr$ifc_name)
+# Rename the columns
+hp_output <- hp_output %>%
+  dplyr::rename(name_mapping)
+```
+```{r}
+writexl::write_xlsx( 
+        hp_output, file.path("outputs", "pywr_hp", "hp_output_combined.xlsx"), 
+        col_names = TRUE, 
+        format_headers = TRUE)
+```
+### 2.2 Create summary statistics
+```{r}
+sum_table <- vtable::sumtable(
+  hp_output,
+  out = "return",
+  summ=c(
+    'min(x)', 'max(x)', 'sd(x)',
+    'mean(x)', 'median(x)', 'pctile(x)[2]',
+    'pctile(x)[3]', 'pctile(x)[5]', 'pctile(x)[10]')) %>%
+  janitor::clean_names() %>%
+  mutate_at(vars(-variable), as.numeric)
+head(sum_table)
+```
+### 2.3 Write the pywr hydropower production summary statistics to file
+```{r}
+writexl::write_xlsx( 
+        sum_table,
+        file.path("outputs", "pywr_hp","hp_summary_df.xlsx"), 
+        col_names = TRUE, 
+        format_headers = TRUE)
+```
+## 3. Load the Myanmar Dams geodata
+```{r, warning=FALSE}
+mya_dams_geojson <- file.path("bin", "gis_layers", "myanmar_dams", "mya_dams.geojson")
+# Load geojson data into a S4 object and then convert it to a dataframe
+mya_dams_df <- 
+  geojsonio::geojson_read(mya_dams_geojson, what = "sp") %>%
+  sf::st_as_sf() %>% 
+  sf::st_sf() %>%
+  filter(Function != "IRR") %>%
+  select(
+     contains(c('capacity', 'energy', 'power', 'runoff', 'flow')),
+     contains("Plant.Factor"),
+     -contains(c("powerhouse", "river", "km2")),
+     -c("Mean.annual.energy..GW..", "Turbine.Discharge..Min.Flow."),
+     c("Project.Name")
+   ) %>%
+  janitor::clean_names() %>%
+  rename_at(
+    vars(
+      -c(project_name, geometry)),
+      function(x) paste0(x,"_md")) %>%
+  mutate_at(vars(plant_factor_md), as.numeric) %>%
+  sf::st_drop_geometry()
+```
+mutate_at(vars(-variable), as.numeric)
+
+## 4. Load the IFC Dams geodata
+```{r, echo=FALSE}
+ifc_dams_shp <- file.path(
+  "bin", "gis_layers", "ifc_database", "all_dams_replaced_refactored.shp")
+ifc_dams_df <- sf::st_read(dsn = ifc_dams_shp) %>%
+  select(c(
+    "IFC_ID", "DAM_NAME", "Firm.Power", "Annual.Gen", "Status.2", "Basin",
+    "Inst_cap", "HP.or.Mult", "RoR.or.Sto", "Des_Disch", "Des_Head",
+    "Comment", "Export_MW")) %>%
+  janitor::clean_names() %>%
+  rename_at(
+    vars(
+      -c(ifc_id, dam_name, geometry)),
+      function(x) paste0(x,"_ifc")) %>%
+  sf::st_drop_geometry()
+```
+## 5. Load the reeemission outputs
+```{r}
+reemission_in_out_file <- file.path(
+  'outputs','reemission','outputs_MIN_LOW_PRIM.xlsx')
+reemission_in_df <- readxl::read_excel(
+  reemission_in_out_file, sheet = 'inputs') %>%
+  select(c('Name', 'res_volume', 'res_area'))
+reemission_out_df <- readxl::read_excel(
+  reemission_in_out_file, sheet = 'outputs') %>%
+  select(c(
+    'Name', 'co2_net', 'co2_total_per_year','ch4_net','ch4_total_per_year'))
+reemission_df <- left_join(reemission_in_df, reemission_out_df, by="Name")
+```
+## 6. Create a merged dataframe
+```{r, warning=FALSE}
+merged_df <- 
+  left_join(ifc_dams_df, mya_dams_df, by=c('dam_name'='project_name')) %>%
+  filter(!is.na(ifc_id) | !is.na(installed_capacity_mw_md)) %>%
+  left_join(sum_table, by=c("dam_name"="variable")) %>%
+  mutate_all(
+    funs(ifelse(grepl("-", .), NA, .))
+  ) %>%
+  left_join(reemission_df, by=c('dam_name'='Name')) %>%
+  mutate(hp_type_reem = ifelse(is.na(co2_net), 'ror', 'sto'))
+```
+## 7. Save the merged dataframe to excel for manual post-processing
+```{r ,echo=FALSE}
+writexl::write_xlsx( 
+        merged_df,
+        file.path("intermediate","merged_table.xlsx"), 
+        col_names = TRUE, 
+        format_headers = TRUE)
+```
+## 7.b Categorize dams based on annual generation capacity
+```{r, echo=FALSE}
+merged_df$hp_category <- cut(
+  merged_df$annual_gen_ifc, 
+  breaks = c(0,500,2500,Inf), 
+  labels = c("Small HP","Medium HP","Large HP"))
+```
+
+## 8. Perform data diagnostics
+```{r}
+# Create new variables from pywr data
+merged_df <-
+  mutate(merged_df, plant_factor_pywr = mean / inst_cap_ifc) %>%
+  mutate(annual_gen_pywr = mean * 24 * 365.25 / 1000) %>%
+  mutate(firm_power_pywr = pctile_10) %>%
+  distinct(ifc_id, .keep_all = TRUE)
+head(merged_df)
+```  
+### 8.1 Plot plant factors from IFC vs PyWr
+```{r}
+merged_df %>%
+  #select(plant_factor_md, plant_factor_pywr) %>%
+  filter(!is.na(plant_factor_md)) %>%
+  mutate(plant_factor_pywr = ifelse(plant_factor_pywr > 1.0, 1.0, plant_factor_pywr)) %>%
+  ggplot(aes(x = plant_factor_pywr, y = plant_factor_md)) +
+  geom_point(size=2, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
+  ggrepel::geom_text_repel(
+    aes(label = dam_name), size = 2.2, max.overlaps = 30, color = 'black') +
+  geom_abline(
+    intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
+  xlim(0, 1) +
+  ylim(0, 1) +
+  labs(title="Plant factors calculated from PyWr vs IFC estimates",
+       colour = "HP Type",
+       shape = "Construction\nStatus",
+       x="Plant Factor (PyWr)", y = "Plant Factor (IFC)") +
+  facet_wrap(~hp_category) +
+  theme_bw() + 
+  theme(legend.position = "right")
+ggsave(
+  file.path("figures", "ifc_pywr_power_comparison", "plant_factors.png"), 
+  width = 17, height = 12, units = "cm")
+```
+### 8.2 Plot annual generation capacity from PyWr vs IFC
+```{r}
+merged_df %>%
+  filter(!is.na(annual_gen_ifc)) %>%
+  ggplot(aes(x = annual_gen_pywr, y = annual_gen_ifc)) +
+  geom_point(size=2, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
+  ggrepel::geom_text_repel(
+    aes(label = dam_name), size = 2.2, max.overlaps = 30, color = 'black') +
+  geom_abline(
+    intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
+  #xlim(0, 35000) +
+  #ylim(0, 35000) +
+  labs(title="Annual power generation estimates from PyWr vs IFC",
+       colour = "HP Type",
+       shape = "Construction\nStatus",
+       x="Generation Capacity (PyWr), GWh/year", 
+       y = "Generation Capacity (IFC), GWh/year") +
+  facet_wrap(~hp_category, scales = "free", nrow = 3) +
+  theme_bw() + 
+  theme(legend.position = "right")
+ggsave(
+  file.path("figures", "ifc_pywr_power_comparison", "annual_power_gen.png"), 
+  width = 17, height = 28, units = "cm")
+```
+### 8.3. Plot firm power from Pywr vs IFC data
+```{r}
+merged_df %>%
+  filter(!is.na(firm_power_ifc)) %>%
+  ggplot(aes(x = firm_power_pywr, y = firm_power_ifc)) +
+  geom_point(size=2, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
+  ggrepel::geom_text_repel(
+    aes(label = dam_name), size = 2.2, max.overlaps = 30, color = 'black') +
+  geom_abline(
+    intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
+  #xlim(0, 1) +
+  #ylim(0, 1) +
+  labs(title="Firm Power estimates from PyWr vs IFC data",
+       colour = "HP Type",
+       shape = "Construction\nStatus",
+       x="Firm Power (PyWr), MW", 
+       y = "Firm Power (IFC), MW") +
+  facet_wrap(~hp_category,  scales = "free") +
+  theme_bw() + 
+  theme(legend.position = "right")
+ggsave(
+  file.path("figures", "ifc_pywr_power_comparison", "firm_power.png"), 
+  width = 17, height = 12, units = "cm")
+```
+### 8.4. Plot firm power as a percentage of installed capacity from Pywr vs IFC data
+```{r}
+merged_df %>%
+  filter(!is.na(firm_power_ifc)) %>%
+  ggplot(aes(x = firm_power_pywr/inst_cap_ifc*100, y = firm_power_ifc/inst_cap_ifc*100)) +
+  geom_point(size=2, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
+  ggrepel::geom_text_repel(
+    aes(label = dam_name), size = 2.2, max.overlaps = 30, color = 'black') +
+  geom_abline(
+    intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
+  xlim(0, 100) +
+  ylim(0, 100) +
+  labs(title="Firm Power as a percentage of installed capacity\nEstimates from PyWr and IFC data",
+       colour = "HP Type",
+       shape = "Construction\nStatus",
+       x="Firm Power / Installed Capacity (PyWr), %", 
+       y = "Firm Power / Installed Capacity (IFC), MW") +
+  theme_bw() + 
+  theme(legend.position = "right")
+ggsave(
+  file.path("figures", "ifc_pywr_power_comparison", "firm_power_frac.png"), 
+  width = 17, height = 12, units = "cm")
+```
+
+```{r}
+print("Calculations Finished")
+```

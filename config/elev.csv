@@ -1,0 +1,212 @@
+id,IFC.id,cdb.id,name,river,main_basin,fsl_masl
+8,8,,Bawgata,Bawgata,Sittaung,400
+9,9,,Belin,Bilin River,Bilin,123
+10,10,,Buywa (upper),Mon Chaung,Ayeyarwady,428
+11,11,,Buywa,Mon Chaung,Ayeyarwady,242
+21,21,,Dum Ban,N'Mai  Hka Tributary,Ayeyarwady,405
+26,26,,Hawkham (upper),Nam Pawn,Thanlwin,191
+31,31,,Tamanthi,Chindwin,Chindwin,162
+35,35,,Kabaung,Kabaung Chaung,Sittaung,119
+39,39,,Keng Tawng (upper),Nam Teng,Thanlwin,740
+44,44,,Khaunglanphu,N'Mai  Hka,Ayeyarwady,803
+45,45,,Kinda,Panlaung Chaung,Ayeyarwady,180
+47,47,,Kun Chaung,Kun Chaung,Sittaung,165
+49,49,,Kyee Ohn Kyee Wa,Mon Chaung,Ayeyarwady,97
+53,53,,Laza,Mali Hka,Ayeyarwady,360
+54,54,,Lemro 2,Le Mro,Rakhine,82
+55,55,,Nam Pawn (lower),Nam Pawn,Thanlwin,285
+57,57,,Mong Ton,Thanlwin Mainstem,Thanlwin,405
+58,58,,Manipur,Manipura,Chindwin,344
+59,59,,Mantong,Nam Ma,Thanlwin,492
+62,62,,Mone Chaung,Mon Chaung,Ayeyarwady,150
+64,64,,Myitsone,Ayeyarwady,Ayeyarwady,275.5
+65,65,,Myittha,Myittha,Chindwin,285
+66,66,,Myogyi,Zawgyi River,Ayeyarwady,183
+67,67,,Nam Hka,Nam Hka,Thanlwin,483
+68,68,,Nam Hsim,Myitnge Upper,Ayeyarwady,519
+70,70,,Nam Lang,Myitnge Upper,Ayeyarwady,595
+83,83,,Nam Tu,Myitnge Upper,Ayeyarwady,492
+96,96,,Paung Laung (lower),Paung Laung Chaung,Sittaung,195
+97,97,,Paung Laung (middle),Paung Laung Chaung,Sittaung,317
+98,98,,Paung Laung (upper),Paung Laung Chaung,Sittaung,370
+101,101,,Phyu Chaung,Pyu Chaung,Sittaung,148
+103,103,,Renan,N'Mai  Hka,Ayeyarwady,935
+105,105,,Sedawgyi,Ma Gyi Chaung,Ayeyarwady,129
+106,106,,Sedawgyi (upper),Ma Gyi Chaung,Ayeyarwady,288
+107,107,,Shwegyin,Shwegyin River,Sittaung,65
+110,110,,Shweli 3,Shweli,Ayeyarwady,245
+112,112,,Suo Lwe,Nam Lwe,Mekong,636
+113,113,,Taninthayi,Taninthayi,Tanintharyi,146
+116,116,,Thahtay,Thahtay,Rakhine,96
+118,118,,Thapanzeik,Mu River,Ayeyarwady,159
+120,120,,Thauk Ye Khat 2,Thauk Ye Khat,Sittaung,120
+127,127,,Yenwe,Ye Nwe Chaung,Sittaung,103
+129,129,,Yeywa,Lower Myitnge,Ayeyarwady,185
+130,130,,Yeywa (middle),Lower Myitnge,Ayeyarwady,303
+131,131,,Yeywa (upper),Lower Myitnge,Ayeyarwady,390
+132,132,,Ywathit,Thanlwin Mainstem,Thanlwin,123
+133,133,,Zaungtu,Bago River,Myit Mo Hka & Bago,63
+135,135,,Zawgyi II,Zawgyi River,Ayeyarwady,645
+137,137,,Mong Hsat,Nam Hkoke,Mekong,782
+148,148,,Tawog Hka,Nam Lanog Hka,Chindwin,289
+149,149,,Ta Rung Hka,Ta Rung Hka,Chindwin,255
+151,151,,Thauk Ye Khat 1,Thauk Ye Khat,Sittaung,241
+152,152,,Yunzalin,,Thanlwin,324
+154,154,,Mi Chaung,Mi Chaung,Rakhine,190
+157,157,,Tha Gyet Chaung,Tha Gyet,Tanintharyi,78
+161,161,,Than Dwe,Than Dwe,Rakhine,44
+162,162,,Kyein Ta Li,Kyein Ta Li,Rakhine,55
+163,163,,Nam Hkok,Nam Hkoke,Mekong,578
+9009,,9009,Gyobyu,,Irrawaddy,55
+9070,,9070,Taungpulu Dam,,,200
+9113,,9113,Ngwedaung,,,891
+9068,,9068,Kyet Mauk Taung,,,280
+9007,,9007,Mobye,,Salween,863
+9053,,9053,Yezin Dam,,,129
+9015,,9015,North Nawin dam,,,91
+9012,,9012,Tabuhla,,Irrawaddy,33
+9059,,9059,Thitsone Dam,,,252
+9060,,9060,Unknown7,,,242
+9064,,9064,Mondaing Dam,,,279
+9077,,9077,Unknown13,,,178
+9078,,9078,Ta Zoe Dam,,,161
+9114,,9114,KinMunDaung,,,220
+9115,,9115,KwanDawGyi,,,140
+9116,,9116,Koebin,,,127
+9118,,9118,Inya Lake,,,15
+9120,,9120,Unknown35,,,141
+9122,,9122,Unknown38,,,170
+9123,,9123,Unknown39,,,176
+9171,,9171,Meikhtila,,,234
+9173,,9173,Unknown 46,,,172
+9054,,9054,Ngalaik Dam,,,160
+9125,,9125,Pin,,,266
+9061,,9061,Tha Hpan Chaung Dam,,,270
+9030,,9030,unknown2,,,44
+9127,,9127,Shwe Taung Dam,,,52
+9128,,9128,Samon,,,136
+9014,,9014,unknown1,,,59
+9073,,9073,Ashebette,,,195
+9079,,9079,Unknown14,,,143
+9107,,9107,Soon-Lunn Dam,,,101
+9129,,9129,TaungKhinYan,,,202
+9130,,9130,SinChaung,,,99
+9004,,9004,Natmouk,,Irrawaddy,207
+9008,,9008,Taungnawin,,Irrawaddy,87
+9010,,9010,Ngamoeyeik,,Irrawaddy,30
+9026,,9026,Da Bu Hla Dam,,,66
+9046,,9046,Pathi Dam,,,87
+9063,,9063,Unknown9,,,240
+9106,,9106,Thazi Dam,,,153
+9132,,9132,Htanzaloke,,,125
+9133,,9133,NatMouk,,,207
+9001,,9001,Kintat,,Irrawaddy,122
+9017,,9017,Taung nyo dam,,,75
+9075,,9075,Sin Te Wa Reservoir,,,224
+9080,,9080,Unknown15,,,143
+9135,,9135,BanGon,,,226
+9136,,9136,North Yama,,,145
+9105,,9105,Unknown30,,,180
+9108,,9108,Nabae Kan Water,,,156
+9138,,9138,WunChaung,,,257
+9006,,9006,Manchaung,,Irrawaddy,186
+9016,,9016,Wegyi,,,79
+9021,,9021,Zalataw reservoir,,,35
+9023,,9023,Baw ni Dam,,,49
+9056,,9056,Sinthe Dam,,,206
+9057,,9057,Sinthay diversion Dam,,,171
+9067,,9067,Unknown11,,,241
+9071,,9071,Thabyeyoe Dam,,,210
+9074,,9074,Unknown12,,,187
+9097,,9097,Unknown23,,,122
+9112,,9112,Saddan Dam,,,173
+9139,,9139,NgaMin,,,218
+9022,,9022,Mazin Dam,,,24
+9040,,9040,Nyaung Kaing Dam,,,50
+9140,,9140,South Yama,,,192
+9035,,9035,Hmyagyaung,,,47
+9076,,9076,Zidaw Dam,,,179
+9088,,9088,Unknown20,,,83
+9101,,9101,Unknown26,,,187
+9110,,9110,Yae Ka Moe,,,250
+9141,,9141,Palin,,,212
+9142,,9142,SanChuang,,,187
+9144,,9144,KyetMauk,,,228
+9145,,9145,Unknown40,,,55
+9170,,9170,Kanggyigone,,,92
+9005,,9005,Sunchaung,,Irrawaddy,185
+9019,,9019,La Gun Byin Dam,,,24
+9044,,9044,Yay Ni Dam,,,68
+9045,,9045,Swa Chaung Dam,,,94
+9055,,9055,Yan Pel Dam,,,175
+9072,,9072,Tha Put Pin Te,,,220
+9081,,9081,Unknown16,,,235
+9085,,9085,Unknown18,,,185
+9109,,9109,Kyin Tinar Dam,,,300
+9146,,9146,LayDaingZin,,,233
+9147,,9147,Sinlan,,,1138
+9148,,9148,Unknown34,,,837
+9018,,9018,Kalihtaw dam,,,42
+9020,,9020,A Laing Ni Dam,,,26
+9025,,9025,Baingda Dam,,,147
+9034,,9034,Thone Sal Dam,,,80
+9036,,9036,Kantin Beelin Dam,,,79
+9037,,9037,Min Hla Dam,,,106
+9038,,9038,Gamone Dam,,,82
+9039,,9039,Bawbin Dam,,,83
+9051,,9051,Yan Aung Myin Dam,,,116
+9052,,9052,Chaungmagyi Dam,,,143
+9091,,9091,Kon Chaung,,,80
+9103,,9103,Unknown28,,,101
+9149,,9149,NaGa (DaunNay),,,212
+9033,,9033,Kawliya Dam,,,83
+9043,,9043,unknown5,,,123
+9069,,9069,Tya Pya Pin,,,271
+9092,,9092,Kha War Reservoir,,,65
+9151,,9151,PweTha,,,72
+9094,,9094,Unknown21,,,113
+9095,,9095,Unknown22,,,110
+9098,,9098,Let Pan Dam,,,165
+9102,,9102,Unknown27,,,119
+9111,,9111,Taung Yay Dam,,,290
+9154,,9154,TwinMa,,,220
+9155,,9155,ThitKyiTaw,,,261
+9024,,9024,Mahuyar Dam,,,68
+9027,,9027,Paung Laung Dam,,,70
+9042,,9042,Pa Del Dam,,,143
+9048,,9048,Thae Phyu Dam,,,127
+9058,,9058,Unknown6,,,262
+9066,,9066,Unknown10,,,310
+9090,,9090,Ma Mya,,,90
+9096,,9096,Phaung Ga Tar Dam,,,112
+9100,,9100,Unknown25,,,176
+9104,,9104,Unknown29,,,302
+9158,,9158,MyeKheTaung,,,97
+9159,,9159,Ngathayauk,,,230
+9161,,9161,Mali,,,323
+9174,,9174,DAM0170,,,237
+9050,,9050,Chaun Mange Dam,,,165
+9084,,9084,Unknown17,,,154
+9093,,9093,Maday Dam,,,132
+9162,,9162,Sabae,,,127
+9013,,9013,North Yamar Dam,,,222
+9065,,9065,Shanmange Dam,,,334
+9082,,9082,Marle-Nattaung Dam,,,122
+9163,,9163,GweCho,,,92
+9164,,9164,Mone Yin,,,606
+9029,,9029,BAWNatGYi,,,57
+9165,,9165,NgaChin,,,297
+9049,,9049,Leway Dam,,,198
+9083,,9083,Lin Pann Dam,,,159
+9041,,9041,Unknown4,,,167
+9089,,9089,Ka Nyin Dam,,,90
+9166,,9166,Ye Bok Reservoir,,,21
+9167,,9167,MyaingChaung,,,280
+9062,,9062,Unknown8,,,232
+9086,,9086,Unknown19,,,167
+9028,,9028,Salu Dam,,,43
+9031,,9031,unknown3,,,57
+9032,,9032,Ko Du Kwe Dam,,,66
+9087,,9087,Pinde,,,207
+9169,,9169,Yazago Dam,,,203
+9099,,9099,Unknown24,,,162

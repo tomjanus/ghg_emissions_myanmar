@@ -1,0 +1,5 @@
+* Check all notebooks and make sure they don't raise FileNotFound errors if output folder structures do not exist
+* Move binary files onto a server and add a python script for downloading the files to a local hard-drive
+* Redo model fitting using fewer features (perform manual feature removal)
+* Expand code to feature co2 and ch4 clusters.
+* TEST ADDING TROPHIC STATUS AS A CATEGORICAL VARIABLE!

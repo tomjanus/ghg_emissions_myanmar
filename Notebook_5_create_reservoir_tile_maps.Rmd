@@ -1,0 +1,142 @@
+---
+title: "Notebook_5_create_reservoir_tile_maps"
+output: html_notebook
+---
+
+## Creating tiled maps of reservoirs from the tabular data and the shape files
+## Warning: May take a little time, depending on your computer's graphic capabilities due to large output file resolution
+### Tomasz Janus
+tomasz.k.janus@gmail.com
+
+```{r, warning=FALSE, echo=FALSE}
+library(sf)
+library(readxl)
+library(dplyr)
+library(tmap)
+library(tmaptools)
+```
+## 1. Import and Filter Data
+```{r}
+# Import shape file with reservoirs
+res_shp_file_path = file.path("bin","heet_outputs_MIN_LOW_PRI","reservoirs_updated.shp")
+res_shp_data = sf::st_read(res_shp_file_path)
+# Read excel file with results
+results_all <- readxl::read_excel(
+  file.path("outputs", "reemission", "combined", "combined_outputs.xlsx"))
+
+# Filter results to only contain MIN_LOW_PRI scenario
+results_filtered <- results_all %>% dplyr::filter(Scenario == "MIN_LOW_PRIM")
+# Elevation data
+elev_data <- read.csv(file.path("config", "elev.csv"))
+# Add elevation information to the shape file
+res_shp_data <- res_shp_data %>%
+  inner_join(elev_data, by = c("name" = "name"), suffix = c("_shp", "_results"))
+```
+```{r}
+non_irr_res_names <- results_filtered %>% 
+    dplyr::filter(type %in% c('hydroelectric', 'multipurpose')) %>% 
+    dplyr::select('Name')
+irr_res_names <- results_filtered %>% 
+    dplyr::filter(type %in% c('irrigation')) %>% 
+    dplyr::select('Name')
+non_irr_res_names <- non_irr_res_names$Name
+irr_res_names <- irr_res_names$Name
+```
+## 2. Combine shape file data with emissions
+```{r}
+# Combine shape data with re-emission results
+res_shp_data <- res_shp_data %>%
+  inner_join(results_filtered, by = c("name" = "Name"), suffix = c("_shp", "_results"))
+res_shp_hp_multi <- res_shp_data %>% dplyr::filter(name %in% non_irr_res_names)
+res_shp_irr <- res_shp_data %>% dplyr::filter(name %in% irr_res_names)
+
+split_index <- nrow(res_shp_irr) / 2
+res_shp_irr_1 <- res_shp_irr[1:split_index, ]
+res_shp_irr_2 <- res_shp_irr[(split_index + 1):nrow(res_shp_irr), ]
+
+save_maps <- TRUE
+```
+
+### 3. Plot the hydroelectric and the multipurpose reservoirs
+```{r}
+tmap::tmap_mode('plot')
+m <- tmap::tm_shape(shp=res_shp_hp_multi) + 
+    tmap::tm_polygons(col='res_area', style='cont', title = 'Reservoir\nArea, km2', alpha = 1.00) +
+    tmap::tm_facets(
+        by="name", free.scales = FALSE, free.coords = TRUE, 
+        drop.NA.facets = FALSE,
+        drop.empty.facets = FALSE,
+        free.scales.symbol.size = 0.01, ncol = 10) +
+    tm_style("col_blind") +
+    tmap::tm_layout(main.title.position = "center",
+              legend.outside = TRUE,
+              legend.outside.size = 0.1,
+              outer.margins = c(0.02,0.02,0.02,0.02),
+              legend.outside.position = "right",
+              main.title = "Hydroelectric and Multipurpose Reservoirs", 
+              fontfamily = 'serif', legend.show = TRUE)
+if (save_maps == TRUE) {
+  tmap_save(
+    m, file.path("figures","maps","reservoir_tiles_hp_multi.jpg"), 
+    width=12, height=7, dpi = 2400)
+  tmap_save(
+    m, file.path("figures","maps","reservoir_tiles_hp_multi.png"), 
+    width=12, height=7, dpi = 2400)
+}
+m
+```
+
+## 2. Plot irrigation reservoirs 1/2
+```{r}
+tmap::tmap_mode('plot')
+m <- tmap::tm_shape(shp=res_shp_irr_1) + 
+    tmap::tm_polygons(col='res_area', style='cont', title = 'Reservoir\nArea, km2', alpha = 1.00) +
+    tmap::tm_facets(
+        by="name", free.scales = FALSE, free.coords = TRUE, 
+        drop.NA.facets = FALSE,
+        drop.empty.facets = FALSE,
+        free.scales.symbol.size = 0.01, ncol = 10) +
+    tm_style("col_blind") +
+    tmap::tm_layout(main.title.position = "center",
+              legend.outside = TRUE,
+              legend.outside.size = 0.1,
+              outer.margins = c(0.02,0.02,0.02,0.02),
+              legend.outside.position = "right",
+              main.title = "Irrigation reservoirs (1/2)", fontfamily = 'serif', legend.show = TRUE)
+if (save_maps == TRUE) {
+  tmap_save(
+    m, file.path("figures","maps","reservoir_tiles_irrig_1.jpg"), 
+    width=12, height=7, dpi = 2400)
+  tmap_save(
+    m, file.path("figures","maps","reservoir_tiles_irrig_1.png"), 
+    width=12, height=7, dpi = 2400)
+}
+m
+```
+## 3. Plot irrigation reservoirs 2/2
+```{r}
+tmap::tmap_mode('plot')
+m <- tmap::tm_shape(shp=res_shp_irr_2) + 
+    tmap::tm_polygons(col='res_area', style='cont', title = 'Reservoir\nArea, km2', alpha = 1.00) +
+    tmap::tm_facets(
+        by="name", free.scales = FALSE, free.coords = TRUE, 
+        drop.NA.facets = FALSE,
+        drop.empty.facets = FALSE,
+        free.scales.symbol.size = 0.01, ncol = 10) +
+    tm_style("col_blind") +
+    tmap::tm_layout(main.title.position = "center",
+              legend.outside = TRUE,
+              legend.outside.size = 0.1,
+              outer.margins = c(0.02,0.02,0.02,0.02),
+              legend.outside.position = "right",
+              main.title = "Irrigation reservoirs (2/2)", fontfamily = 'serif', legend.show = TRUE)
+if (save_maps == TRUE) {
+  tmap_save(
+    m, file.path("figures","maps","reservoir_tiles_irrig_2.jpg"), 
+    width=12, height=7, dpi = 2400)
+  tmap_save(
+    m, file.path("figures","maps","reservoir_tiles_irrig_2.png"), 
+    width=12, height=7, dpi = 2400)
+}
+m
+```
