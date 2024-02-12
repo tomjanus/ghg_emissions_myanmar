@@ -1,4 +1,4 @@
-id,IFC.id,cdb.id,name,river,main_basin,fsl_masl
+id,IFC.id,cdb.id,ifc_name,river,main_basin,fsl_masl
 8,8,,Bawgata,Bawgata,Sittaung,400
 9,9,,Belin,Bilin River,Bilin,123
 10,10,,Buywa (upper),Mon Chaung,Ayeyarwady,428

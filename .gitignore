@@ -221,4 +221,12 @@ moo_solver/build
 moo_solver/CMakeFiles
 moo_solver/doc
 moo_solver/Myanmar
-
+moo_solver/*.sol
+moo_solver/solutions_and_inputs/*
+!moo_solver/solutions_and_inputs/README.md
+moo_solver_CPAIOR/Basin_Input_Files/*
+!moo_solver_CPAIOR/Basin_Input_Files/README.md
+moo_solver_CPAIOR/build
+moo_solver_CPAIOR/CMakeFiles
+moo_solver_CPAIOR/doc
+moo_solver_CPAIOR/Myanmar_lp

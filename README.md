@@ -2,11 +2,11 @@
 
 ## List of notebooks in the order of execution
 
-* **Notebook_1_run_batch_simulation.ipynb** - This notebook in **Python** runs a series of simulations with RE-Emission and creates a number of reemission input files in `inputs/reemission` and reemission output files for each input file in `outputs/reemission`. The reemission output files are saved in `.xlsx` and `.json` formats. The "base" input data for reemission is in `inputs/reemission/reemission_inputs.json` file.
+* **Notebook_1_run_batch_simulation.ipynb** - This notebook in **Python** runs a series of simulations with RE-Emission. It creates a number of reemission input files in `inputs/reemission` and performs calculations for each reemission file and saves the outputs in `outputs/reemission`. The reemission output files are saved in `.xlsx` and `.json` formats. The "base" input data for reemission is in `inputs/reemission/reemission_inputs.json` file.
 
 * **Notebook_2_prcess_hydropower.Rmd** - This notebook written in **RMarkDown** compares HP production figures from IFC database with the values obtained from our own Myanmar's' water resources model created in Pywr. The comparison figures are saved to `figures/ifc_pywr_power_comparison`. The merged data from IFC and the outputs from the water resources model are saved to an Excel file in `intermediate/merged_table.xlsx`.
 
-* **Notebook_3_combine_outputs.ipynb** - This short notebook in **R** combines outputs from batch re-emission simulation stored in `outputs/reemission` into a single file using two formats: `.csv` and `.xlsx`. Both files (`combined_outputs.csv` and `combined_outputs.xlsx`) are saved in `outputs/reemission/combined/` directory.
+* **Notebook_3_combine_outputs.ipynb** - This short notebook in **R** combines outputs from batch RE-Emission simulation that are stored as multiple files in `outputs/reemission` into a single file using two formats: `.csv` and `.xlsx`. Both files (`combined_outputs.csv` and `combined_outputs.xlsx`) are saved in `outputs/reemission/combined/` directory.
 
 * **Notebook_4_ghg_emission_plots.ipynb** - This notebook in **Python** creates statistical plots summarizing the emission outputs. The plots summarise net emissions with low and high landuse intensity on mineral and organic soils, with shallow and deep intakes and show the distributions of emissions among all analysed hydroelectric, irrigation and multipurpose reservoirs. The output figures are saved to `figures/ghg_visualisation`.
 
@@ -20,6 +20,12 @@
 
 * **Notebook_9_create_clustering_maps.ipynb** - This notebook in **R** plots three types of maps and saves them to `figures/maps`. The first map is emission intensity with a digital elevation map in the background. The two other types of maps are cluster maps based on cluster on features and feature ranks and coloured using voronoi polygons. 
 
-* **Notebook_10_generate_inputs_for_MOO.ipynb** - This notebook written in **Python** ...
+* **Notebook_10_generate_inputs_for_MOO.ipynb** - This notebook written in **Python** creates dataframes required for preparing inputs to multiobjective optimisation (MOO) study. The dataframes are saved as a collection of `.csv` files.
+
+* **Notebook_11_create_input_files_for_MOO.ipynb** - This notebook written in **Python** prepares input `.txt` files for the MOO algorithm.
+
+* **Notebook_12_run_MOO_and_visualise.ipynb** - This notebook written in **Python** runs and post-processes optimal dam portfolio selection study in Myanmar.
+
+
 
 

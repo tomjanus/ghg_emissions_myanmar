@@ -27,3 +27,4 @@ plotly
 plotly-express
 chart-studio
 pca
+networkx

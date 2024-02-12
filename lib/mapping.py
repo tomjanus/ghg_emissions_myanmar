@@ -3,6 +3,7 @@ from typing import Tuple, List
 import math
 import plotly as px
 import matplotlib
+import matplotlib.axes
 from shapely.geometry import Point
 import folium
 import geopandas as gpd
@@ -64,7 +65,8 @@ def plot_mya_reservoirs_gdf(
 
 def plot_mya_reservoirs_static(
         data: pd.DataFrame,
-        ax: matplotlib.axes._axes.Axes,
+        ax: matplotlib.axes.Axes,
+        column_name: str = "cluster",
         lon_field: str = "coordinates_1",
         lat_field: str = "coordinates_0",
         rivers_shp: str | None = r'bin/gis_layers/mya_rivers.shp',
@@ -86,7 +88,7 @@ def plot_mya_reservoirs_static(
     if isinstance(marker_size, str):
         marker_size = data_gdf[marker_size].astype(float)
     data_gdf.plot(
-        ax=ax, column='cluster', cmap='coolwarm', markersize=marker_size*marker_size_multiplier, 
+        ax=ax, column=column_name, cmap='coolwarm', markersize=marker_size*marker_size_multiplier, 
         linewidth=0.2, edgecolor='k', alpha=0.7, categorical = True, legend = True)
     #You can use different 'cmaps' such as jet, plasm,magma, infereno,cividis, binary...(I simply chose cividis)
     ax.set_xlabel('Longitude', fontsize=12)
