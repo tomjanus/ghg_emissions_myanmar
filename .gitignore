@@ -174,3 +174,51 @@ outputs/
 *.png
 *.pdf
 
+# C++ repository for multiobjective dam selection
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS Code environment
+.vscode
+
+# CMake files
+CMakeCache.txt
+*.cmake
+Makefile
+
+# Generated files
+moo_solver/build
+moo_solver/CMakeFiles
+moo_solver/doc
+moo_solver/Myanmar
+
