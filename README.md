@@ -26,6 +26,6 @@
 
 * **Notebook_12_run_MOO_and_visualise.ipynb** - This notebook written in **Python** runs and post-processes optimal dam portfolio selection study in Myanmar.
 
-
+* **Notebook_13_plot_maps_of_MOO_results.ipynb** - This notebook written in **Python** visualises the results of the optimization study on a composite figure consisting of 6 maps showing the selected dams for 6 different optimization scenarios indicated on the Pareto front plots generated in `Notebook_12`. The figure additionally features a number of statistical plots showing distributions of dams with respect to HP generation and elevation across all solutions. The objectives for each solutions are plotted in radar plots.
 
 
