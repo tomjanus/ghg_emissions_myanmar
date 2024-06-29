@@ -304,6 +304,7 @@ def visualise_pca_2D(
         num_components: int = 5, # Number of principal components shown on the plot
         ax = None, 
         default_alpha: float = 0.5,
+        plot_ellipses: bool = True,
         arrow_width: float = 0.0125,
         legend_location: str = 'lower left',
         title_fontsize: int = 14,
@@ -314,7 +315,7 @@ def visualise_pca_2D(
         return (np.sum(arrows**2, axis=1)).T
     
     pos_translator = {
-        0 : (1.2, 8),
+        0 : (1.2, 1.1),
         1 : (1.0, 0.9),
         2 : (2.0, 1.3),
         3 : (1.8, 1.5)
@@ -325,7 +326,6 @@ def visualise_pca_2D(
     n_unique = len(cluster_ids)
     
     plot_arrows: bool = False
-    plot_ellipses: bool = False
     n_dim = 2 # 2D plot
     scores = data[:, :n_dim]
     if isinstance(pca_model, PCAModel):
@@ -337,7 +337,6 @@ def visualise_pca_2D(
         loadings = pca_model.samples.iloc[:,:n_dim].to_numpy()
         pvars = pca_model.proportion_explained[:n_dim] * 100
         component_name = "PCo"
-        plot_ellipses = True
     else:
         raise ValueError("Wrong model type")
     
@@ -365,15 +364,15 @@ def visualise_pca_2D(
         texts = []
         for i in range(0,num_components):  #, arrow in enumerate(arrows):
             index = indices_sorted[i]
-            arrow = 1.2 * arrows[index,:]
+            arrow = 0.8 * arrows[index,:]
             x_arr, y_arr = arrow[0] * 1.10, arrow[1] * 1.10
             x_arr, y_arr = x_arr * pos_translator[i][0], y_arr * pos_translator[i][1]
             ax.arrow(0, 0, *arrow, color='black', alpha=1, width=width, ec='none',zorder=5,
                       length_includes_head=True)
             ax.text(x_arr, y_arr, var_names[index], snap=False, fontvariant='small-caps',
-                     ha='left', va='bottom', fontsize=12, style='italic', color = 'black',
+                     ha='center', va='center', fontsize=11, style='italic', color = 'black',
                      bbox={
-                         'facecolor': 'white', 'alpha': 0.3, 'pad': 3, 'linewidth': 0.0, 
+                         'facecolor': 'none', 'alpha': 0.3, 'pad': 2, 'linewidth': 0.0, 
                          'capstyle': 'round'})
             
         #adjust_text(
@@ -390,12 +389,12 @@ def visualise_pca_2D(
         #print(cmap)
         ax.scatter(data[labels['cluster'] == label, 0], data[labels['cluster'] == label, 1], 
                    linewidth=0.5, s=s_multiplier*np.abs(data[labels['cluster'] == label, 2]),
-                   color = cmap.colors[ix], alpha=1,  
+                   color = cmap.colors[ix], alpha=0.7,
                    edgecolor = 'k') # , facecolor="none", edgecolor = 'k'
-        if plot_ellipses or not plot_ellipses:
+        if plot_ellipses : #or not plot_ellipses: # In any case
             confidence_ellipse(data[labels['cluster'] == label, 0], data[labels['cluster'] == label, 1], 
                                ax=ax, label = f'Cluster {label}',
-                               edgecolor='k', n_std = 3, linewidth=1, zorder=0,
+                               edgecolor='k', n_std = 3, linewidth=0.5, zorder=0,
                                facecolor=cmap.colors[ix], alpha=alpha_factor)
     ax.axvline(c='grey', lw=1, linestyle='--')
     ax.axhline(c='grey', lw=1, linestyle='--')
@@ -430,7 +429,6 @@ def visualise_pca_2D(
         shadow=False, labelspacing = 0.6, framealpha = 0.9,
         prop={'size': 11, 'style': 'italic'} )
     l1.get_frame().set_linewidth(0.0)
-    
     plt.tight_layout()
     if show_figure:
         plt.show()
@@ -438,7 +436,7 @@ def visualise_pca_2D(
     return plt
         
         
-def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', **kwargs):
+def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', xy_scale_factor: int = 1.20, **kwargs):
     """
     Create a plot of the covariance confidence ellipse of `x` and `y`
 
@@ -471,8 +469,8 @@ def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', **kwargs):
     ell_radius_x = np.sqrt(1 + pearson)
     ell_radius_y = np.sqrt(1 - pearson)
     ellipse = Ellipse((0, 0),
-                      width=ell_radius_x * 2,
-                      height=ell_radius_y * 2,
+                      width=ell_radius_x * xy_scale_factor,
+                      height=ell_radius_y * xy_scale_factor,
                       facecolor=facecolor,
                       **kwargs)
 
@@ -487,7 +485,7 @@ def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', **kwargs):
     mean_y = np.mean(y)
 
     transf = mpl.transforms.Affine2D() \
-        .rotate_deg(45) \
+        .rotate_deg(22.5) \
         .scale(scale_x, scale_y) \
         .translate(mean_x, mean_y)
 
