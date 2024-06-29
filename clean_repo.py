@@ -71,6 +71,7 @@ if __name__ == "__main__":
     sanitizer.add_item(pathlib.Path('figures/data_exploration'), r'.*\.(svg|png|jpe?g)$')
     sanitizer.add_item(pathlib.Path('figures/model_explanation'), r'.*\.(svg|png|jpe?g)$')
     sanitizer.add_item(pathlib.Path('intermediate'), r'.*\.(csv|xlsx)$')
+    sanitizer.add_item(pathlib.Path(''), r'.*\.(csv|pickle)$')
     sanitizer.add_folder(pathlib.Path('outputs/model_explanations'))
     sanitizer.add_folder(pathlib.Path('saved_models'))
     sanitizer.add_folder(pathlib.Path("figures/clustering"))
