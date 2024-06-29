@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, echo=FALSE, warning=FALSE}
 library(tidyverse)
 library(ggplot2)
+library(patchwork)
 ```
 ## 1. Load the pywr hydropower production timeseries data
 ```{r, echo=FALSE, }
@@ -184,10 +185,10 @@ merged_df %>%
     intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
   xlim(0, 1) +
   ylim(0, 1) +
-  labs(title="Plant factors calculated from PyWr vs IFC estimates",
+  labs(title="Plant factors calculated from the water resources model vs IFC estimates",
        colour = "HP Type",
        shape = "Construction\nStatus",
-       x="Plant Factor (PyWr)", y = "Plant Factor (IFC)") +
+       x="Plant Factor (Model)", y = "Plant Factor (Data)") +
   facet_wrap(~hp_category) +
   theme_bw() + 
   theme(legend.position = "right")
@@ -197,51 +198,91 @@ ggsave(
 ```
 ### 8.2 Plot annual generation capacity from PyWr vs IFC
 ```{r}
-merged_df %>%
+margins = unit(c(0.1, 6, 1, 0.1), 'lines')
+p_hp <- merged_df %>%
   filter(!is.na(annual_gen_ifc)) %>%
-  ggplot(aes(x = annual_gen_pywr, y = annual_gen_ifc)) +
-  geom_point(size=2, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
+  ggplot(aes(x = annual_gen_pywr/1000, y = annual_gen_ifc/1000)) +
+  geom_point(size=1.5, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
   ggrepel::geom_text_repel(
-    aes(label = dam_name), size = 2.2, max.overlaps = 30, color = 'black') +
+    aes(label = dam_name), 
+    segment.size  = 0.15,
+    segment.color = "grey50",
+    size = 1.3, 
+    max.overlaps =15, 
+    color = 'gray27',
+    box.padding = 0.1,
+    segment.curvature = -0.3,
+    segment.ncp = 3,
+    segment.angle = 0
+    ) +
   geom_abline(
-    intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
+    intercept = 0, slope =1, colour = "gray17", linewidth = 0.7, alpha=0.7, linetype=2) + 
   #xlim(0, 35000) +
   #ylim(0, 35000) +
-  labs(title="Annual power generation estimates from PyWr vs IFC",
+  labs(
        colour = "HP Type",
        shape = "Construction\nStatus",
-       x="Generation Capacity (PyWr), GWh/year", 
-       y = "Generation Capacity (IFC), GWh/year") +
-  facet_wrap(~hp_category, scales = "free", nrow = 3) +
-  theme_bw() + 
-  theme(legend.position = "right")
+       x="HP Production (model), TWh/yr", 
+       y = "HP Production (data), TWh/yr") +
+  #title="Annual power generation estimates from the water resources model vs IFC data",
+  facet_wrap(~hp_category, scales = "free", ncol = 3) +
+  theme_light() + 
+  theme(
+    #legend.position = "right", 
+    plot.margin=margins,
+    legend.position=c(1.13, 0.5),
+    axis.title=element_text(size=9), 
+    axis.text=element_text(size=8))
 ggsave(
   file.path("figures", "ifc_pywr_power_comparison", "annual_power_gen.png"), 
-  width = 17, height = 28, units = "cm")
+  plot = p_hp,
+  width = 17, height = 12, units = "cm")
 ```
 ### 8.3. Plot firm power from Pywr vs IFC data
 ```{r}
-merged_df %>%
+p_fp <- merged_df %>%
   filter(!is.na(firm_power_ifc)) %>%
   ggplot(aes(x = firm_power_pywr, y = firm_power_ifc)) +
-  geom_point(size=2, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc)) +
+  geom_point(size=1.5, aes(color=ro_r_or_sto_ifc, shape=status_2_ifc), show.legend = FALSE) +
+  scale_shape_manual(values=c(16, 17, 3))+
   ggrepel::geom_text_repel(
-    aes(label = dam_name), size = 2.2, max.overlaps = 30, color = 'black') +
+    aes(label = dam_name), 
+    segment.size  = 0.15,
+    segment.color = "grey50",
+    size = 1.3, 
+    max.overlaps = 15, 
+    color = 'gray27',
+    box.padding = 0.1,
+    segment.curvature = -0.3,
+    segment.ncp = 3,
+    segment.angle = 0
+  ) +
   geom_abline(
-    intercept = 0, slope =1, colour = "black", linewidth = 0.7, alpha=0.4, linetype=2) + 
+    intercept = 0, slope =1, colour = "gray17", linewidth = 0.7, alpha=0.6, linetype=2) + 
   #xlim(0, 1) +
   #ylim(0, 1) +
-  labs(title="Firm Power estimates from PyWr vs IFC data",
+  labs(
        colour = "HP Type",
        shape = "Construction\nStatus",
-       x="Firm Power (PyWr), MW", 
-       y = "Firm Power (IFC), MW") +
+       x="Firm Power (model), MW", 
+       y = "Firm Power (data), MW") +
+  #title="Firm Power estimates from PyWr vs IFC data",
   facet_wrap(~hp_category,  scales = "free") +
-  theme_bw() + 
-  theme(legend.position = "right")
+  theme_light() + 
+  theme(plot.margin=margins,legend.position = "right", axis.title=element_text(size=9), axis.text=element_text(size=8))
 ggsave(
   file.path("figures", "ifc_pywr_power_comparison", "firm_power.png"), 
+  plot = p_fp,
   width = 17, height = 12, units = "cm")
+```
+
+### 8.3b Make a composite plot for publication
+```{r}
+p_comp <- p_hp + p_fp + plot_layout(ncol = 1)
+ggsave(
+  file.path("figures", "ifc_pywr_power_comparison", "comparison_figure.svg"), 
+  plot = p_comp,
+  width = 20, height = 12, units = "cm")
 ```
 ### 8.4. Plot firm power as a percentage of installed capacity from Pywr vs IFC data
 ```{r}

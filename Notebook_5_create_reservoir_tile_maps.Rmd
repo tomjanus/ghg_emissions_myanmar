@@ -6,7 +6,7 @@ output: html_notebook
 ## Creating tiled maps of reservoirs from the tabular data and the shape files
 ## Warning: May take a little time, depending on your computer's graphic capabilities due to large output file resolution
 ### Tomasz Janus
-tomasz.k.janus@gmail.com
+tomasz.k.janus@gmail.com, tomasz.janus@manchester.ac.uk
 
 ```{r, warning=FALSE, echo=FALSE}
 library(sf)
