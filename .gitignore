@@ -173,6 +173,11 @@ outputs/
 *.jpeg
 *.png
 *.pdf
+saved_models/
+moo_solver/solutions_and_inputs_1st_analysis/
+merged_df.csv
+em_int_nondom_df.csv
+em_int_df.csv
 
 # C++ repository for multiobjective dam selection
 # Prerequisites
@@ -215,6 +220,19 @@ outputs/
 CMakeCache.txt
 *.cmake
 Makefile
+
+# RMarkdown and RStudio files
+.RData
+.Rhistory
+*.nb.html
+
+# Not gittable local folders
+legacy/
+
+# pywr execution bash scripts
+run_pywr_hist_simulations.sh
+run_pywr_hist_simulations_flows_levels.sh
+
 
 # Generated files
 moo_solver/build
