@@ -39,6 +39,11 @@ file_paths = {
             "folder": "saved_models",
             "file": "saved_models.zip"
         },
+    "https://drive.google.com/file/d/1k5cZvEQMqEGfIZjmjehODirXJvGBGmH_/view?usp=share_link":
+        {
+            "folder": "moo_solver_CPAIOR/outputs/",
+            "file": "moo_outputs.zip"
+        },
 }
 
 
