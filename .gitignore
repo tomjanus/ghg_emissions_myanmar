@@ -166,7 +166,7 @@ bin/
 intermediate/
 figures/
 catboost_info/
-inputs/
+#inputs/
 outputs/
 *.svg
 *.jpg

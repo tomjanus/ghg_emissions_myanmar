@@ -3,6 +3,70 @@
 ### University of Manchester
 ### email: tomasz.janus@manchester.ac.uk; tomasz.k.janus@gmail.com
 
+## Short description
+This repository contains a collection of notebooks used to perform a study on "Planning low-carbon reservoir investments with spatially-explicit emission models" that was carried out using irrigation, multi-purpose and hydroelectric reservoirs in Myanmar.
+The manuscript shall be linked shortly.
+The work relied on data from three external software:
+* [pywr](https://github.com/pywr/pywr)
+* [geocaret](https://github.com/Reservoir-Research/geocaret)
+* [reemission](https://github.com/tomjanus/reemission)
+
+**Pywr** was used to generate mean annual hydropower production and firm power estimates for some of the unreported existing and for the future dams. It is not called here directly. Instead we use already prepared outputs from the pywr model.
+**Geocaret** was used to create reservoir and catchment delineations for each reservoir and derive reservoir and catchment properties required for subsequent estimation of gas emissions. It is also not called directly but instead we rely on its outputs.
+**Reemission** was used to produce GHG emission estimates for each reservoir based on the outputs of Geocaret. Reemission is called directly from some of the notebooks.
+
+The study processes the inputs from geocaret, estimates GHG emissions using RE-Emission, visualises the results, performs data analysis, trains surrogate machine learning (ML) models to facilitate explainability of GHG emission predictions, prepares inputs to multiobjective optimization algorithm, runs the MOO algorithm and processes the results, and finally, creates figures and computes various statics for the manuscript. The short explanation of what each individual notebook does, is provided at the end of this document in section `The list of notebooks in the order of execution`.
+
+## Installation
+
+The repository does not require installation but relies on a large number of packages. We recommend that you set up a virtual environment dedicated to this repository before attempting to install all the dependencies. There are several packages for creating virtual environments such as `venv`, `virtualenv`, `pyenv`, etc. Please refer to web resources and find out what works best for you, e.g. in [https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/).
+
+Majority of the dependencies are included in `requirements.txt`. Additionally `requirements_frozen.txt` specify exact versions of dependencies used in the last working installation.
+
+You can install these dependencies by running:
+```
+pip install -r requirements.txt
+```
+or
+```
+pip install -r requirements_frozen.txt
+```
+from the root folder of this repository within your virtual environment.
+
+Additionally, you need to install **reemission** which, as of this data, is not yet on The Python Package Index. Hence, you can install directly from the dedicated package GitHub repository, see below.
+
+With HTTP connection to GitHub:
+```sh
+pip install git+https://github.com/tomjanus/reemission.git
+```
+With SSH connection:
+```sh
+pip install git+ssh://git@github.com:tomjanus/reemission.git
+```
+
+The repository generates quite a large quantity of final and intermediate outputs in text and binary files representing data and figures. They will be generated as you go along and run consequtive notebooks. Alternatively, if you'd like to view this data without running the notebooks you can download the data from the web. To do this, run:
+
+```
+python download_ext_data.py
+```
+in the root of the repository.
+ <b style="color: red;">WARNING:</b> This will overwrite any of the files already existing in the following directories: `bin`, `intermediate`, `outputs`, and `saved_models`.
+ 
+You can also clean the repository from generated files by running:
+```
+python clean_repo.py
+```
+
+## Usage
+
+The repository uses a mix of `Python` and `R` and is divided into several notebooks written in Jupyter notebooks in `Python` or `R`, which have extension `.ipynb` and R Markdown files with extension `.Rmd`. We used Visual Studio code to execute all files, but alternative solutions, such as using Jupyter Notebook or Jupyter Lab in the browser for notebooks with `.ipynb` extension and R Studio for `.Rmd` files should work as well.
+
+## Known issues
+
+```
+pip install --upgrade --no-cache-dir gdown
+```
+
 ## The list of notebooks in the order of execution
 
 * **Notebook_1_run_batch_simulation.ipynb** - This Jupyter notebook in **Python** runs a series of simulations with RE-Emission - a tool for estimating GHG emissions from reservoirs. It creates a number of RE-Emission input files in `inputs/reemission`, performs calculations for each input file and saves the outputs to `outputs/reemission`. The output files are saved in `.xlsx` and `.json` formats. The input data for RE-Emission is stored in `inputs/reemission/reemission_inputs.json`. The inputs are obtained from the GEOspatial CAtchment and REservoir analysis Tool [GEOCaret](https://github.com/Reservoir-Research/geocaret).
