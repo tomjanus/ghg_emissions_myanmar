@@ -1,0 +1,1680 @@
+{
+    "edges": [
+        [
+            "Baingda_Kawliya_Irrigation_Abstraction",
+            "Baingda_Kawliya_Irrigation"
+        ],
+        [
+            "Baingda_Kawliya_Irrigation_Rivergauge",
+            "Baingda_Kawliya_Irrigation_Merge"
+        ],
+        [
+            "Baingda_Kawliya_Irrigation_Split",
+            "Baingda_Kawliya_Irrigation_Abstraction"
+        ],
+        [
+            "Baingda_Kawliya_Irrigation_Split",
+            "Baingda_Kawliya_Irrigation_Rivergauge"
+        ],
+        [
+            "Bawgata",
+            "linearstoragereleasecontrol_Bawgata"
+        ],
+        [
+            "Bawgata",
+            "Spill_Bawgata"
+        ],
+        [
+            "Belin",
+            "linearstoragereleasecontrol_Belin"
+        ],
+        [
+            "Belin",
+            "Spill_Belin"
+        ],
+        [
+            "catchment2_Sittaung_1_output",
+            "link_22:11:7"
+        ],
+        [
+            "catchment1_Sittaung_1_output",
+            "link_39"
+        ],
+        [
+            "catchment_Sittaung_3_output",
+            "link_40"
+        ],
+        [
+            "catchment_NayPyiTaw_Potable_L",
+            "link_18:49:16"
+        ],
+        [
+            "catchment_NayPyiTaw_Potable_R",
+            "link_144"
+        ],
+        [
+            "catchment_output_Rakhine_5",
+            "link_22:26:19"
+        ],
+        [
+            "catchment_Baingda_Kawliya_Irrigation",
+            "link_46"
+        ],
+        [
+            "catchment_Bawgata",
+            "Bawgata"
+        ],
+        [
+            "catchment_Belin",
+            "Belin"
+        ],
+        [
+            "catchment_Chaungmange_Irrigation",
+            "Chaungmange_Irrigation_Reservoir"
+        ],
+        [
+            "catchment_Glohong Kra",
+            "Glohong Kra"
+        ],
+        [
+            "catchment_He Kou",
+            "He Kou"
+        ],
+        [
+            "catchment_Kabaung",
+            "Kabaung"
+        ],
+        [
+            "catchment_Keng Tong",
+            "Keng Tong"
+        ],
+        [
+            "catchment_Keng Yang",
+            "Keng Yang"
+        ],
+        [
+            "catchment_Kun Chaung",
+            "Kun Chaung"
+        ],
+        [
+            "catchment_Kyein Ta Li",
+            "Kyein Ta Li"
+        ],
+        [
+            "catchment_Lemro_1",
+            "Lemro_1"
+        ],
+        [
+            "catchment_Lemro_2",
+            "Lemro_2"
+        ],
+        [
+            "catchment_Madam_Irrigation",
+            "Madam_Irrigation_Split"
+        ],
+        [
+            "catchment_Mekong_output",
+            "output_Mekong"
+        ],
+        [
+            "catchment_Mi_Chaung",
+            "Mi_Chaung"
+        ],
+        [
+            "catchment_Mong Hsat",
+            "Mong Hsat"
+        ],
+        [
+            "catchment_Mongwa",
+            "Mongwa"
+        ],
+        [
+            "catchment_Nam Hkok",
+            "Nam Hkok"
+        ],
+        [
+            "catchment_Nam Lin",
+            "Nam Lin"
+        ],
+        [
+            "catchment_Nancho",
+            "Nancho"
+        ],
+        [
+            "catchment_NayPyiTaw_Potable",
+            "Nay_Pyi_Taw_Potable_MRF"
+        ],
+        [
+            "catchment_Ngalaik_Irrigation",
+            "Ngalaik_Irrigation_Reservoir"
+        ],
+        [
+            "catchment_Ngamoeyeik_irrigation",
+            "Ngamoeyeik_Irrigation_Reservoir"
+        ],
+        [
+            "catchment_output_Rakhine_1",
+            "link_4"
+        ],
+        [
+            "catchment_output_Rakhine_2",
+            "link_5"
+        ],
+        [
+            "catchment_output_Tanintharyi_1",
+            "link_12"
+        ],
+        [
+            "catchment_output_Tanintharyi_2",
+            "link_14"
+        ],
+        [
+            "catchment_Pathi_Irrigation",
+            "Pathi_Irrigation_Split"
+        ],
+        [
+            "catchment_Paung Laung (Lower)",
+            "link_15:59:58"
+        ],
+        [
+            "catchment_Paung Laung (Middle)",
+            "link_12:15:55"
+        ],
+        [
+            "catchment_Paung Laung (Upper)",
+            "Paung Laung (Upper)"
+        ],
+        [
+            "catchment_Phyu Chaung",
+            "Phyu Chaung"
+        ],
+        [
+            "catchment_Saing_Din",
+            "Saing_Din"
+        ],
+        [
+            "catchment_Sar Ra Wa Chaung",
+            "Sar Ra Wa Chaung"
+        ],
+        [
+            "catchment_Shwegyin",
+            "Shwegyin"
+        ],
+        [
+            "catchment_Sinthe_Irrigation",
+            "Sinthe_Irrigation_Reservoir"
+        ],
+        [
+            "catchment_Suo Lwe",
+            "link_143"
+        ],
+        [
+            "catchment_Swa_Irrigation",
+            "Swa_Irrigation_Split"
+        ],
+        [
+            "catchment_Taninthayi",
+            "link_106"
+        ],
+        [
+            "catchment_Tha Gyet Chaung",
+            "Tha Gyet Chaung"
+        ],
+        [
+            "catchment_Thahtay",
+            "Thahtay"
+        ],
+        [
+            "catchment_Than Dwe",
+            "Than Dwe"
+        ],
+        [
+            "catchment_Thauk Ye Khat 1",
+            "Thauk Ye Khat 1"
+        ],
+        [
+            "catchment_Thauk Ye Khat 2",
+            "link_104"
+        ],
+        [
+            "catchment_Thein Kun Chaung",
+            "Thein Kun Chaung"
+        ],
+        [
+            "catchment_Yenwe",
+            "Yenwe"
+        ],
+        [
+            "catchment_Yezin_Irrigation",
+            "Yezin_Irrigation_Reservoir"
+        ],
+        [
+            "catchment_Zaungtu",
+            "Zaungtu"
+        ],
+        [
+            "Chaungmange_Irrigation_Abstraction",
+            "Chaungmange_Irrigation"
+        ],
+        [
+            "Chaungmange_Irrigation_Rivergauge",
+            "Chaungmange_Irrigation_Merge"
+        ],
+        [
+            "Chaungmange_Irrigation_Reservoir",
+            "Chaungmange_Irrigation_Abstraction"
+        ],
+        [
+            "ControlSpill_Bawgata",
+            "link_68"
+        ],
+        [
+            "ControlSpill_Belin",
+            "link_74"
+        ],
+        [
+            "ControlSpill_Kabaung",
+            "link_62"
+        ],
+        [
+            "ControlSpill_Kun Chaung",
+            "link_98"
+        ],
+        [
+            "ControlSpill_Lemro_1",
+            "link_84"
+        ],
+        [
+            "ControlSpill_Paung Laung (Middle)",
+            "link_56"
+        ],
+        [
+            "ControlSpill_Paung Laung (upper)",
+            "link_12:39:35"
+        ],
+        [
+            "ControlSpill_Phyu Chaung",
+            "link_65"
+        ],
+        [
+            "ControlSpill_Paung Laung (Lower)",
+            "link_103"
+        ],
+        [
+            "ControlSpill_Shwegyin",
+            "link_71"
+        ],
+        [
+            "ControlSpill_Suo Lwe",
+            "link_83"
+        ],
+        [
+            "ControlSpill_Taninthayi",
+            "link_80"
+        ],
+        [
+            "ControlSpill_Thahtay",
+            "link_125"
+        ],
+        [
+            "ControlSpill_Thauk Ye Khat 2",
+            "link_59"
+        ],
+        [
+            "ControlSpill_Zaungtu",
+            "link_77"
+        ],
+        [
+            "Dothaung_station",
+            "link_108"
+        ],
+        [
+            "Glohong Kra",
+            "Spill_Glohong Kra"
+        ],
+        [
+            "Glohong Kra",
+            "turbine_Glohong Kra"
+        ],
+        [
+            "He Kou",
+            "Turbine_He Kou"
+        ],
+        [
+            "Kabaung",
+            "Kabaung_Irrigation_Abstraction"
+        ],
+        [
+            "Kabaung",
+            "Linearstoragereleasecontrol_Kabaung"
+        ],
+        [
+            "Kabaung",
+            "Spill_Kabaung"
+        ],
+        [
+            "Kabaung_Irrigation_Abstraction",
+            "Kabaung_Irrigation"
+        ],
+        [
+            "Kabaung_Irrigation_return",
+            "link_62"
+        ],
+        [
+            "Keng Tong",
+            "Spill_Keng Tong"
+        ],
+        [
+            "Keng Tong",
+            "Turbine_Keng Tong"
+        ],
+        [
+            "Kun Chaung",
+            "KunChaung_Irrigation_Abstraction"
+        ],
+        [
+            "Kun Chaung",
+            "Linearstoragereleasecontrol_Kun Chaung"
+        ],
+        [
+            "Kun Chaung",
+            "Spill_Kun Chaung"
+        ],
+        [
+            "KunChaung_Irrigation_Abstraction",
+            "KunChaung_Irrigation"
+        ],
+        [
+            "KunChaung_Irrigation_return",
+            "link_12:26:22"
+        ],
+        [
+            "Kyein Ta Li",
+            "spill_Kyein Ta Li"
+        ],
+        [
+            "Kyein Ta Li",
+            "turbine_Kyein Ta Li"
+        ],
+        [
+            "Lemro_1",
+            "linearstoragereleasecontrol_Lemro_1"
+        ],
+        [
+            "Lemro_1",
+            "Spill_Lemro_1"
+        ],
+        [
+            "Lemro_2",
+            "Spill_Lemro_2"
+        ],
+        [
+            "Lemro_2",
+            "turbine_Lemro_2"
+        ],
+        [
+            "Linearstoragereleasecontrol_Paung Laung (Middle)",
+            "ControlSpill_Paung Laung (Middle)"
+        ],
+        [
+            "Linearstoragereleasecontrol_Paung Laung (Middle)",
+            "Turbine_Paung Laung (Middle)"
+        ],
+        [
+            "linearstoragereleasecontrol_Bawgata",
+            "ControlSpill_Bawgata"
+        ],
+        [
+            "linearstoragereleasecontrol_Bawgata",
+            "turbine_Bawgata"
+        ],
+        [
+            "linearstoragereleasecontrol_Belin",
+            "ControlSpill_Belin"
+        ],
+        [
+            "linearstoragereleasecontrol_Belin",
+            "turbine_Belin"
+        ],
+        [
+            "Linearstoragereleasecontrol_Kabaung",
+            "ControlSpill_Kabaung"
+        ],
+        [
+            "Linearstoragereleasecontrol_Kabaung",
+            "Turbine_Kabaung"
+        ],
+        [
+            "Linearstoragereleasecontrol_Kun Chaung",
+            "ControlSpill_Kun Chaung"
+        ],
+        [
+            "Linearstoragereleasecontrol_Kun Chaung",
+            "Turbine_Kun Chaung"
+        ],
+        [
+            "linearstoragereleasecontrol_Lemro_1",
+            "ControlSpill_Lemro_1"
+        ],
+        [
+            "linearstoragereleasecontrol_Lemro_1",
+            "turbine_Lemro_1"
+        ],
+        [
+            "Linearstoragereleasecontrol_Paung Laung (Upper)",
+            "ControlSpill_Paung Laung (upper)"
+        ],
+        [
+            "Linearstoragereleasecontrol_Paung Laung (Upper)",
+            "Turbine_Paung Laung (Upper)"
+        ],
+        [
+            "Linearstoragereleasecontrol_Phyu Chaung",
+            "ControlSpill_Phyu Chaung"
+        ],
+        [
+            "Linearstoragereleasecontrol_Phyu Chaung",
+            "Turbine_Phyu Chaung"
+        ],
+        [
+            "Linearstoragereleasecontrol_Paung Laung (Lower)",
+            "ControlSpill_Paung Laung (Lower)"
+        ],
+        [
+            "Linearstoragereleasecontrol_Paung Laung (Lower)",
+            "Turbine_Paung Laung (Lower)"
+        ],
+        [
+            "linearstoragereleasecontrol_Shwegyin",
+            "ControlSpill_Shwegyin"
+        ],
+        [
+            "linearstoragereleasecontrol_Shwegyin",
+            "turbine_Shwegyin"
+        ],
+        [
+            "Linearstoragereleasecontrol_Suo Lwe",
+            "ControlSpill_Suo Lwe"
+        ],
+        [
+            "Linearstoragereleasecontrol_Suo Lwe",
+            "Turbine_Suo Lwe"
+        ],
+        [
+            "linearstoragereleasecontrol_Taninthayi",
+            "ControlSpill_Taninthayi"
+        ],
+        [
+            "linearstoragereleasecontrol_Taninthayi",
+            "turbine_Taninthayi"
+        ],
+        [
+            "linearstoragereleasecontrol_Thahtay",
+            "ControlSpill_Thahtay"
+        ],
+        [
+            "linearstoragereleasecontrol_Thahtay",
+            "turbine_Thahtay"
+        ],
+        [
+            "Linearstoragereleasecontrol_Thauk Ye Khat 2",
+            "ControlSpill_Thauk Ye Khat 2"
+        ],
+        [
+            "Linearstoragereleasecontrol_Thauk Ye Khat 2",
+            "Turbine_Thauk Ye Khat 2"
+        ],
+        [
+            "linearstoragereleasecontrol_Zaungtu",
+            "ControlSpill_Zaungtu"
+        ],
+        [
+            "linearstoragereleasecontrol_Zaungtu",
+            "turbine_Zaungtu"
+        ],
+        [
+            "link_100",
+            "link_104"
+        ],
+        [
+            "link_103",
+            "link_15:35:15"
+        ],
+        [
+            "link_104",
+            "Thauk Ye Khat 2"
+        ],
+        [
+            "link_105",
+            "output_Kok"
+        ],
+        [
+            "link_106",
+            "Taninthayi"
+        ],
+        [
+            "link_107",
+            "Nam Hkok"
+        ],
+        [
+            "link_108",
+            "link_33"
+        ],
+        [
+            "link_109",
+            "Keng Yang"
+        ],
+        [
+            "link_111",
+            "He Kou"
+        ],
+        [
+            "link_115",
+            "link_22:41:34"
+        ],
+        [
+            "link_117",
+            "link_22:41:34"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Merge",
+            "link_22:11:7"
+        ],
+        [
+            "link_119",
+            "link_106"
+        ],
+        [
+            "link_12",
+            "output_Tanintharyi_1"
+        ],
+        [
+            "Yezin_Irrigation_Merge",
+            "link_144"
+        ],
+        [
+            "link_121",
+            "link_14"
+        ],
+        [
+            "Ngalaik_Irrigation_Merge",
+            "link_18:49:16"
+        ],
+        [
+            "link_123",
+            "link_4"
+        ],
+        [
+            "link_125",
+            "output_Rakhine_3"
+        ],
+        [
+            "link_128",
+            "output_Rakhine_3"
+        ],
+        [
+            "spill_Kyein Ta Li",
+            "link_130"
+        ],
+        [
+            "Madam_Irrigation_Merge",
+            "Chaungmange_Irrigation_Merge"
+        ],
+        [
+            "Chaungmange_Irrigation_Merge",
+            "link_1:22:46"
+        ],
+        [
+            "link_12:15:55",
+            "Paung Laung (Middle)"
+        ],
+        [
+            "link_12:26:22",
+            "link_35"
+        ],
+        [
+            "link_12:30:19",
+            "link_46"
+        ],
+        [
+            "link_12:39:35",
+            "link_12:15:55"
+        ],
+        [
+            "link_130",
+            "link_131"
+        ],
+        [
+            "link_131",
+            "output_Rakhine_4"
+        ],
+        [
+            "link_14",
+            "output_Tanintharyi_2"
+        ],
+        [
+            "link_141",
+            "link_33"
+        ],
+        [
+            "link_143",
+            "Suo Lwe"
+        ],
+        [
+            "link_144",
+            "Nay_Pyi_Taw_Potable_MRF"
+        ],
+        [
+            "link_151",
+            "link_39"
+        ],
+        [
+            "link_15:35:15",
+            "link_144"
+        ],
+        [
+            "link_15:59:58",
+            "Paung Laung (Lower)"
+        ],
+        [
+            "link_18:49:16",
+            "Nay_Pyi_Taw_Potable_MRF"
+        ],
+        [
+            "link_1:22:46",
+            "Swa_Irrigation_Merge_River"
+        ],
+        [
+            "Nay_Pyi_Taw_Potable_Downstream",
+            "link_1:22:46"
+        ],
+        [
+            "link_21",
+            "output_Mekong"
+        ],
+        [
+            "link_22:11:7",
+            "output_Sittaung_1"
+        ],
+        [
+            "link_22:26:19",
+            "output_Rakhine_5"
+        ],
+        [
+            "link_22:41:34",
+            "link_8"
+        ],
+        [
+            "Baingda_Kawliya_Irrigation_Merge",
+            "output_Sittaung_2"
+        ],
+        [
+            "link_24",
+            "link_15:59:58"
+        ],
+        [
+            "link_29",
+            "link_108"
+        ],
+        [
+            "link_33",
+            "link_35"
+        ],
+        [
+            "link_35",
+            "link_43"
+        ],
+        [
+            "link_39",
+            "output_Sittaung_1"
+        ],
+        [
+            "link_4",
+            "output_Rakhine_1"
+        ],
+        [
+            "link_40",
+            "output_Sittaung_3"
+        ],
+        [
+            "link_43",
+            "link_46"
+        ],
+        [
+            "link_46",
+            "Baingda_Kawliya_Irrigation_Split"
+        ],
+        [
+            "link_47",
+            "link_12:30:19"
+        ],
+        [
+            "link_5",
+            "output_Rakhine_2"
+        ],
+        [
+            "link_56",
+            "link_24"
+        ],
+        [
+            "link_59",
+            "Dothaung_station"
+        ],
+        [
+            "link_62",
+            "link_29"
+        ],
+        [
+            "Spill_Phyu Chaung",
+            "link_65"
+        ],
+        [
+            "link_65",
+            "link_141"
+        ],
+        [
+            "link_68",
+            "link_43"
+        ],
+        [
+            "link_71",
+            "link_43"
+        ],
+        [
+            "link_74",
+            "link_40"
+        ],
+        [
+            "link_77",
+            "link_151"
+        ],
+        [
+            "link_8",
+            "link_12"
+        ],
+        [
+            "link_80",
+            "link_8"
+        ],
+        [
+            "link_83",
+            "Mongwa"
+        ],
+        [
+            "link_84",
+            "Lemro_2"
+        ],
+        [
+            "link_86",
+            "link_5"
+        ],
+        [
+            "link_88",
+            "link_22:26:19"
+        ],
+        [
+            "link_90",
+            "link_24"
+        ],
+        [
+            "link_92",
+            "link_143"
+        ],
+        [
+            "link_98",
+            "link_12:26:22"
+        ],
+        [
+            "link_confluence_Mekong_1",
+            "link_21"
+        ],
+        [
+            "Madam_Irrigation_Abstraction",
+            "Madam_Irrigation"
+        ],
+        [
+            "Madam_Irrigation_return",
+            "Madam_Irrigation_Merge"
+        ],
+        [
+            "Madam_Irrigation_Rivergauge",
+            "Madam_Irrigation_Merge"
+        ],
+        [
+            "Madam_Irrigation_Split",
+            "Madam_Irrigation_Abstraction"
+        ],
+        [
+            "Madam_Irrigation_Split",
+            "Madam_Irrigation_Rivergauge"
+        ],
+        [
+            "Mi_Chaung",
+            "Spill_Mi_Chaung"
+        ],
+        [
+            "Mi_Chaung",
+            "turbine_Mi_Chaung"
+        ],
+        [
+            "Mong Hsat",
+            "Spill_Mong Hsat"
+        ],
+        [
+            "Mong Hsat",
+            "turbine_Mong Hsat"
+        ],
+        [
+            "Mongwa",
+            "Spill_Mongwa"
+        ],
+        [
+            "Mongwa",
+            "Turbine_Mongwa"
+        ],
+        [
+            "Sinthe_Irrigation_return",
+            "Sinthe_Irrigation_Merge"
+        ],
+        [
+            "Nam Hkok",
+            "Spill_Nam Hkok"
+        ],
+        [
+            "Nam Hkok",
+            "turbine_Nam Hkok"
+        ],
+        [
+            "Nam Lin",
+            "Spill_Nam Lin"
+        ],
+        [
+            "Nam Lin",
+            "turbine_Nam Lin"
+        ],
+        [
+            "Nancho",
+            "Spill_Nancho"
+        ],
+        [
+            "Nancho",
+            "Turbine_Nancho"
+        ],
+        [
+            "Nay_Pyi_Taw_Potable_Abstraction",
+            "Nay_Pyi_Taw_Potable"
+        ],
+        [
+            "Nay_Pyi_Taw_Potable_MRF",
+            "Nay_Pyi_Taw_Potable_Abstraction"
+        ],
+        [
+            "Nay_Pyi_Taw_Potable_MRF",
+            "Nay_Pyi_Taw_Potable_Downstream"
+        ],
+        [
+            "Ngalaik_Irrigation_Abstraction",
+            "Ngalaik_Irrigation"
+        ],
+        [
+            "Ngalaik_Irrigation_return",
+            "Ngalaik_Irrigation_Merge"
+        ],
+        [
+            "Ngalaik_Irrigation_Rivergauge",
+            "Ngalaik_Irrigation_Merge"
+        ],
+        [
+            "Ngalaik_Irrigation_Reservoir",
+            "Ngalaik_Irrigation_Abstraction"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Abstraction",
+            "Ngamoeyeik_Irrigation"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_return",
+            "Ngamoeyeik_Irrigation_Merge"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Rivergauge",
+            "Ngamoeyeik_Irrigation_Merge"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Reservoir",
+            "Ngamoeyeik_Irrigation_Abstraction"
+        ],
+        [
+            "Pathi_Irrigation_Abstration",
+            "Pathi_Irrigation"
+        ],
+        [
+            "Pathi_Irrigation_Merge",
+            "link_29"
+        ],
+        [
+            "Pathi_Irrigation_return",
+            "Pathi_Irrigation_Merge"
+        ],
+        [
+            "Pathi_Irrigation_Rivergauge",
+            "Pathi_Irrigation_Merge"
+        ],
+        [
+            "Pathi_Irrigation_Split",
+            "Pathi_Irrigation_Abstration"
+        ],
+        [
+            "Pathi_Irrigation_Split",
+            "Pathi_Irrigation_Rivergauge"
+        ],
+        [
+            "Paung Laung (Lower)",
+            "Paung Laung (Lower)_Irrigation_Abstraction"
+        ],
+        [
+            "Paung Laung (Lower)_Irrigation_Abstraction",
+            "Paung Laung (Lower)_Irrigation"
+        ],
+        [
+            "Paung Laung (Lower)_Irrigation_return",
+            "link_15:35:15"
+        ],
+        [
+            "Paung Laung (Middle)",
+            "Linearstoragereleasecontrol_Paung Laung (Middle)"
+        ],
+        [
+            "Paung Laung (Middle)",
+            "Spill_Paung Laung (Middle)"
+        ],
+        [
+            "Paung Laung (Upper)",
+            "Linearstoragereleasecontrol_Paung Laung (Upper)"
+        ],
+        [
+            "Paung Laung (Upper)",
+            "Spill_Paung Laung (Upper)"
+        ],
+        [
+            "Phyu Chaung",
+            "Linearstoragereleasecontrol_Phyu Chaung"
+        ],
+        [
+            "Phyu Chaung",
+            "Spill_Phyu Chaung"
+        ],
+        [
+            "Phyu Chaung",
+            "Phyu Chaung_Irrigation_Abstraction"
+        ],
+        [
+            "Phyu Chaung_Irrigation_Abstraction",
+            "Phyu Chaung_Irrigation"
+        ],
+        [
+            "Phyu Chaung_Irrigation_return",
+            "link_141"
+        ],
+        [
+            "Baingda_Kawliya_Irrigation_return",
+            "Baingda_Kawliya_Irrigation_Merge"
+        ],
+        [
+            "Chaungmange_Irrigation_return",
+            "Chaungmange_Irrigation_Merge"
+        ],
+        [
+            "Keng Yang",
+            "Spill_Keng Yang"
+        ],
+        [
+            "Keng Yang",
+            "Turbine_Keng Yang"
+        ],
+        [
+            "He Kou",
+            "Spill_He Kou"
+        ],
+        [
+            "Than Dwe",
+            "Spill_Than Dwe"
+        ],
+        [
+            "Than Dwe",
+            "turbine_Than Dwe"
+        ],
+        [
+            "Paung Laung (Lower)",
+            "Linearstoragereleasecontrol_Paung Laung (Lower)"
+        ],
+        [
+            "Paung Laung (Lower)",
+            "Spill_Paung Laung (Lower)"
+        ],
+        [
+            "Saing_Din",
+            "Spill_Saing_Din"
+        ],
+        [
+            "Saing_Din",
+            "turbine_Saing_Din"
+        ],
+        [
+            "Sar Ra Wa Chaung",
+            "Spill_Sar Ra Wa Chaung"
+        ],
+        [
+            "Sar Ra Wa Chaung",
+            "turbine_Sar Ra Wa Chaung"
+        ],
+        [
+            "Shwegyin",
+            "linearstoragereleasecontrol_Shwegyin"
+        ],
+        [
+            "Shwegyin",
+            "Spill_Shwegyin"
+        ],
+        [
+            "Sinthe_Irrigation_Abstraction",
+            "Sinthe_Irrigation"
+        ],
+        [
+            "Sinthe_Irrigation_Merge",
+            "Nay_Pyi_Taw_Potable_MRF"
+        ],
+        [
+            "Sinthe_Irrigation_Rivergauge",
+            "Sinthe_Irrigation_Merge"
+        ],
+        [
+            "Sinthe_Irrigation_Reservoir",
+            "Sinthe_Irrigation_Abstraction"
+        ],
+        [
+            "Spill_Bawgata",
+            "link_68"
+        ],
+        [
+            "Spill_Belin",
+            "link_74"
+        ],
+        [
+            "Spill_Glohong Kra",
+            "link_121"
+        ],
+        [
+            "Spill_He Kou",
+            "link_confluence_Mekong_1"
+        ],
+        [
+            "Spill_Kabaung",
+            "link_62"
+        ],
+        [
+            "Spill_Keng Tong",
+            "link_92"
+        ],
+        [
+            "Spill_Kun Chaung",
+            "link_98"
+        ],
+        [
+            "Spill_Lemro_1",
+            "link_84"
+        ],
+        [
+            "Spill_Lemro_2",
+            "link_88"
+        ],
+        [
+            "Spill_Mi_Chaung",
+            "link_86"
+        ],
+        [
+            "Spill_Mong Hsat",
+            "link_107"
+        ],
+        [
+            "Spill_Mongwa",
+            "link_109"
+        ],
+        [
+            "Spill_Nam Hkok",
+            "link_105"
+        ],
+        [
+            "Spill_Nam Lin",
+            "link_21"
+        ],
+        [
+            "Spill_Nancho",
+            "link_90"
+        ],
+        [
+            "Spill_Paung Laung (Middle)",
+            "link_56"
+        ],
+        [
+            "Spill_Paung Laung (Upper)",
+            "link_12:39:35"
+        ],
+        [
+            "Spill_Keng Yang",
+            "link_111"
+        ],
+        [
+            "Spill_Paung Laung (Lower)",
+            "link_103"
+        ],
+        [
+            "Spill_Saing_Din",
+            "link_123"
+        ],
+        [
+            "Spill_Sar Ra Wa Chaung",
+            "link_119"
+        ],
+        [
+            "Spill_Shwegyin",
+            "link_71"
+        ],
+        [
+            "Spill_Suo Lwe",
+            "link_83"
+        ],
+        [
+            "Spill_Taninthayi",
+            "link_80"
+        ],
+        [
+            "Spill_Tha Gyet Chaung",
+            "link_115"
+        ],
+        [
+            "Spill_Thahtay",
+            "link_125"
+        ],
+        [
+            "Spill_Than Dwe",
+            "link_128"
+        ],
+        [
+            "Spill_Thauk Ye Khat 1",
+            "link_100"
+        ],
+        [
+            "Spill_Thauk Ye Khat 2",
+            "link_59"
+        ],
+        [
+            "Spill_Thein Kun Chaung",
+            "link_117"
+        ],
+        [
+            "Spill_Yenwe",
+            "link_47"
+        ],
+        [
+            "Spill_Zaungtu",
+            "link_77"
+        ],
+        [
+            "Suo Lwe",
+            "Linearstoragereleasecontrol_Suo Lwe"
+        ],
+        [
+            "Suo Lwe",
+            "Spill_Suo Lwe"
+        ],
+        [
+            "Swa_Irrigation_Abstraction",
+            "Swa_Irrigation"
+        ],
+        [
+            "Swa_Irrigation_Merge",
+            "Swa_Irrigation_Merge_River"
+        ],
+        [
+            "Swa_Irrigation_Merge_River",
+            "Pathi_Irrigation_Split"
+        ],
+        [
+            "Swa_Irrigation_return",
+            "Swa_Irrigation_Merge"
+        ],
+        [
+            "Swa_Irrigation_Rivergauge",
+            "Swa_Irrigation_Merge"
+        ],
+        [
+            "Swa_Irrigation_Split",
+            "Swa_Irrigation_Abstraction"
+        ],
+        [
+            "Swa_Irrigation_Split",
+            "Swa_Irrigation_Rivergauge"
+        ],
+        [
+            "Taninthayi",
+            "linearstoragereleasecontrol_Taninthayi"
+        ],
+        [
+            "Taninthayi",
+            "Spill_Taninthayi"
+        ],
+        [
+            "Tha Gyet Chaung",
+            "Spill_Tha Gyet Chaung"
+        ],
+        [
+            "Tha Gyet Chaung",
+            "turbine_Tha Gyet Chaung"
+        ],
+        [
+            "Thahtay",
+            "linearstoragereleasecontrol_Thahtay"
+        ],
+        [
+            "Thahtay",
+            "Spill_Thahtay"
+        ],
+        [
+            "Thauk Ye Khat 1",
+            "Spill_Thauk Ye Khat 1"
+        ],
+        [
+            "Thauk Ye Khat 1",
+            "Turbine_Thauk Ye Khat 1"
+        ],
+        [
+            "Thauk Ye Khat 2",
+            "Linearstoragereleasecontrol_Thauk Ye Khat 2"
+        ],
+        [
+            "Thauk Ye Khat 2",
+            "Spill_Thauk Ye Khat 2"
+        ],
+        [
+            "Thein Kun Chaung",
+            "Spill_Thein Kun Chaung"
+        ],
+        [
+            "Thein Kun Chaung",
+            "turbine_Thein Kun Chaung"
+        ],
+        [
+            "Turbine_Thauk Ye Khat 1",
+            "link_100"
+        ],
+        [
+            "turbine_Bawgata",
+            "link_68"
+        ],
+        [
+            "turbine_Belin",
+            "link_74"
+        ],
+        [
+            "turbine_Glohong Kra",
+            "link_121"
+        ],
+        [
+            "Turbine_He Kou",
+            "link_confluence_Mekong_1"
+        ],
+        [
+            "Turbine_Kabaung",
+            "link_62"
+        ],
+        [
+            "Turbine_Keng Tong",
+            "link_92"
+        ],
+        [
+            "Turbine_Kun Chaung",
+            "link_98"
+        ],
+        [
+            "turbine_Kyein Ta Li",
+            "link_130"
+        ],
+        [
+            "turbine_Lemro_1",
+            "link_84"
+        ],
+        [
+            "turbine_Lemro_2",
+            "link_88"
+        ],
+        [
+            "turbine_Mi_Chaung",
+            "link_86"
+        ],
+        [
+            "turbine_Mong Hsat",
+            "link_107"
+        ],
+        [
+            "Turbine_Mongwa",
+            "link_109"
+        ],
+        [
+            "turbine_Nam Hkok",
+            "link_105"
+        ],
+        [
+            "turbine_Nam Lin",
+            "link_21"
+        ],
+        [
+            "Turbine_Nancho",
+            "link_90"
+        ],
+        [
+            "Turbine_Paung Laung (Middle)",
+            "link_56"
+        ],
+        [
+            "Turbine_Paung Laung (Upper)",
+            "link_12:39:35"
+        ],
+        [
+            "Turbine_Phyu Chaung",
+            "link_65"
+        ],
+        [
+            "Turbine_Keng Yang",
+            "link_111"
+        ],
+        [
+            "turbine_Than Dwe",
+            "link_128"
+        ],
+        [
+            "Turbine_Paung Laung (Lower)",
+            "link_103"
+        ],
+        [
+            "turbine_Saing_Din",
+            "link_123"
+        ],
+        [
+            "turbine_Sar Ra Wa Chaung",
+            "link_119"
+        ],
+        [
+            "turbine_Shwegyin",
+            "link_71"
+        ],
+        [
+            "Turbine_Suo Lwe",
+            "link_83"
+        ],
+        [
+            "turbine_Taninthayi",
+            "link_80"
+        ],
+        [
+            "turbine_Tha Gyet Chaung",
+            "link_115"
+        ],
+        [
+            "turbine_Thahtay",
+            "link_125"
+        ],
+        [
+            "Turbine_Thauk Ye Khat 2",
+            "link_59"
+        ],
+        [
+            "turbine_Thein Kun Chaung",
+            "link_117"
+        ],
+        [
+            "Turbine_Yenwe",
+            "link_47"
+        ],
+        [
+            "turbine_Zaungtu",
+            "link_77"
+        ],
+        [
+            "Yenwe",
+            "Spill_Yenwe"
+        ],
+        [
+            "Yenwe",
+            "Turbine_Yenwe"
+        ],
+        [
+            "Yenwe",
+            "Yenwe_Irrigation_Abstraction"
+        ],
+        [
+            "Yenwe_Irrigation_Abstraction",
+            "Yenwe_Irrigation"
+        ],
+        [
+            "Yenwe_Irrigation_return",
+            "link_12:30:19"
+        ],
+        [
+            "Yezin_Irrigation_Abstraction",
+            "Yezin_Irrigation"
+        ],
+        [
+            "Yezin_Irrigation_return",
+            "Yezin_Irrigation_Merge"
+        ],
+        [
+            "Yezin_Irrigation_Rivergauge",
+            "Yezin_Irrigation_Merge"
+        ],
+        [
+            "Yezin_Irrigation_Reservoir",
+            "Yezin_Irrigation_Abstraction"
+        ],
+        [
+            "Zaungtu",
+            "linearstoragereleasecontrol_Zaungtu"
+        ],
+        [
+            "Zaungtu",
+            "Spill_Zaungtu"
+        ],
+        [
+            "Bawgata_rain",
+            "Bawgata"
+        ],
+        [
+            "Bawgata",
+            "Bawgata_evaporation"
+        ],
+        [
+            "Belin_rain",
+            "Belin"
+        ],
+        [
+            "Belin",
+            "Belin_evaporation"
+        ],
+        [
+            "Kabaung_rain",
+            "Kabaung"
+        ],
+        [
+            "Kabaung",
+            "Kabaung_evaporation"
+        ],
+        [
+            "Kun Chaung_rain",
+            "Kun Chaung"
+        ],
+        [
+            "Kun Chaung",
+            "Kun Chaung_evaporation"
+        ],
+        [
+            "Lemro_1_rain",
+            "Lemro_1"
+        ],
+        [
+            "Lemro_1",
+            "Lemro_1_evaporation"
+        ],
+        [
+            "Paung Laung (Lower)_rain",
+            "Paung Laung (Lower)"
+        ],
+        [
+            "Paung Laung (Lower)",
+            "Paung Laung (Lower)_evaporation"
+        ],
+        [
+            "Paung Laung (Middle)_rain",
+            "Paung Laung (Middle)"
+        ],
+        [
+            "Paung Laung (Middle)",
+            "Paung Laung (Middle)_evaporation"
+        ],
+        [
+            "Paung Laung (Upper)_rain",
+            "Paung Laung (Upper)"
+        ],
+        [
+            "Paung Laung (Upper)",
+            "Paung Laung (Upper)_evaporation"
+        ],
+        [
+            "Phyu Chaung_rain",
+            "Phyu Chaung"
+        ],
+        [
+            "Phyu Chaung",
+            "Phyu Chaung_evaporation"
+        ],
+        [
+            "Shwegyin_rain",
+            "Shwegyin"
+        ],
+        [
+            "Shwegyin",
+            "Shwegyin_evaporation"
+        ],
+        [
+            "Suo Lwe_rain",
+            "Suo Lwe"
+        ],
+        [
+            "Suo Lwe",
+            "Suo Lwe_evaporation"
+        ],
+        [
+            "Taninthayi_rain",
+            "Taninthayi"
+        ],
+        [
+            "Taninthayi",
+            "Taninthayi_evaporation"
+        ],
+        [
+            "Thauk Ye Khat 2_rain",
+            "Thauk Ye Khat 2"
+        ],
+        [
+            "Thauk Ye Khat 2",
+            "Thauk Ye Khat 2_evaporation"
+        ],
+        [
+            "Zaungtu_rain",
+            "Zaungtu"
+        ],
+        [
+            "Zaungtu",
+            "Zaungtu_evaporation"
+        ],
+        [
+            "Sinthe_Irrigation_Reservoir",
+            "Sinthe_Irrigation_Reservoir_Spill"
+        ],
+        [
+            "Sinthe_Irrigation_Reservoir",
+            "Sinthe_Irrigation_Reservoir_Overflow"
+        ],
+        [
+            "Sinthe_Irrigation_Reservoir_Spill",
+            "Sinthe_Irrigation_Rivergauge"
+        ],
+        [
+            "Sinthe_Irrigation_Reservoir_Overflow",
+            "Sinthe_Irrigation_Rivergauge"
+        ],
+        [
+            "Ngalaik_Irrigation_Reservoir",
+            "Ngalaik_Irrigation_Reservoir_Spill"
+        ],
+        [
+            "Ngalaik_Irrigation_Reservoir",
+            "Ngalaik_Irrigation_Reservoir_Overflow"
+        ],
+        [
+            "Ngalaik_Irrigation_Reservoir_Spill",
+            "Ngalaik_Irrigation_Rivergauge"
+        ],
+        [
+            "Ngalaik_Irrigation_Reservoir_Overflow",
+            "Ngalaik_Irrigation_Rivergauge"
+        ],
+        [
+            "Yezin_Irrigation_Reservoir",
+            "Yezin_Irrigation_Reservoir_Spill"
+        ],
+        [
+            "Yezin_Irrigation_Reservoir",
+            "Yezin_Irrigation_Reservoir_Overflow"
+        ],
+        [
+            "Yezin_Irrigation_Reservoir_Spill",
+            "Yezin_Irrigation_Rivergauge"
+        ],
+        [
+            "Yezin_Irrigation_Reservoir_Overflow",
+            "Yezin_Irrigation_Rivergauge"
+        ],
+        [
+            "Chaungmange_Irrigation_Reservoir",
+            "Chaungmange_Irrigation_Reservoir_Spill"
+        ],
+        [
+            "Chaungmange_Irrigation_Reservoir",
+            "Chaungmange_Irrigation_Reservoir_Overflow"
+        ],
+        [
+            "Chaungmange_Irrigation_Reservoir_Spill",
+            "Chaungmange_Irrigation_Rivergauge"
+        ],
+        [
+            "Chaungmange_Irrigation_Reservoir_Overflow",
+            "Chaungmange_Irrigation_Rivergauge"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Reservoir",
+            "Ngamoeyeik_Irrigation_Reservoir_Spill"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Reservoir",
+            "Ngamoeyeik_Irrigation_Reservoir_Overflow"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Reservoir_Spill",
+            "Ngamoeyeik_Irrigation_Rivergauge"
+        ],
+        [
+            "Ngamoeyeik_Irrigation_Reservoir_Overflow",
+            "Ngamoeyeik_Irrigation_Rivergauge"
+        ]
+    ]
+}

@@ -1,0 +1,2110 @@
+{
+    "Buywa": [
+        94.1515,
+        20.6627
+    ],
+    "Buywa_Upper_recombined": [
+        94.1498,
+        20.7163
+    ],
+    "Buywa_ControlSpill": [
+        94.1879,
+        20.6036
+    ],
+    "Buywa_LinearControl": [
+        94.2023,
+        20.6441
+    ],
+    "Buywa_Spill": [
+        94.1429,
+        20.6024
+    ],
+    "Buywa_Turbine": [
+        94.2349,
+        20.6098
+    ],
+    "catchment_Chindwin_Irrawaddy_merge": [
+        95.5424,
+        21.4081
+    ],
+    "catchment_Chipwi": [
+        98.0656,
+        25.9562
+    ],
+    "catchment_Chipwi_Nge": [
+        98.2772,
+        25.7488
+    ],
+    "catchment_Dapein_1": [
+        97.6613,
+        24.4756
+    ],
+    "catchment_Dapein_2": [
+        97.6613,
+        24.3089
+    ],
+    "catchment_Delta_West_Irrigation": [
+        94.6122,
+        17.1358
+    ],
+    "catchment_Dum_Ban": [
+        98.1246,
+        25.5661
+    ],
+    "catchment_Gaw_Lan": [
+        98.625,
+        26.1415
+    ],
+    "catchment_Hkankawn": [
+        98.4498,
+        26.0707
+    ],
+    "catchment_Irrawaddy_Thapanzeik_junction": [
+        95.5315,
+        22.0751
+    ],
+    "catchment_Khaunglanphu": [
+        98.4396,
+        26.9318
+    ],
+    "catchment_Kinda": [
+        96.3644,
+        21.0753
+    ],
+    "catchment_Kintat": [
+        95.2243,
+        23.2228
+    ],
+    "catchment_Lawngdin": [
+        98.2281,
+        25.9533
+    ],
+    "catchment_Laza": [
+        97.6881,
+        26.633
+    ],
+    "catchment_Linzin_et_al_Irrigation": [
+        95.0877,
+        20.9614
+    ],
+    "catchment_Male-Nattaung_Irrigation": [
+        95.829,
+        22.4967
+    ],
+    "catchment_Mali": [
+        97.6761,
+        24.9981
+    ],
+    "catchment_Mandalay_junction": [
+        95.8626,
+        22.026
+    ],
+    "catchment_Manipur": [
+        93.777,
+        22.6523
+    ],
+    "catchment_Ma_Mya_et_al_Irrigation": [
+        95.1879,
+        17.8189
+    ],
+    "catchment_Middle_Yeywa": [
+        96.8657,
+        22.0834
+    ],
+    "catchment_Mindon": [
+        94.6475,
+        19.5767
+    ],
+    "catchment_Mone_Chaung": [
+        94.3607,
+        20.633
+    ],
+    "catchment_Myitsone": [
+        97.735,
+        25.8573
+    ],
+    "catchment_Myittha": [
+        93.8686,
+        21.9432
+    ],
+    "catchment_Myogyi": [
+        96.4727,
+        21.5145
+    ],
+    "catchment_Nam_Hsim": [
+        97.0311,
+        22.6292
+    ],
+    "catchment_Nam_Lang": [
+        97.3216,
+        22.1284
+    ],
+    "catchment_Nam_Li": [
+        97.9975,
+        25.3115
+    ],
+    "catchment_Nam_Paw": [
+        98.0228,
+        24.0471
+    ],
+    "catchment_Nam_Tabak_I": [
+        97.7624,
+        25.0924
+    ],
+    "catchment_Nam_Tabak_II": [
+        97.6821,
+        25.138
+    ],
+    "catchment_Nam_Tu": [
+        97.2948,
+        22.792
+    ],
+    "catchment_North_Yamar_et_al_Irrigation": [
+        95.2952,
+        22.0863
+    ],
+    "catchment_Nyangdom": [
+        95.7478,
+        17.1645
+    ],
+    "catchment_Pisa": [
+        98.449,
+        26.6566
+    ],
+    "catchment_Renan": [
+        98.0517,
+        27.5967
+    ],
+    "catchment_Sedawgyi": [
+        96.4573,
+        22.5335
+    ],
+    "catchment_Shwedaung_et_al_Irrigation": [
+        94.8038,
+        18.3422
+    ],
+    "catchment_Shweli1": [
+        97.5343,
+        23.8911
+    ],
+    "catchment_Shweli2": [
+        97.3151,
+        23.8427
+    ],
+    "catchment_Shweli3": [
+        96.7738,
+        23.4627
+    ],
+    "catchment_South_Khayan_Yezagyo_Irrigation": [
+        93.862,
+        23.0566
+    ],
+    "catchment_Tabuhla_Irrigation": [
+        95.8097,
+        17.5926
+    ],
+    "catchment_Tamanthi": [
+        95.5576,
+        25.3855
+    ],
+    "catchment_Tawog Hka": [
+        96.6547,
+        26.1305
+    ],
+    "catchment_Ta_Nai_Hka": [
+        97.1824,
+        26.3337
+    ],
+    "catchment_Ta_Rung_Hka": [
+        96.7625,
+        26.8871
+    ],
+    "catchment_Thapanzeik": [
+        95.2723,
+        23.4015
+    ],
+    "catchment_Tongxinqiao": [
+        98.3508,
+        26.0102
+    ],
+    "catchment_Upper_Buywa": [
+        94.0027,
+        20.888
+    ],
+    "catchment_Upper_Sedawgyi": [
+        96.3184,
+        22.8846
+    ],
+    "catchment_Upper_Yeywa": [
+        97.095,
+        22.2999
+    ],
+    "catchment_U_Yu_Chaung": [
+        95.4915,
+        24.9864
+    ],
+    "catchment_Wutsok": [
+        98.388,
+        26.444
+    ],
+    "catchment_Yangon_Domestic_1": [
+        96.0548,
+        17.1285
+    ],
+    "catchment_Yangon_Domestic_2": [
+        96.1462,
+        17.112
+    ],
+    "catchment_Yeywa": [
+        96.5623,
+        21.6919
+    ],
+    "catchment_Zawgyi1": [
+        96.9535,
+        21.309
+    ],
+    "Chipwi": [
+        98.1238,
+        25.8884
+    ],
+    "Chipwi Nge": [
+        98.1936,
+        25.7858
+    ],
+    "Chipwi Nge_Spill": [
+        98.2036,
+        25.8217
+    ],
+    "Chipwi Nge_Turbine": [
+        98.1492,
+        25.7989
+    ],
+    "Chipwi_Spill": [
+        98.1205,
+        25.853
+    ],
+    "Chipwi_Turbine": [
+        98.0718,
+        25.867
+    ],
+    "Dapein 1": [
+        97.5277,
+        24.4212
+    ],
+    "Dapein 1_Spill": [
+        97.5358,
+        24.3906
+    ],
+    "Dapein 1_Turbine": [
+        97.4747,
+        24.4227
+    ],
+    "Dapein 2": [
+        97.4212,
+        24.3641
+    ],
+    "Dapein 2_Spill": [
+        97.4213,
+        24.3269
+    ],
+    "Dapein 2_Turbine": [
+        97.3613,
+        24.3676
+    ],
+    "Deedoke": [
+        96.4028,
+        21.6919
+    ],
+    "Deedoke_recombined": [
+        96.3939,
+        21.6515
+    ],
+    "Deedoke_Spill": [
+        96.3793,
+        21.6783
+    ],
+    "Deedoke_Turbine": [
+        96.4138,
+        21.6608
+    ],
+    "Delta_Central_Irrigation": [
+        95.1287,
+        16.7817
+    ],
+    "Delta_Central_Irrigation_Abstraction": [
+        95.2208,
+        16.7486
+    ],
+    "Delta_Central_Irrigation_Merge": [
+        95.0798,
+        16.3873
+    ],
+    "Delta_Central_Irrigation_Rivergauge": [
+        95.2445,
+        16.5638
+    ],
+    "Delta_Central_Irrigation_Split": [
+        95.3329,
+        16.6871
+    ],
+    "Delta_East_Irrigation": [
+        95.8335,
+        16.7699
+    ],
+    "Delta_East_Irrigation_Abstraction": [
+        94.8284,
+        16.8305
+    ],
+    "Delta_East_Irrigation_Merge": [
+        95.8716,
+        17.0193
+    ],
+    "Delta_West_Irrigation": [
+        94.8978,
+        16.7089
+    ],
+    "Delta_West_Irrigation_Merge": [
+        94.6777,
+        16.4781
+    ],
+    "Delta_West_Irrigation_Rivergauge": [
+        94.7111,
+        16.6872
+    ],
+    "Delta_West_Irrigation_Split": [
+        94.7652,
+        16.9693
+    ],
+    "Dum Ban": [
+        97.9068,
+        25.5093
+    ],
+    "Dum Ban_ControlSpill": [
+        97.8807,
+        25.5101
+    ],
+    "Dum Ban_LinearControl": [
+        97.8911,
+        25.5398
+    ],
+    "Dum Ban_Spill": [
+        97.8663,
+        25.4699
+    ],
+    "Dum Ban_Turbine": [
+        97.8776,
+        25.561
+    ],
+    "Eyema_et_al_Irrigation": [
+        94.6757,
+        19.9785
+    ],
+    "Eyema_et_al_Irrigation_Abstraction": [
+        94.7539,
+        20.1294
+    ],
+    "Eyema_et_al_Irrigation_Merge": [
+        95.0584,
+        19.9188
+    ],
+    "Eyema_et_al_Irrigation_Rivergauge": [
+        94.9493,
+        20.086
+    ],
+    "Eyema_et_al_Irrigation_Split": [
+        94.8999,
+        20.2447
+    ],
+    "Gaw Lan": [
+        98.5808,
+        26.0473
+    ],
+    "Gaw Lan_Spill": [
+        98.561,
+        26.0124
+    ],
+    "Gaw Lan_Turbine": [
+        98.5447,
+        26.0392
+    ],
+    "Hkankawn": [
+        98.427,
+        26.0224
+    ],
+    "Hkankawn_Spill": [
+        98.4396,
+        25.9974
+    ],
+    "Hkankawn_Turbine": [
+        98.3867,
+        26.02
+    ],
+    "Irrawaddy_Delta_output1": [
+        94.2459,
+        15.8537
+    ],
+    "Irrawaddy_Delta_output2": [
+        94.7606,
+        15.6629
+    ],
+    "Khaunglanphu": [
+        98.3774,
+        26.8458
+    ],
+    "Khaunglanphu_ControlSpill": [
+        98.3799,
+        26.8279
+    ],
+    "Khaunglanphu_LinearControl": [
+        98.347,
+        26.834
+    ],
+    "Khaunglanphu_Spill": [
+        98.4137,
+        26.8322
+    ],
+    "Khaunglanphu_Turbine": [
+        98.3529,
+        26.8077
+    ],
+    "Kinda": [
+        96.3207,
+        21.1648
+    ],
+    "Kinda_ControlSpill": [
+        96.3152,
+        21.1939
+    ],
+    "Kinda_Irrigation": [
+        96.5119,
+        21.2706
+    ],
+    "Kinda_Irrigation_Abstraction": [
+        96.4089,
+        21.2
+    ],
+    "Kinda_Irrigation_Merge": [
+        96.1691,
+        21.4063
+    ],
+    "Kinda_Irrigation_Rivergauge": [
+        96.273,
+        21.3108
+    ],
+    "Kinda_Irrigation_Split_Unused": [
+        96.3172,
+        21.2696
+    ],
+    "Kinda_LinearControl": [
+        96.273,
+        21.1633
+    ],
+    "Kinda_Spill": [
+        96.3769,
+        21.2083
+    ],
+    "Kinda_Turbine": [
+        96.2485,
+        21.1959
+    ],
+    "Kyee Ohn Kyee Wa": [
+        94.4107,
+        20.3378
+    ],
+    "Kyee Ohn Kyee Wa_ControlSpill": [
+        94.4382,
+        20.3232
+    ],
+    "Kyee Ohn Kyee Wa_LinearControl": [
+        94.4321,
+        20.3492
+    ],
+    "Kyee Ohn Kyee Wa_Spill": [
+        94.4192,
+        20.2876
+    ],
+    "Kyee Ohn Kyee Wa_Turbine": [
+        94.4561,
+        20.3695
+    ],
+    "Lawngdin": [
+        98.2751,
+        26.0394
+    ],
+    "Lawngdin_Spill": [
+        98.3158,
+        26.0513
+    ],
+    "Lawngdin_Turbine": [
+        98.2361,
+        26.0807
+    ],
+    "Laza": [
+        97.7768,
+        26.484
+    ],
+    "Laza_ControlSpill": [
+        97.7761,
+        26.4634
+    ],
+    "Laza_LinearControl": [
+        97.7424,
+        26.47
+    ],
+    "Laza_Spill": [
+        97.8102,
+        26.4671
+    ],
+    "Laza_Turbine": [
+        97.7472,
+        26.4389
+    ],
+    "link_100": [
+        98.3985,
+        25.9912
+    ],
+    "link_103": [
+        98.5128,
+        26.0438
+    ],
+    "link_106": [
+        98.3014,
+        25.9493
+    ],
+    "link_109": [
+        98.0764,
+        25.8384
+    ],
+    "link_11-34-50": [
+        97.1653,
+        22.2283
+    ],
+    "link_112": [
+        98.1692,
+        25.8354
+    ],
+    "link_115": [
+        97.7803,
+        26.4347
+    ],
+    "link_118": [
+        96.5382,
+        26.3446
+    ],
+    "link_121": [
+        96.9092,
+        26.2775
+    ],
+    "link_124": [
+        96.4621,
+        26.646
+    ],
+    "link_127": [
+        97.8415,
+        25.5289
+    ],
+    "link_130": [
+        97.8048,
+        25.4158
+    ],
+    "link_133": [
+        97.6855,
+        25.0967
+    ],
+    "link_136": [
+        97.5983,
+        25.1241
+    ],
+    "link_139": [
+        97.5538,
+        24.9832
+    ],
+    "link_145": [
+        95.1592,
+        25.2632
+    ],
+    "link_148": [
+        95.1927,
+        24.8352
+    ],
+    "link_149": [
+        96.4126,
+        26.523
+    ],
+    "link_150": [
+        96.5839,
+        26.3999
+    ],
+    "link_152": [
+        97.8131,
+        25.5885
+    ],
+    "link_153": [
+        97.2529,
+        25.1121
+    ],
+    "link_158": [
+        97.3572,
+        24.3328
+    ],
+    "link_160": [
+        97.4794,
+        24.3911
+    ],
+    "link_162": [
+        94.9351,
+        24.8211
+    ],
+    "link_163": [
+        96.2871,
+        23.9674
+    ],
+    "link_16:22:51": [
+        96.6407,
+        21.5314
+    ],
+    "link_172": [
+        96.2167,
+        22.223
+    ],
+    "link_179": [
+        97.2185,
+        24.25
+    ],
+    "link_19:1:2": [
+        95.9717,
+        17.0322
+    ],
+    "link_212": [
+        94.4698,
+        20.3165
+    ],
+    "link_236": [
+        95.1424,
+        19.0787
+    ],
+    "link_250": [
+        98.1467,
+        25.933
+    ],
+    "link_255": [
+        97.5071,
+        25.7101
+    ],
+    "link_268": [
+        95.6513,
+        21.9193
+    ],
+    "link_279": [
+        95.282,
+        21.4572
+    ],
+    "link_284": [
+        95.3729,
+        23.2594
+    ],
+    "link_30": [
+        94.2191,
+        20.5543
+    ],
+    "link_300": [
+        95.7978,
+        16.9431
+    ],
+    "link_65": [
+        97.2469,
+        22.5173
+    ],
+    "link_72": [
+        94.9044,
+        20.358
+    ],
+    "link_88": [
+        98.3878,
+        26.7887
+    ],
+    "link_91": [
+        98.298,
+        26.5118
+    ],
+    "link_94": [
+        98.2953,
+        26.34
+    ],
+    "link_97": [
+        98.3102,
+        26.1114
+    ],
+    "Linzin_et_al_Irrigation": [
+        94.3146,
+        21.1857
+    ],
+    "Linzin_et_al_Irrigation_Abstraction": [
+        94.603,
+        21.0437
+    ],
+    "Linzin_et_al_Irrigation_Merge": [
+        94.8317,
+        20.5216
+    ],
+    "Linzin_et_al_Irrigation_Rivergauge": [
+        94.7231,
+        20.8341
+    ],
+    "Linzin_et_al_Irrigation_Split": [
+        94.8614,
+        21.1905
+    ],
+    "Male-Nattaung_Irrigation": [
+        96.0627,
+        22.4272
+    ],
+    "Male-Nattaung_Irrigation_Abstraction": [
+        96.0385,
+        22.3726
+    ],
+    "Male-Nattaung_Irrigation_Downstream": [
+        96.0104,
+        22.2179
+    ],
+    "Male-Nattaung_Irrigation_Merge": [
+        96.0097,
+        22.1172
+    ],
+    "Male-Nattaung_Irrigation_Rivergauge": [
+        95.9874,
+        22.3277
+    ],
+    "Mali": [
+        97.6141,
+        24.9822
+    ],
+    "Mali_Spill": [
+        97.5932,
+        24.9505
+    ],
+    "Mali_Turbine": [
+        97.5908,
+        25.0174
+    ],
+    "Mandalay_Abstraction": [
+        96.0704,
+        21.9724
+    ],
+    "Mandalay_Demand": [
+        96.2258,
+        21.8852
+    ],
+    "Mandalay_Domestic_Water": [
+        96.099,
+        21.9433
+    ],
+    "Mandalay_Merge": [
+        96.013,
+        21.9093
+    ],
+    "Mandalay_Restriction": [
+        96.1577,
+        21.9093
+    ],
+    "Mandalay_Rivergauge": [
+        96.0443,
+        21.9518
+    ],
+    "Mandalay_Spill": [
+        96.0644,
+        21.9291
+    ],
+    "Mandalay_Split": [
+        96.0454,
+        22.0102
+    ],
+    "Manipur": [
+        93.9392,
+        22.8138
+    ],
+    "Manipur_ControlSpill": [
+        93.9782,
+        22.8574
+    ],
+    "Manipur_LinearControl": [
+        93.9493,
+        22.884
+    ],
+    "Manipur_recombined": [
+        94.1019,
+        22.8736
+    ],
+    "Manipur_Spill": [
+        94.0344,
+        22.804
+    ],
+    "Manipur_Turbine": [
+        93.9927,
+        22.9225
+    ],
+    "Mazali_Irrigation": [
+        94.5174,
+        20.2009
+    ],
+    "Mazali_Irrigation_Abstraction": [
+        94.5151,
+        20.25
+    ],
+    "Mazali_Irrigation_Merge": [
+        94.6992,
+        20.366
+    ],
+    "Mazali_Irrigation_Rivergauge": [
+        94.6148,
+        20.3364
+    ],
+    "Mazali_Irrigation_Split": [
+        94.5338,
+        20.3237
+    ],
+    "Ma_Mya_et_al_Irrigation": [
+        95.0009,
+        17.7244
+    ],
+    "Ma_Mya_et_al_Irrigation_Abstraction": [
+        95.0821,
+        17.7226
+    ],
+    "Ma_Mya_et_al_Irrigation_Merge": [
+        95.1389,
+        17.6084
+    ],
+    "Ma_Mya_et_al_Irrigation_Rivergauge": [
+        95.2107,
+        17.6425
+    ],
+    "Ma_Mya_et_al_Irrigation_Split": [
+        95.2067,
+        17.7144
+    ],
+    "Middle Yeywa": [
+        96.8732,
+        21.9605
+    ],
+    "Middle Yeywa_ControlSpill": [
+        96.8699,
+        21.9336
+    ],
+    "Middle Yeywa_LinearControl": [
+        96.9044,
+        21.9512
+    ],
+    "Middle Yeywa_Spill": [
+        96.8311,
+        21.9344
+    ],
+    "Middle Yeywa_Turbine": [
+        96.8992,
+        21.9136
+    ],
+    "Mid_Yeywa_recombined": [
+        96.8457,
+        21.9072
+    ],
+    "Mindon": [
+        94.7147,
+        19.3873
+    ],
+    "Mindon_recombined": [
+        94.8754,
+        19.25
+    ],
+    "Mindon_Spill": [
+        94.6995,
+        19.2107
+    ],
+    "Mindon_Turbine": [
+        94.9164,
+        19.3981
+    ],
+    "Mone Chaung": [
+        94.2491,
+        20.4905
+    ],
+    "Mone Chaung_ControlSpill": [
+        94.2775,
+        20.4551
+    ],
+    "Mone Chaung_LinearControl": [
+        94.3121,
+        20.4816
+    ],
+    "Mone Chaung_Spill": [
+        94.2299,
+        20.4238
+    ],
+    "Mone Chaung_Turbine": [
+        94.3203,
+        20.4431
+    ],
+    "Mone_Chaung_recombined": [
+        94.3151,
+        20.3781
+    ],
+    "Myitsone": [
+        97.5269,
+        25.7119
+    ],
+    "Myitsone_ControlSpill": [
+        97.5551,
+        25.7162
+    ],
+    "Myitsone_LinearControl": [
+        97.5125,
+        25.699
+    ],
+    "Myitsone_Spill": [
+        97.5848,
+        25.6882
+    ],
+    "Myitsone_Turbine": [
+        97.522,
+        25.6909
+    ],
+    "Myittha": [
+        94.0405,
+        21.9927
+    ],
+    "Myittha_ControlSpill": [
+        94.1043,
+        22.07
+    ],
+    "Myittha_Irrigation": [
+        94.297,
+        21.8744
+    ],
+    "Myittha_Irrigation_Abstraction": [
+        94.1868,
+        21.9233
+    ],
+    "Myittha_LinearControl": [
+        94.0164,
+        22.1015
+    ],
+    "Myittha_recombined": [
+        94.1518,
+        22.1819
+    ],
+    "Myittha_Spill": [
+        94.171,
+        22.0319
+    ],
+    "Myittha_Turbine": [
+        94.0601,
+        22.1581
+    ],
+    "Myogyi": [
+        96.394,
+        21.4652
+    ],
+    "Myogyi_ControlSpill": [
+        96.3401,
+        21.4632
+    ],
+    "Myogyi_Irrigation": [
+        96.3822,
+        21.5686
+    ],
+    "Myogyi_Irrigation_Abstraction": [
+        96.4,
+        21.5354
+    ],
+    "Myogyi_Irrigation_Merge": [
+        96.1402,
+        21.5839
+    ],
+    "Myogyi_Irrigation_Rivergauge": [
+        96.182,
+        21.5391
+    ],
+    "Myogyi_Irrigation_Split_Unused": [
+        96.2225,
+        21.5046
+    ],
+    "Myogyi_LinearControl": [
+        96.3852,
+        21.4419
+    ],
+    "Myogyi_recombined": [
+        96.269,
+        21.4767
+    ],
+    "Myogyi_Spill": [
+        96.3592,
+        21.4931
+    ],
+    "Myogyi_Turbine": [
+        96.3477,
+        21.4205
+    ],
+    "Nam Hsim": [
+        97.124,
+        22.5611
+    ],
+    "Nam Hsim_ControlSpill": [
+        97.1604,
+        22.5713
+    ],
+    "Nam Hsim_LinearControl": [
+        97.1464,
+        22.5961
+    ],
+    "Nam Hsim_Spill": [
+        97.1539,
+        22.5415
+    ],
+    "Nam Hsim_Turbine": [
+        97.1829,
+        22.5961
+    ],
+    "Nam Lang": [
+        97.2487,
+        22.1597
+    ],
+    "Nam Lang_ControlSpill": [
+        97.2086,
+        22.1735
+    ],
+    "Nam Lang_LinearControl": [
+        97.2255,
+        22.1373
+    ],
+    "Nam Lang_Spill": [
+        97.2284,
+        22.1859
+    ],
+    "Nam Lang_Turbine": [
+        97.1863,
+        22.1651
+    ],
+    "Nam Li": [
+        97.8116,
+        25.3673
+    ],
+    "Nam Li_Spill": [
+        97.8335,
+        25.3931
+    ],
+    "Nam Li_Turbine": [
+        97.7855,
+        25.3993
+    ],
+    "Nam Paw_ControlSpill": [
+        97.9139,
+        23.8965
+    ],
+    "Nam Paw_LinearControl": [
+        97.9874,
+        23.9124
+    ],
+    "Nam Paw_Spill": [
+        97.8242,
+        23.9772
+    ],
+    "Nam Paw_Turbine": [
+        97.9463,
+        23.8131
+    ],
+    "Nam Tabak I": [
+        97.7134,
+        25.0887
+    ],
+    "Nam Tabak II": [
+        97.6509,
+        25.118
+    ],
+    "Nam Tabak II_Spill": [
+        97.6203,
+        25.0948
+    ],
+    "Nam Tabak II_Turbine": [
+        97.6203,
+        25.1468
+    ],
+    "Nam Tabak I_Spill": [
+        97.7058,
+        25.1197
+    ],
+    "Nam Tabak I_Turbine": [
+        97.6845,
+        25.065
+    ],
+    "Nam Tu": [
+        97.3203,
+        22.7216
+    ],
+    "Nam Tu_ControlSpill": [
+        97.3176,
+        22.6759
+    ],
+    "Nam Tu_LinearControl": [
+        97.3676,
+        22.7016
+    ],
+    "Nam Tu_Spill": [
+        97.2713,
+        22.6832
+    ],
+    "Nam Tu_Turbine": [
+        97.3635,
+        22.6545
+    ],
+    "Nam_Hsim_recombined": [
+        97.2001,
+        22.5673
+    ],
+    "Nam_Lang_recombined": [
+        97.1848,
+        22.191
+    ],
+    "Nam_Paw": [
+        97.9175,
+        23.953
+    ],
+    "Nam_Paw_recombined": [
+        97.7638,
+        23.8898
+    ],
+    "Nam_Tu_recombined": [
+        97.3235,
+        22.6194
+    ],
+    "North_Yamar_et_al_Irrigation": [
+        94.7725,
+        21.9306
+    ],
+    "North_Yamar_et_al_Irrigation_Abstraction": [
+        94.9631,
+        21.9755
+    ],
+    "North_Yamar_et_al_Irrigation_Merge": [
+        95.2475,
+        21.7072
+    ],
+    "North_Yamar_et_al_Irrigation_Rivergauge": [
+        95.1583,
+        21.8649
+    ],
+    "North_Yamar_et_al_Irrigation_Split": [
+        95.1451,
+        22.0326
+    ],
+    "North_Yangon_Irrigation": [
+        96.1266,
+        17.5009
+    ],
+    "North_Yangon_Irrigation_Abstraction": [
+        95.9782,
+        17.4744
+    ],
+    "North_Yangon_Irrigation_Merge": [
+        95.8978,
+        17.2388
+    ],
+    "North_Yangon_Irrigation_Rivergauge": [
+        95.8426,
+        17.3225
+    ],
+    "North_Yangon_Irrigation_Split": [
+        95.8192,
+        17.4342
+    ],
+    "Pisa": [
+        98.3324,
+        26.5883
+    ],
+    "Pisa_Spill": [
+        98.4041,
+        26.5148
+    ],
+    "Pisa_Turbine": [
+        98.2417,
+        26.5686
+    ],
+    "Pyay_Station": [
+        95.2126,
+        18.8416
+    ],
+    "Renan": [
+        98.0906,
+        27.5234
+    ],
+    "Renan_ControlSpill": [
+        98.0952,
+        27.4864
+    ],
+    "Renan_LinearControl": [
+        98.0547,
+        27.4964
+    ],
+    "Renan_Merge": [
+        98.1131,
+        27.4294
+    ],
+    "Renan_Spill": [
+        98.1316,
+        27.4942
+    ],
+    "Renan_Turbine": [
+        98.0484,
+        27.4699
+    ],
+    "Sagaing_station": [
+        95.9737,
+        21.8648
+    ],
+    "Sedawgi_recombined": [
+        96.2478,
+        22.2871
+    ],
+    "Sedawgyi": [
+        96.3277,
+        22.3662
+    ],
+    "Sedawgyi_ControlSpill": [
+        96.3295,
+        22.315
+    ],
+    "Sedawgyi_Irrigation": [
+        96.1781,
+        22.4358
+    ],
+    "Sedawgyi_Irrigation_Abstraction": [
+        96.2574,
+        22.399
+    ],
+    "Sedawgyi_LinearControl": [
+        96.3865,
+        22.3438
+    ],
+    "Sedawgyi_Spill": [
+        96.2758,
+        22.3498
+    ],
+    "Sedawgyi_Turbine": [
+        96.3594,
+        22.2522
+    ],
+    "Shwedaung_et_al_Irrigation": [
+        95.4917,
+        18.5556
+    ],
+    "Shwedaung_et_al_Irrigation_Abstraction": [
+        95.3459,
+        18.4674
+    ],
+    "Shwedaung_et_al_Irrigation_Merge": [
+        95.4035,
+        18.1659
+    ],
+    "Shwedaung_et_al_Irrigation_Rivergauge": [
+        95.3214,
+        18.3102
+    ],
+    "Shwedaung_et_al_Irrigation_Split": [
+        95.1981,
+        18.4158
+    ],
+    "Shweli1": [
+        97.5034,
+        23.7067
+    ],
+    "Shweli1_recombined": [
+        97.3931,
+        23.6704
+    ],
+    "Shweli1_Spill": [
+        97.424,
+        23.7714
+    ],
+    "Shweli1_Turbine": [
+        97.4873,
+        23.5774
+    ],
+    "Shweli2": [
+        97.3086,
+        23.6699
+    ],
+    "Shweli2_recombined": [
+        97.1725,
+        23.5855
+    ],
+    "Shweli2_Spill": [
+        97.196,
+        23.6838
+    ],
+    "Shweli2_Turbine": [
+        97.2975,
+        23.5652
+    ],
+    "Shweli3": [
+        96.8068,
+        23.3058
+    ],
+    "Shweli3_ControlSpill": [
+        96.7454,
+        23.2602
+    ],
+    "Shweli3_LinearControl": [
+        96.8633,
+        23.2503
+    ],
+    "Shweli3_recombined": [
+        96.636,
+        23.2268
+    ],
+    "Shweli3_Spill": [
+        96.6812,
+        23.3098
+    ],
+    "Shweli3_Turbine": [
+        96.7645,
+        23.1787
+    ],
+    "South_Khayan_Yezagyo_Irrigation": [
+        93.8673,
+        23.3063
+    ],
+    "South_Khayan_Yezagyo_Irrigation_Abstraction": [
+        93.9967,
+        23.2174
+    ],
+    "South_Khayan_Yezagyo_Irrigation_Merge": [
+        94.3182,
+        23.2262
+    ],
+    "South_Khayan_Yezagyo_Irrigation_Rivergauge": [
+        94.2057,
+        23.2069
+    ],
+    "South_Khayan_Yezagyo_Irrigation_Split": [
+        94.0874,
+        23.1812
+    ],
+    "Ta Nai Hka": [
+        96.951,
+        26.2903
+    ],
+    "Ta Nai Hka_Spill": [
+        96.9498,
+        26.2699
+    ],
+    "Ta Nai Hka_Turbine": [
+        96.9122,
+        26.302
+    ],
+    "Ta Rung Hka": [
+        96.4681,
+        26.7125
+    ],
+    "Ta Rung Hka_ControlSpill": [
+        96.4621,
+        26.6763
+    ],
+    "Ta Rung Hka_LinearControl": [
+        96.4176,
+        26.7101
+    ],
+    "Ta Rung Hka_Spill": [
+        96.5206,
+        26.7024
+    ],
+    "Ta Rung Hka_Turbine": [
+        96.4203,
+        26.668
+    ],
+    "Tamanthi": [
+        95.2974,
+        25.3107
+    ],
+    "Tamanthi_ControlSpill": [
+        95.1847,
+        25.2775
+    ],
+    "Tamanthi_LinearControl": [
+        95.2188,
+        25.2889
+    ],
+    "Tamanthi_Spill": [
+        95.1636,
+        25.3474
+    ],
+    "Tamanthi_Turbine": [
+        95.2158,
+        25.2151
+    ],
+    "Tawog Hka": [
+        96.5304,
+        26.3082
+    ],
+    "Tawog Hka_ControlSpill": [
+        96.5288,
+        26.3319
+    ],
+    "Tawog Hka_LinearControl": [
+        96.5015,
+        26.3185
+    ],
+    "Tawog Hka_Spill": [
+        96.5579,
+        26.3243
+    ],
+    "Tawog Hka_Turbine": [
+        96.5053,
+        26.3461
+    ],
+    "Thapanzeik": [
+        95.3091,
+        23.3488
+    ],
+    "Thapanzeik_ControlSpill": [
+        95.3588,
+        23.3128
+    ],
+    "Thapanzeik_Kintat_Irrigation": [
+        95.539,
+        23.1748
+    ],
+    "Thapanzeik_Kintat_Irrigation_Abstraction": [
+        95.4715,
+        23.1959
+    ],
+    "Thapanzeik_Kintat_Irrigation_Merge": [
+        95.4165,
+        23.0683
+    ],
+    "Thapanzeik_Kintat_Irrigation_Rivergauge": [
+        95.3992,
+        23.1366
+    ],
+    "Thapanzeik_Kintat_Irrigation_Split": [
+        95.3694,
+        23.2163
+    ],
+    "Thapanzeik_LinearControl": [
+        95.3491,
+        23.3574
+    ],
+    "Thapanzeik_Spill": [
+        95.2656,
+        23.2911
+    ],
+    "Thapanzeik_Turbine": [
+        95.4743,
+        23.334
+    ],
+    "Thinbone_et_al_Irrigation": [
+        95.8408,
+        21.5581
+    ],
+    "Thinbone_et_al_Irrigation_Abstraction": [
+        95.9633,
+        21.59
+    ],
+    "Thinbone_et_al_Irrigation_Rivergauge": [
+        96.0116,
+        21.7282
+    ],
+    "Thinbone_et_al_Irrigation_Split": [
+        96.0532,
+        21.646
+    ],
+    "Tongxinqiao": [
+        98.3606,
+        25.9587
+    ],
+    "Tongxinqiao_Spill": [
+        98.3314,
+        25.923
+    ],
+    "Tongxinqiao_Turbine": [
+        98.329,
+        25.986
+    ],
+    "U Yu Chaung": [
+        95.296,
+        24.8564
+    ],
+    "U Yu Chaung_Spill": [
+        95.234,
+        24.8777
+    ],
+    "U Yu Chaung_Turbine": [
+        95.2185,
+        24.765
+    ],
+    "Upper Buywa": [
+        94.0768,
+        20.7715
+    ],
+    "Upper Buywa_ControlSpill": [
+        94.1343,
+        20.7388
+    ],
+    "Upper Buywa_LinearControl": [
+        94.1142,
+        20.7626
+    ],
+    "Upper Buywa_Spill": [
+        94.1008,
+        20.7334
+    ],
+    "Upper Buywa_Turbine": [
+        94.1578,
+        20.7496
+    ],
+    "Upper Sedawgyi": [
+        96.1979,
+        22.7575
+    ],
+    "Upper Sedawgyi_ControlSpill": [
+        96.221,
+        22.7191
+    ],
+    "Upper Sedawgyi_LinearControl": [
+        96.2586,
+        22.7508
+    ],
+    "Upper Sedawgyi_Spill": [
+        96.178,
+        22.7032
+    ],
+    "Upper Sedawgyi_Turbine": [
+        96.2822,
+        22.7012
+    ],
+    "Upper Yeywa": [
+        97.0417,
+        22.2544
+    ],
+    "Upper Yeywa_ControlSpill": [
+        97.0173,
+        22.2189
+    ],
+    "Upper Yeywa_LinearControl": [
+        97.0836,
+        22.2125
+    ],
+    "Upper Yeywa_Spill": [
+        96.9778,
+        22.2286
+    ],
+    "Upper Yeywa_Turbine": [
+        97.0685,
+        22.1737
+    ],
+    "Upper_Sedawgyi_recombined": [
+        96.2575,
+        22.6248
+    ],
+    "U_Yeywa_recombined": [
+        97.0115,
+        22.1683
+    ],
+    "Wutsok": [
+        98.2931,
+        26.399
+    ],
+    "Wutsok_Spill": [
+        98.3286,
+        26.3807
+    ],
+    "Wutsok_Turbine": [
+        98.2609,
+        26.3574
+    ],
+    "Yangon_Abstraction": [
+        95.7191,
+        16.9926
+    ],
+    "Yangon_Domestic_Water": [
+        96.1044,
+        16.9947
+    ],
+    "Yangon_Domestic_Water_Abstraction": [
+        96.344,
+        17.041
+    ],
+    "Yangon_Domestic_Water_Restriction": [
+        96.2235,
+        17.0206
+    ],
+    "Yangon_Domestic_Water_Spill": [
+        96.1301,
+        16.9006
+    ],
+    "Yangon_output": [
+        96.1898,
+        16.7903
+    ],
+    "Yangon_Rivergauge": [
+        95.5349,
+        16.9664
+    ],
+    "Yangon_Split": [
+        95.6251,
+        17.1303
+    ],
+    "Yeywa": [
+        96.4719,
+        21.6778
+    ],
+    "Yeywa_ControlSpill": [
+        96.4583,
+        21.6607
+    ],
+    "Yeywa_LinearControl": [
+        96.4962,
+        21.6605
+    ],
+    "Yeywa_recombined": [
+        96.4343,
+        21.684
+    ],
+    "Yeywa_Spill": [
+        96.4556,
+        21.6923
+    ],
+    "Yeywa_Turbine": [
+        96.4461,
+        21.6302
+    ],
+    "Zawgyi1": [
+        96.9025,
+        21.3839
+    ],
+    "Zawgyi1_recombined": [
+        96.892,
+        21.4689
+    ],
+    "Zawgyi1_Spill": [
+        96.9195,
+        21.4219
+    ],
+    "Zawgyi1_Turbine": [
+        96.8437,
+        21.4209
+    ],
+    "Zawgyi2": [
+        96.8729,
+        21.5654
+    ],
+    "Zawgyi2_ControlSpill": [
+        96.8381,
+        21.5922
+    ],
+    "Zawgyi2_Irrigation": [
+        96.9874,
+        21.6558
+    ],
+    "Zawgyi2_Irrigation_Abstraction": [
+        96.9311,
+        21.6098
+    ],
+    "Zawgyi2_LinearControl": [
+        96.8441,
+        21.5667
+    ],
+    "Zawgyi2_recombined": [
+        96.8185,
+        21.636
+    ],
+    "Zawgyi2_Spill": [
+        96.8518,
+        21.6066
+    ],
+    "Zawgyi2_Turbine": [
+        96.8066,
+        21.5884
+    ],
+    "Buywa_rain": [
+        94.20649789755008,
+        20.632214167577118
+    ],
+    "Buywa_evaporation": [
+        94.21438206988836,
+        20.6627
+    ],
+    "Dum Ban_rain": [
+        97.88122355798396,
+        25.566745629313683
+    ],
+    "Dum Ban_evaporation": [
+        97.8647236824465,
+        25.462569515147152
+    ],
+    "Khaunglanphu_rain": [
+        98.40496568508942,
+        26.78928196996537
+    ],
+    "Khaunglanphu_evaporation": [
+        98.3179438348484,
+        26.825327600557998
+    ],
+    "Kinda_rain": [
+        96.38242674915388,
+        21.152801535417403
+    ],
+    "Kinda_evaporation": [
+        96.27048014604188,
+        21.126956625654284
+    ],
+    "Kyee Ohn Kyee Wa_rain": [
+        94.39336735252768,
+        20.398246125145004
+    ],
+    "Kyee Ohn Kyee Wa_evaporation": [
+        94.45111981539569,
+        20.385970460209805
+    ],
+    "Laza_rain": [
+        97.7139562361696,
+        26.486194552590717
+    ],
+    "Laza_evaporation": [
+        97.82425770056898,
+        26.442745650288128
+    ],
+    "Mandalay_Domestic_Water_rain": [
+        96.16141335647494,
+        21.950963396569254
+    ],
+    "Mandalay_Domestic_Water_evaporation": [
+        96.15050997609818,
+        21.907232326443054
+    ],
+    "Manipur_rain": [
+        93.95441254954662,
+        22.87481420367207
+    ],
+    "Manipur_evaporation": [
+        93.94249099325815,
+        22.751004107802977
+    ],
+    "Middle Yeywa_rain": [
+        96.8873453879207,
+        21.899229593489043
+    ],
+    "Middle Yeywa_evaporation": [
+        96.81169205420952,
+        21.94742608252739
+    ],
+    "Mone Chaung_rain": [
+        94.26748493796975,
+        20.550634422499044
+    ],
+    "Mone Chaung_evaporation": [
+        94.23818064315596,
+        20.55242674995152
+    ],
+    "Myitsone_rain": [
+        97.56114802986374,
+        25.76463734126686
+    ],
+    "Myitsone_evaporation": [
+        97.58670440232545,
+        25.69246837176302
+    ],
+    "Myittha_rain": [
+        94.10260788726123,
+        21.98286307703639
+    ],
+    "Myittha_evaporation": [
+        94.00905896505581,
+        21.938242530034124
+    ],
+    "Myogyi_rain": [
+        96.42544103494419,
+        21.519657469965875
+    ],
+    "Myogyi_evaporation": [
+        96.34654229943102,
+        21.506454349711873
+    ],
+    "Nam Hsim_rain": [
+        97.18413442249904,
+        22.542715062030243
+    ],
+    "Nam Hsim_evaporation": [
+        97.15057511107088,
+        22.61809050960481
+    ],
+    "Nam Lang_rain": [
+        97.27626568508943,
+        22.216218030034632
+    ],
+    "Nam Lang_evaporation": [
+        97.18999453037459,
+        22.18223491844906
+    ],
+    "Nam Tu_rain": [
+        97.25750410780297,
+        22.724890993258143
+    ],
+    "Nam Tu_evaporation": [
+        97.38180794579048,
+        22.73467391747261
+    ],
+    "Nam_Paw_rain": [
+        97.8879786563783,
+        23.89747842775808
+    ],
+    "Nam_Paw_evaporation": [
+        97.8546562361696,
+        23.955194552590715
+    ],
+    "Renan_rain": [
+        98.12576320723713,
+        27.575531598577488
+    ],
+    "Renan_evaporation": [
+        98.15313759533005,
+        27.51682703386748
+    ],
+    "Sedawgyi_rain": [
+        96.27270210244991,
+        22.396685832422882
+    ],
+    "Sedawgyi_evaporation": [
+        96.27070949039518,
+        22.33962488892912
+    ],
+    "Shweli3_rain": [
+        96.84464337434571,
+        23.356019853958127
+    ],
+    "Shweli3_evaporation": [
+        96.74426240466994,
+        23.31237296613252
+    ],
+    "Ta Rung Hka_rain": [
+        96.40901018294616,
+        26.734006934555833
+    ],
+    "Ta Rung Hka_evaporation": [
+        96.51897266318117,
+        26.675538846685992
+    ],
+    "Tamanthi_rain": [
+        95.23467110767344,
+        25.306313568542855
+    ],
+    "Tamanthi_evaporation": [
+        95.3602437638304,
+        25.312894552590716
+    ],
+    "Tawog Hka_rain": [
+        96.53806339656926,
+        26.370613356474937
+    ],
+    "Tawog Hka_evaporation": [
+        96.51732608252739,
+        26.246692054209518
+    ],
+    "Thapanzeik_rain": [
+        95.33862134362171,
+        23.40432157224192
+    ],
+    "Thapanzeik_evaporation": [
+        95.32643264747233,
+        23.409246125145003
+    ],
+    "Upper Buywa_rain": [
+        94.020771665475,
+        20.742952137666723
+    ],
+    "Upper Buywa_evaporation": [
+        94.02234253003414,
+        20.740058965055816
+    ],
+    "Upper Sedawgyi_rain": [
+        96.17033431491058,
+        22.70098196996537
+    ],
+    "Upper Sedawgyi_evaporation": [
+        96.26043759533006,
+        22.76407296613252
+    ],
+    "Upper Yeywa_rain": [
+        97.09125174728109,
+        22.293114067919003
+    ],
+    "Upper Yeywa_evaporation": [
+        96.98425437068633,
+        22.228823557983947
+    ],
+    "Yeywa_rain": [
+        96.433185932081,
+        21.727351747281084
+    ],
+    "Yeywa_evaporation": [
+        96.46751356854286,
+        21.61507110767344
+    ],
+    "Zawgyi2_rain": [
+        96.93334612514501,
+        21.58273264747233
+    ],
+    "Zawgyi2_evaporation": [
+        96.85036508155095,
+        21.62410546962541
+    ],
+    "Delta_Central_Irrigation_return": [
+        95.3762,
+        16.4425
+    ],
+    "Delta_Central_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Delta_East_Irrigation_return": [
+        95.9411,
+        16.8224
+    ],
+    "Delta_East_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Delta_West_Irrigation_return": [
+        94.5626,
+        16.5276
+    ],
+    "Delta_West_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Eyema_et_al_Irrigation_return": [
+        94.8026,
+        19.9169
+    ],
+    "Eyema_et_al_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Kinda_Irrigation_return": [
+        96.3756,
+        21.3487
+    ],
+    "Kinda_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Linzin_et_al_Irrigation_return": [
+        95.1713,
+        20.7074
+    ],
+    "Linzin_et_al_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Male-Nattaung_Irrigation_return": [
+        95.8628,
+        22.2133
+    ],
+    "Male-Nattaung_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Mazali_Irrigation_return": [
+        94.6891,
+        20.2037
+    ],
+    "Mazali_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Ma_Mya_et_al_Irrigation_return": [
+        95.0365,
+        17.5907
+    ],
+    "Ma_Mya_et_al_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Myittha_Irrigation_return": [
+        94.3094,
+        22.1684
+    ],
+    "Myittha_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Myogyi_Irrigation_return": [
+        96.2203,
+        21.6139
+    ],
+    "Myogyi_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "North_Yamar_et_al_Irrigation_return": [
+        95.0389,
+        21.6947
+    ],
+    "North_Yamar_et_al_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "North_Yangon_Irrigation_return": [
+        96.166,
+        17.3218
+    ],
+    "North_Yangon_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Sedawgyi_Irrigation_return": [
+        96.1335,
+        22.3035
+    ],
+    "Sedawgyi_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Shwedaung_et_al_Irrigation_return": [
+        95.5742,
+        18.323
+    ],
+    "Shwedaung_et_al_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "South_Khayan_Yezagyo_Irrigation_return": [
+        94.1865,
+        23.3789
+    ],
+    "South_Khayan_Yezagyo_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Thapanzeik_Kintat_Irrigation_return": [
+        95.3037,
+        23.0921
+    ],
+    "Thapanzeik_Kintat_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Thinbone_et_al_Irrigation_return": [
+        95.7629,
+        21.7411
+    ],
+    "Thinbone_et_al_Irrigation_return__agg": [
+        0,
+        0
+    ],
+    "Zawgyi2_Irrigation_return": [
+        96.6058,
+        21.613
+    ],
+    "Zawgyi2_Irrigation_return__agg": [
+        0,
+        0
+    ]
+}

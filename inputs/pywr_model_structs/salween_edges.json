@@ -1,0 +1,752 @@
+{
+    "edges": [
+        [
+            "Baluchaung (Upper)",
+            "Baluchaung (Upper)_Turbine"
+        ],
+        [
+            "Baluchaung (Upper)",
+            "link_69"
+        ],
+        [
+            "catchment_Baluchaung (Upper)",
+            "Baluchaung (Upper)"
+        ],
+        [
+            "Baluchaung (Upper)_Turbine",
+            "link_70"
+        ],
+        [
+            "link_70",
+            "Moe Byal_Irrigation_Reservoir"
+        ],
+        [
+            "Baluchaung Confluence",
+            "Hawkham (Upper)"
+        ],
+        [
+            "Baluchaung1",
+            "Baluchaung1_Turbine"
+        ],
+        [
+            "Baluchaung1",
+            "Spill_Baluchaung1"
+        ],
+        [
+            "catchment_Baluchaung1",
+            "Baluchaung1"
+        ],
+        [
+            "Baluchaung1_Turbine",
+            "link_37"
+        ],
+        [
+            "Baluchaung2",
+            "Baluchaung2_Turbine"
+        ],
+        [
+            "Baluchaung2",
+            "Spill_Baluchaung2"
+        ],
+        [
+            "catchment_Baluchaung2",
+            "Baluchaung2"
+        ],
+        [
+            "Baluchaung2_Turbine",
+            "link_22:28:57"
+        ],
+        [
+            "Baluchaung3",
+            "Baluchaung3_Turbine"
+        ],
+        [
+            "Baluchaung3",
+            "Spill_Baluchaung3"
+        ],
+        [
+            "Baluchaung3_Turbine",
+            "link_41"
+        ],
+        [
+            "Bawlekhe_Station",
+            "link_33"
+        ],
+        [
+            "catchment_Bawlekhe_Station",
+            "Bawlekhe_Station"
+        ],
+        [
+            "catchment_Myet Taw Chaung_Downstream",
+            "link_23:33:47"
+        ],
+        [
+            "catchment_Moe Byal_Irrigation",
+            "Moe Byal_Irrigation_Reservoir"
+        ],
+        [
+            "catchment_Ngwe Taung_Irrigation",
+            "Ngwe Taung_Irrigation_Split"
+        ],
+        [
+            "ControlSpill_Keng Tawng (Upper)",
+            "link_22"
+        ],
+        [
+            "ControlSpill_Keng Tawng",
+            "link_27"
+        ],
+        [
+            "ControlSpill_Mantong",
+            "link_7"
+        ],
+        [
+            "ControlSpill_MongTon",
+            "link_19"
+        ],
+        [
+            "ControlSpill_Nam Hka",
+            "link_14"
+        ],
+        [
+            "ControlSpill_Ywathit",
+            "link_32"
+        ],
+        [
+            "Hawkham (Upper)",
+            "Hawkham (Upper)_Turbine"
+        ],
+        [
+            "Hawkham (Upper)",
+            "Spill_Hawkham (Upper)"
+        ],
+        [
+            "catchment_Hawkham (Upper)",
+            "Hawkham (Upper)"
+        ],
+        [
+            "Hawkham (Upper)_Turbine",
+            "link_19:19:52"
+        ],
+        [
+            "Hpaan_Station",
+            "outflow_Salween"
+        ],
+        [
+            "catchment_Hpaan_Station",
+            "Hpaan_Station"
+        ],
+        [
+            "Hpak Nam",
+            "Hpak Nam_Turbine"
+        ],
+        [
+            "Hpak Nam",
+            "Spill_Hpak Nam"
+        ],
+        [
+            "catchment_Hpak Nam",
+            "Hpak Nam"
+        ],
+        [
+            "Hpak Nam_Turbine",
+            "link_61"
+        ],
+        [
+            "Hpi Hseng",
+            "Hpi Hseng_Turbine"
+        ],
+        [
+            "Hpi Hseng",
+            "Spill_Hpi Hseng"
+        ],
+        [
+            "catchment_Hpi Hseng",
+            "Hpi Hseng"
+        ],
+        [
+            "Hpi Hseng_Turbine",
+            "link_59"
+        ],
+        [
+            "Hutgyi",
+            "Hutgyi_Turbine"
+        ],
+        [
+            "Hutgyi",
+            "Spill_Hutgyi"
+        ],
+        [
+            "catchment_Hutgyi",
+            "Hutgyi"
+        ],
+        [
+            "Hutgyi_Turbine",
+            "link_35"
+        ],
+        [
+            "Keng Tawng (Upper)",
+            "linearstoragereleasecontrol_Keng Tawng (Upper)"
+        ],
+        [
+            "Keng Tawng (Upper)",
+            "Spill_Keng Tawng (Upper)"
+        ],
+        [
+            "catchment_Keng Tawng (Upper)",
+            "Keng Tawng (Upper)"
+        ],
+        [
+            "Spill_Keng Tawng (Upper)",
+            "link_22"
+        ],
+        [
+            "Keng Tawng (Upper)_Turbine",
+            "link_22"
+        ],
+        [
+            "Keng Tawng",
+            "linearstoragereleasecontrol_Keng Tawng"
+        ],
+        [
+            "Keng Tawng",
+            "Spill_Keng Tawng"
+        ],
+        [
+            "catchment_Keng Tawng",
+            "Keng Tawng"
+        ],
+        [
+            "Keng Tawng_Turbine",
+            "link_27"
+        ],
+        [
+            "KunLong",
+            "KunLong_Turbine"
+        ],
+        [
+            "KunLong",
+            "Spill_KunLong"
+        ],
+        [
+            "catchment_KunLong",
+            "KunLong"
+        ],
+        [
+            "KunLong_Station",
+            "Naopha"
+        ],
+        [
+            "catchment_KunLong_Station",
+            "KunLong_Station"
+        ],
+        [
+            "KunLong_Turbine",
+            "link_2"
+        ],
+        [
+            "Lam Pha",
+            "Lam Pha_turbine"
+        ],
+        [
+            "Lam Pha",
+            "Spill_Lam Pha"
+        ],
+        [
+            "catchment_Lam Pha",
+            "Lam Pha"
+        ],
+        [
+            "Lam Pha_turbine",
+            "link_67"
+        ],
+        [
+            "linearstoragereleasecontrol_Keng Tawng (Upper)",
+            "ControlSpill_Keng Tawng (Upper)"
+        ],
+        [
+            "linearstoragereleasecontrol_Keng Tawng (Upper)",
+            "Keng Tawng (Upper)_Turbine"
+        ],
+        [
+            "linearstoragereleasecontrol_Keng Tawng",
+            "ControlSpill_Keng Tawng"
+        ],
+        [
+            "linearstoragereleasecontrol_Keng Tawng",
+            "Keng Tawng_Turbine"
+        ],
+        [
+            "linearstoragereleasecontrol_ManTong",
+            "ControlSpill_Mantong"
+        ],
+        [
+            "linearstoragereleasecontrol_ManTong",
+            "Mantong_Turbine"
+        ],
+        [
+            "linearstoragereleasecontrol_MongTon",
+            "ControlSpill_MongTon"
+        ],
+        [
+            "linearstoragereleasecontrol_MongTon",
+            "MongTon_Turbine"
+        ],
+        [
+            "linearstoragereleasecontrol_Nam Hka",
+            "ControlSpill_Nam Hka"
+        ],
+        [
+            "linearstoragereleasecontrol_Nam Hka",
+            "Nam Hka_Turbine"
+        ],
+        [
+            "linearstoragereleasecontrol_Ywathit",
+            "ControlSpill_Ywathit"
+        ],
+        [
+            "linearstoragereleasecontrol_Ywathit",
+            "Ywathit_turbine"
+        ],
+        [
+            "link_10",
+            "Nam Hka MongTon Merge"
+        ],
+        [
+            "Nam Hka MongTon Merge",
+            "MongTon"
+        ],
+        [
+            "link_14",
+            "Nam Hka MongTon Merge"
+        ],
+        [
+            "Moe Byal_Irrigation_Reservoir",
+            "Moe Byal_Irrigation_Abstraction"
+        ],
+        [
+            "link_19",
+            "Nam Teng Confluence"
+        ],
+        [
+            "link_19:19:52",
+            "Bawlekhe_Station"
+        ],
+        [
+            "link_2",
+            "KunLong_Station"
+        ],
+        [
+            "link_22",
+            "Keng Tawng"
+        ],
+        [
+            "link_22:28:57",
+            "Baluchaung3"
+        ],
+        [
+            "link_23:33:47",
+            "outflow_Salween"
+        ],
+        [
+            "link_27",
+            "Nam Teng Confluence"
+        ],
+        [
+            "link_32",
+            "link_33"
+        ],
+        [
+            "link_33",
+            "Hutgyi"
+        ],
+        [
+            "link_35",
+            "link_43"
+        ],
+        [
+            "link_37",
+            "Baluchaung2"
+        ],
+        [
+            "link_4",
+            "link_10"
+        ],
+        [
+            "link_41",
+            "link_42"
+        ],
+        [
+            "link_42",
+            "Baluchaung Confluence"
+        ],
+        [
+            "link_43",
+            "Hpaan_Station"
+        ],
+        [
+            "link_59",
+            "Nam Pawn (Upper)"
+        ],
+        [
+            "link_61",
+            "Hpi Hseng"
+        ],
+        [
+            "link_63",
+            "Nam Pawn (Lower)"
+        ],
+        [
+            "link_65",
+            "link_42"
+        ],
+        [
+            "link_66",
+            "link_43"
+        ],
+        [
+            "link_67",
+            "outflow_Salween"
+        ],
+        [
+            "link_68",
+            "link_23:33:47"
+        ],
+        [
+            "link_69",
+            "link_70"
+        ],
+        [
+            "link_7",
+            "link_9"
+        ],
+        [
+            "Spill_Keng Tawng",
+            "link_27"
+        ],
+        [
+            "link_9",
+            "link_10"
+        ],
+        [
+            "ManTong",
+            "linearstoragereleasecontrol_ManTong"
+        ],
+        [
+            "ManTong",
+            "Spill_Mantong"
+        ],
+        [
+            "catchment_Mantong",
+            "ManTong"
+        ],
+        [
+            "Mantong_Turbine",
+            "link_7"
+        ],
+        [
+            "Moe Byal_Irrigation_Abstraction",
+            "Moe Byal_Irrigation"
+        ],
+        [
+            "Moe Byal_Irrigation_Merge",
+            "Ngwe Taung_Irrigation_Split"
+        ],
+        [
+            "Moe Byal_Irrigation_Rivergauge",
+            "Moe Byal_Irrigation_Merge"
+        ],
+        [
+            "Moe Byal_Irrigation_return",
+            "Moe Byal_Irrigation_Merge"
+        ],
+        [
+            "MongTon",
+            "linearstoragereleasecontrol_MongTon"
+        ],
+        [
+            "MongTon",
+            "Spill_MongTon"
+        ],
+        [
+            "catchment_MongTon",
+            "MongTon"
+        ],
+        [
+            "MongTon_Turbine",
+            "link_19"
+        ],
+        [
+            "Myet Taw Chaung",
+            "Myet Taw Chaung_turbine"
+        ],
+        [
+            "Myet Taw Chaung",
+            "spill_Myet Taw Chaung"
+        ],
+        [
+            "catchment_Myet Taw Chaung",
+            "Myet Taw Chaung"
+        ],
+        [
+            "Myet Taw Chaung_turbine",
+            "link_68"
+        ],
+        [
+            "Nam Hka",
+            "linearstoragereleasecontrol_Nam Hka"
+        ],
+        [
+            "Nam Hka",
+            "Spill_Nam Hka"
+        ],
+        [
+            "catchment_Nam Hka",
+            "Nam Hka"
+        ],
+        [
+            "Nam Hka_Turbine",
+            "link_14"
+        ],
+        [
+            "Nam Pawn (Lower)",
+            "Nam Pawn (Lower)_Turbine"
+        ],
+        [
+            "Nam Pawn (Lower)",
+            "Spill_Nam Pawn (Lower)"
+        ],
+        [
+            "catchment_Nam Pawn (Lower)",
+            "Nam Pawn (Lower)"
+        ],
+        [
+            "Nam Pawn (Lower)_Turbine",
+            "link_65"
+        ],
+        [
+            "Nam Pawn (Upper)",
+            "Nam Pawn (Upper)_Turbine"
+        ],
+        [
+            "Nam Pawn (Upper)",
+            "Spill_Nam Pawn (Upper)"
+        ],
+        [
+            "Nam Pawn (Upper)_Turbine",
+            "link_63"
+        ],
+        [
+            "Nam Teng Confluence",
+            "Ywathit"
+        ],
+        [
+            "Naopha",
+            "Naopha_Turbine"
+        ],
+        [
+            "Naopha",
+            "Spill_Naopha"
+        ],
+        [
+            "catchment_Naopha",
+            "Naopha"
+        ],
+        [
+            "Naopha_Turbine",
+            "link_4"
+        ],
+        [
+            "Ngwe Taung_Irrigation_Abstraction",
+            "Ngwe Taung_Irrigation"
+        ],
+        [
+            "Ngwe Taung_Irrigation_Merge",
+            "Baluchaung1"
+        ],
+        [
+            "Ngwe Taung_Irrigation_return",
+            "Ngwe Taung_Irrigation_Merge"
+        ],
+        [
+            "Ngwe Taung_Irrigation_Rivergauge",
+            "Ngwe Taung_Irrigation_Merge"
+        ],
+        [
+            "Ngwe Taung_Irrigation_Split",
+            "Ngwe Taung_Irrigation_Abstraction"
+        ],
+        [
+            "Ngwe Taung_Irrigation_Split",
+            "Ngwe Taung_Irrigation_Rivergauge"
+        ],
+        [
+            "Spill_Baluchaung1",
+            "link_37"
+        ],
+        [
+            "Spill_Baluchaung2",
+            "link_22:28:57"
+        ],
+        [
+            "Spill_Baluchaung3",
+            "link_41"
+        ],
+        [
+            "Spill_Hawkham (Upper)",
+            "link_19:19:52"
+        ],
+        [
+            "Spill_Hpak Nam",
+            "link_61"
+        ],
+        [
+            "Spill_Hpi Hseng",
+            "link_59"
+        ],
+        [
+            "Spill_Hutgyi",
+            "link_35"
+        ],
+        [
+            "Spill_KunLong",
+            "link_2"
+        ],
+        [
+            "Spill_Lam Pha",
+            "link_67"
+        ],
+        [
+            "Spill_Mantong",
+            "link_9"
+        ],
+        [
+            "Spill_MongTon",
+            "link_19"
+        ],
+        [
+            "spill_Myet Taw Chaung",
+            "link_68"
+        ],
+        [
+            "Spill_Nam Hka",
+            "link_14"
+        ],
+        [
+            "Spill_Nam Pawn (Lower)",
+            "link_65"
+        ],
+        [
+            "Spill_Nam Pawn (Upper)",
+            "link_63"
+        ],
+        [
+            "Spill_Naopha",
+            "link_4"
+        ],
+        [
+            "Spill_Yunzalin",
+            "link_66"
+        ],
+        [
+            "Spill_Ywathit",
+            "link_32"
+        ],
+        [
+            "Yunzalin",
+            "Spill_Yunzalin"
+        ],
+        [
+            "Yunzalin",
+            "Yunzalin_turbine"
+        ],
+        [
+            "catchment_Yunzalin",
+            "Yunzalin"
+        ],
+        [
+            "Yunzalin_turbine",
+            "link_66"
+        ],
+        [
+            "Ywathit",
+            "linearstoragereleasecontrol_Ywathit"
+        ],
+        [
+            "Ywathit",
+            "Spill_Ywathit"
+        ],
+        [
+            "catchment_Ywathit",
+            "Ywathit"
+        ],
+        [
+            "Ywathit_turbine",
+            "link_32"
+        ],
+        [
+            "Keng Tawng_rain",
+            "Keng Tawng"
+        ],
+        [
+            "Keng Tawng",
+            "Keng Tawng_evaporation"
+        ],
+        [
+            "Keng Tawng (Upper)_rain",
+            "Keng Tawng (Upper)"
+        ],
+        [
+            "Keng Tawng (Upper)",
+            "Keng Tawng (Upper)_evaporation"
+        ],
+        [
+            "ManTong_rain",
+            "ManTong"
+        ],
+        [
+            "ManTong",
+            "ManTong_evaporation"
+        ],
+        [
+            "MongTon_rain",
+            "MongTon"
+        ],
+        [
+            "MongTon",
+            "MongTon_evaporation"
+        ],
+        [
+            "Nam Hka_rain",
+            "Nam Hka"
+        ],
+        [
+            "Nam Hka",
+            "Nam Hka_evaporation"
+        ],
+        [
+            "Ywathit_rain",
+            "Ywathit"
+        ],
+        [
+            "Ywathit",
+            "Ywathit_evaporation"
+        ],
+        [
+            "Moe Byal_Irrigation_Reservoir",
+            "Moe Byal_Irrigation_Reservoir_Spill"
+        ],
+        [
+            "Moe Byal_Irrigation_Reservoir",
+            "Moe Byal_Irrigation_Reservoir_Overflow"
+        ],
+        [
+            "Moe Byal_Irrigation_Reservoir_Spill",
+            "Moe Byal_Irrigation_Rivergauge"
+        ],
+        [
+            "Moe Byal_Irrigation_Reservoir_Overflow",
+            "Moe Byal_Irrigation_Rivergauge"
+        ]
+    ]
+}

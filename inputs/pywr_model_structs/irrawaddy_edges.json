@@ -1,0 +1,2340 @@
+{
+    "edges": [
+        [
+            "Buywa",
+            "Buywa_LinearControl"
+        ],
+        [
+            "Buywa",
+            "Buywa_Spill"
+        ],
+        [
+            "Upper Buywa",
+            "Upper Buywa_LinearControl"
+        ],
+        [
+            "Upper Buywa",
+            "Upper Buywa_Spill"
+        ],
+        [
+            "Upper Buywa_LinearControl",
+            "Upper Buywa_ControlSpill"
+        ],
+        [
+            "Upper Buywa_LinearControl",
+            "Upper Buywa_Turbine"
+        ],
+        [
+            "Upper Buywa_ControlSpill",
+            "Buywa_Upper_recombined"
+        ],
+        [
+            "Buywa_Upper_recombined",
+            "Buywa"
+        ],
+        [
+            "Upper Buywa_Spill",
+            "Buywa_Upper_recombined"
+        ],
+        [
+            "Upper Buywa_Turbine",
+            "Buywa_Upper_recombined"
+        ],
+        [
+            "Buywa_LinearControl",
+            "Buywa_ControlSpill"
+        ],
+        [
+            "Buywa_LinearControl",
+            "Buywa_Turbine"
+        ],
+        [
+            "Buywa_ControlSpill",
+            "link_30"
+        ],
+        [
+            "Buywa_Spill",
+            "link_30"
+        ],
+        [
+            "Buywa_Turbine",
+            "link_30"
+        ],
+        [
+            "catchment_Upper_Buywa",
+            "Upper Buywa"
+        ],
+        [
+            "catchment_Renan",
+            "Renan"
+        ],
+        [
+            "catchment_Upper_Sedawgyi",
+            "Upper Sedawgyi"
+        ],
+        [
+            "catchment_Thapanzeik",
+            "Thapanzeik"
+        ],
+        [
+            "catchment_Zawgyi1",
+            "Zawgyi1"
+        ],
+        [
+            "catchment_Mali",
+            "Mali"
+        ],
+        [
+            "catchment_Yangon_Domestic_2",
+            "Yangon_Domestic_Water"
+        ],
+        [
+            "catchment_Yangon_Domestic_1",
+            "Yangon_Domestic_Water"
+        ],
+        [
+            "catchment_Tawog Hka",
+            "Tawog Hka"
+        ],
+        [
+            "catchment_Ta_Rung_Hka",
+            "Ta Rung Hka"
+        ],
+        [
+            "catchment_Chipwi_Nge",
+            "Chipwi Nge"
+        ],
+        [
+            "catchment_Ta_Nai_Hka",
+            "Ta Nai Hka"
+        ],
+        [
+            "catchment_U_Yu_Chaung",
+            "U Yu Chaung"
+        ],
+        [
+            "catchment_Mindon",
+            "Mindon"
+        ],
+        [
+            "catchment_Dapein_1",
+            "Dapein 1"
+        ],
+        [
+            "catchment_Dapein_2",
+            "Dapein 2"
+        ],
+        [
+            "catchment_Dum_Ban",
+            "Dum Ban"
+        ],
+        [
+            "catchment_Gaw_Lan",
+            "Gaw Lan"
+        ],
+        [
+            "catchment_Kinda",
+            "Kinda"
+        ],
+        [
+            "catchment_Laza",
+            "Laza"
+        ],
+        [
+            "catchment_Chindwin_Irrawaddy_merge",
+            "link_279"
+        ],
+        [
+            "catchment_Manipur",
+            "Manipur"
+        ],
+        [
+            "catchment_Myittha",
+            "Myittha"
+        ],
+        [
+            "catchment_Nam_Hsim",
+            "Nam Hsim"
+        ],
+        [
+            "catchment_Nam_Lang",
+            "Nam Lang"
+        ],
+        [
+            "catchment_Nam_Li",
+            "Nam Li"
+        ],
+        [
+            "catchment_Nam_Paw",
+            "Nam_Paw"
+        ],
+        [
+            "catchment_Nam_Tabak_I",
+            "Nam Tabak I"
+        ],
+        [
+            "catchment_Delta_West_Irrigation",
+            "Delta_West_Irrigation_Split"
+        ],
+        [
+            "catchment_Hkankawn",
+            "Hkankawn"
+        ],
+        [
+            "catchment_Irrawaddy_Thapanzeik_junction",
+            "link_268"
+        ],
+        [
+            "catchment_Kintat",
+            "Thapanzeik_Kintat_Irrigation_Split"
+        ],
+        [
+            "catchment_Lawngdin",
+            "Lawngdin"
+        ],
+        [
+            "catchment_Linzin_et_al_Irrigation",
+            "Linzin_et_al_Irrigation_Split"
+        ],
+        [
+            "catchment_Male-Nattaung_Irrigation",
+            "Male-Nattaung_Irrigation_Rivergauge"
+        ],
+        [
+            "catchment_Mandalay_junction",
+            "Sagaing_station"
+        ],
+        [
+            "catchment_Ma_Mya_et_al_Irrigation",
+            "Ma_Mya_et_al_Irrigation_Split"
+        ],
+        [
+            "catchment_Mone_Chaung",
+            "Mone Chaung"
+        ],
+        [
+            "catchment_Nam_Tabak_II",
+            "Nam Tabak II"
+        ],
+        [
+            "catchment_North_Yamar_et_al_Irrigation",
+            "North_Yamar_et_al_Irrigation_Split"
+        ],
+        [
+            "catchment_Nyangdom",
+            "Yangon_Split"
+        ],
+        [
+            "catchment_Shwedaung_et_al_Irrigation",
+            "Shwedaung_et_al_Irrigation_Split"
+        ],
+        [
+            "catchment_Shweli1",
+            "Shweli1"
+        ],
+        [
+            "catchment_Shweli2",
+            "Shweli2"
+        ],
+        [
+            "catchment_Shweli3",
+            "Shweli3"
+        ],
+        [
+            "catchment_South_Khayan_Yezagyo_Irrigation",
+            "South_Khayan_Yezagyo_Irrigation_Split"
+        ],
+        [
+            "catchment_Tabuhla_Irrigation",
+            "North_Yangon_Irrigation_Split"
+        ],
+        [
+            "catchment_Tongxinqiao",
+            "Tongxinqiao"
+        ],
+        [
+            "catchment_Upper_Yeywa",
+            "Upper Yeywa"
+        ],
+        [
+            "catchment_Yeywa",
+            "Yeywa"
+        ],
+        [
+            "Chipwi Nge",
+            "Chipwi Nge_Turbine"
+        ],
+        [
+            "Chipwi Nge",
+            "Chipwi Nge_Spill"
+        ],
+        [
+            "Chipwi",
+            "Chipwi_Turbine"
+        ],
+        [
+            "Chipwi",
+            "Chipwi_Spill"
+        ],
+        [
+            "catchment_Chipwi",
+            "Chipwi"
+        ],
+        [
+            "Chipwi Nge_Turbine",
+            "link_112"
+        ],
+        [
+            "Chipwi_Turbine",
+            "link_109"
+        ],
+        [
+            "Dapein 1",
+            "Dapein 1_Turbine"
+        ],
+        [
+            "Dapein 1",
+            "Dapein 1_Spill"
+        ],
+        [
+            "Dapein 2",
+            "Dapein 2_Turbine"
+        ],
+        [
+            "Dapein 2",
+            "Dapein 2_Spill"
+        ],
+        [
+            "Dapein 1_Turbine",
+            "link_160"
+        ],
+        [
+            "Dapein 2_Turbine",
+            "link_158"
+        ],
+        [
+            "Deedoke",
+            "Deedoke_Spill"
+        ],
+        [
+            "Deedoke",
+            "Deedoke_Turbine"
+        ],
+        [
+            "Deedoke_recombined",
+            "Sagaing_station"
+        ],
+        [
+            "Deedoke_Spill",
+            "Deedoke_recombined"
+        ],
+        [
+            "Deedoke_Turbine",
+            "Deedoke_recombined"
+        ],
+        [
+            "Delta_Central_Irrigation_Abstraction",
+            "Delta_Central_Irrigation"
+        ],
+        [
+            "Delta_Central_Irrigation_Rivergauge",
+            "Delta_Central_Irrigation_Merge"
+        ],
+        [
+            "Delta_Central_Irrigation_Split",
+            "Delta_Central_Irrigation_Abstraction"
+        ],
+        [
+            "Delta_Central_Irrigation_Split",
+            "Delta_Central_Irrigation_Rivergauge"
+        ],
+        [
+            "Delta_East_Irrigation_Abstraction",
+            "Delta_West_Irrigation"
+        ],
+        [
+            "Delta_West_Irrigation_Rivergauge",
+            "Delta_West_Irrigation_Merge"
+        ],
+        [
+            "Delta_West_Irrigation_Split",
+            "Delta_East_Irrigation_Abstraction"
+        ],
+        [
+            "Delta_West_Irrigation_Split",
+            "Delta_West_Irrigation_Rivergauge"
+        ],
+        [
+            "Dum Ban",
+            "Dum Ban_LinearControl"
+        ],
+        [
+            "Dum Ban",
+            "Dum Ban_Spill"
+        ],
+        [
+            "Dum Ban_LinearControl",
+            "Dum Ban_Turbine"
+        ],
+        [
+            "Dum Ban_LinearControl",
+            "Dum Ban_ControlSpill"
+        ],
+        [
+            "Dum Ban_Turbine",
+            "link_127"
+        ],
+        [
+            "Eyema_et_al_Irrigation_Abstraction",
+            "Eyema_et_al_Irrigation"
+        ],
+        [
+            "Eyema_et_al_Irrigation_return",
+            "Eyema_et_al_Irrigation_Merge"
+        ],
+        [
+            "Eyema_et_al_Irrigation_Rivergauge",
+            "Eyema_et_al_Irrigation_Merge"
+        ],
+        [
+            "Eyema_et_al_Irrigation_Split",
+            "Eyema_et_al_Irrigation_Abstraction"
+        ],
+        [
+            "Eyema_et_al_Irrigation_Split",
+            "Eyema_et_al_Irrigation_Rivergauge"
+        ],
+        [
+            "Gaw Lan",
+            "Gaw Lan_Turbine"
+        ],
+        [
+            "Gaw Lan",
+            "Gaw Lan_Spill"
+        ],
+        [
+            "Gaw Lan_Turbine",
+            "link_103"
+        ],
+        [
+            "Hkankawn",
+            "Hkankawn_Turbine"
+        ],
+        [
+            "Hkankawn",
+            "Hkankawn_Spill"
+        ],
+        [
+            "Hkankawn_Turbine",
+            "link_100"
+        ],
+        [
+            "Khaunglanphu",
+            "Khaunglanphu_LinearControl"
+        ],
+        [
+            "Khaunglanphu",
+            "Khaunglanphu_Spill"
+        ],
+        [
+            "catchment_Khaunglanphu",
+            "Khaunglanphu"
+        ],
+        [
+            "Khaunglanphu_LinearControl",
+            "Khaunglanphu_Turbine"
+        ],
+        [
+            "Khaunglanphu_LinearControl",
+            "Khaunglanphu_ControlSpill"
+        ],
+        [
+            "Khaunglanphu_Turbine",
+            "link_88"
+        ],
+        [
+            "Kinda",
+            "Kinda_LinearControl"
+        ],
+        [
+            "Kinda",
+            "Kinda_Spill"
+        ],
+        [
+            "Thapanzeik_Kintat_Irrigation_return",
+            "Thapanzeik_Kintat_Irrigation_Merge"
+        ],
+        [
+            "Kinda_LinearControl",
+            "Kinda_ControlSpill"
+        ],
+        [
+            "Kinda_LinearControl",
+            "Kinda_Turbine"
+        ],
+        [
+            "Kinda_ControlSpill",
+            "Kinda_Irrigation_Split_Unused"
+        ],
+        [
+            "Kinda_Irrigation_Abstraction",
+            "Kinda_Irrigation"
+        ],
+        [
+            "Kinda_Irrigation_Merge",
+            "Thinbone_et_al_Irrigation_Split"
+        ],
+        [
+            "Kinda_Irrigation_return",
+            "Kinda_Irrigation_Merge"
+        ],
+        [
+            "Kinda_Irrigation_Rivergauge",
+            "Kinda_Irrigation_Merge"
+        ],
+        [
+            "Kinda",
+            "Kinda_Irrigation_Abstraction"
+        ],
+        [
+            "Kinda_Irrigation_Split_Unused",
+            "Kinda_Irrigation_Rivergauge"
+        ],
+        [
+            "Kinda_Spill",
+            "Kinda_Irrigation_Split_Unused"
+        ],
+        [
+            "Kinda_Turbine",
+            "Kinda_Irrigation_Split_Unused"
+        ],
+        [
+            "Kyee Ohn Kyee Wa",
+            "Kyee Ohn Kyee Wa_LinearControl"
+        ],
+        [
+            "Kyee Ohn Kyee Wa",
+            "Kyee Ohn Kyee Wa_Spill"
+        ],
+        [
+            "Kyee Ohn Kyee Wa_LinearControl",
+            "Kyee Ohn Kyee Wa_ControlSpill"
+        ],
+        [
+            "Kyee Ohn Kyee Wa_LinearControl",
+            "Kyee Ohn Kyee Wa_Turbine"
+        ],
+        [
+            "Kyee Ohn Kyee Wa_ControlSpill",
+            "link_212"
+        ],
+        [
+            "Kyee Ohn Kyee Wa_Spill",
+            "link_212"
+        ],
+        [
+            "Kyee Ohn Kyee Wa_Turbine",
+            "link_212"
+        ],
+        [
+            "Lawngdin",
+            "Lawngdin_Turbine"
+        ],
+        [
+            "Lawngdin",
+            "Lawngdin_Spill"
+        ],
+        [
+            "Lawngdin_Turbine",
+            "link_97"
+        ],
+        [
+            "Laza",
+            "Laza_LinearControl"
+        ],
+        [
+            "Laza",
+            "Laza_Spill"
+        ],
+        [
+            "Yeywa_LinearControl",
+            "Yeywa_Turbine"
+        ],
+        [
+            "Laza_LinearControl",
+            "Laza_Turbine"
+        ],
+        [
+            "Laza_LinearControl",
+            "Laza_ControlSpill"
+        ],
+        [
+            "link_100",
+            "Tongxinqiao"
+        ],
+        [
+            "Gaw Lan_Spill",
+            "link_103"
+        ],
+        [
+            "link_103",
+            "Hkankawn"
+        ],
+        [
+            "Tongxinqiao_Spill",
+            "link_106"
+        ],
+        [
+            "link_106",
+            "Lawngdin"
+        ],
+        [
+            "Chipwi_Spill",
+            "link_109"
+        ],
+        [
+            "link_109",
+            "link_152"
+        ],
+        [
+            "link_11-34-50",
+            "Upper Yeywa"
+        ],
+        [
+            "Chipwi Nge_Spill",
+            "link_112"
+        ],
+        [
+            "link_112",
+            "link_250"
+        ],
+        [
+            "Laza_Spill",
+            "link_115"
+        ],
+        [
+            "Laza_ControlSpill",
+            "link_115"
+        ],
+        [
+            "link_115",
+            "link_255"
+        ],
+        [
+            "Tawog Hka_Spill",
+            "link_118"
+        ],
+        [
+            "Tawog Hka_ControlSpill",
+            "link_118"
+        ],
+        [
+            "link_118",
+            "link_150"
+        ],
+        [
+            "Ta Nai Hka_Spill",
+            "link_121"
+        ],
+        [
+            "link_121",
+            "link_150"
+        ],
+        [
+            "Ta Rung Hka_Spill",
+            "link_124"
+        ],
+        [
+            "Ta Rung Hka_ControlSpill",
+            "link_124"
+        ],
+        [
+            "link_124",
+            "link_149"
+        ],
+        [
+            "Dum Ban_Spill",
+            "link_127"
+        ],
+        [
+            "Dum Ban_ControlSpill",
+            "link_127"
+        ],
+        [
+            "link_127",
+            "link_152"
+        ],
+        [
+            "Nam Li_Spill",
+            "link_130"
+        ],
+        [
+            "link_130",
+            "link_152"
+        ],
+        [
+            "Nam Tabak I_Spill",
+            "link_133"
+        ],
+        [
+            "link_133",
+            "Nam Tabak II"
+        ],
+        [
+            "Nam Tabak II_Spill",
+            "link_136"
+        ],
+        [
+            "link_136",
+            "link_153"
+        ],
+        [
+            "Mali_Spill",
+            "link_139"
+        ],
+        [
+            "link_139",
+            "link_153"
+        ],
+        [
+            "Tamanthi_Spill",
+            "link_145"
+        ],
+        [
+            "Tamanthi_ControlSpill",
+            "link_145"
+        ],
+        [
+            "link_145",
+            "link_162"
+        ],
+        [
+            "U Yu Chaung_Spill",
+            "link_148"
+        ],
+        [
+            "link_148",
+            "link_162"
+        ],
+        [
+            "link_149",
+            "Tamanthi"
+        ],
+        [
+            "link_150",
+            "link_149"
+        ],
+        [
+            "link_152",
+            "Myitsone"
+        ],
+        [
+            "link_153",
+            "link_179"
+        ],
+        [
+            "Dapein 2_Spill",
+            "link_158"
+        ],
+        [
+            "link_158",
+            "link_179"
+        ],
+        [
+            "Renan_ControlSpill",
+            "Renan_Merge"
+        ],
+        [
+            "link_160",
+            "Dapein 2"
+        ],
+        [
+            "Dapein 1_Spill",
+            "link_160"
+        ],
+        [
+            "link_162",
+            "South_Khayan_Yezagyo_Irrigation_Merge"
+        ],
+        [
+            "link_163",
+            "Male-Nattaung_Irrigation_Rivergauge"
+        ],
+        [
+            "link_16:22:51",
+            "Myogyi"
+        ],
+        [
+            "Renan_Spill",
+            "Renan_Merge"
+        ],
+        [
+            "link_172",
+            "Male-Nattaung_Irrigation_Merge"
+        ],
+        [
+            "link_179",
+            "link_163"
+        ],
+        [
+            "Renan_Merge",
+            "Khaunglanphu"
+        ],
+        [
+            "Shwedaung_et_al_Irrigation_Abstraction",
+            "Shwedaung_et_al_Irrigation"
+        ],
+        [
+            "link_19:1:2",
+            "Yangon_Domestic_Water"
+        ],
+        [
+            "Eyema_et_al_Irrigation_Merge",
+            "link_236"
+        ],
+        [
+            "Delta_Central_Irrigation_Merge",
+            "Irrawaddy_Delta_output2"
+        ],
+        [
+            "Mazali_Irrigation_Merge",
+            "link_72"
+        ],
+        [
+            "link_212",
+            "Mazali_Irrigation_Split"
+        ],
+        [
+            "link_236",
+            "Pyay_Station"
+        ],
+        [
+            "Linzin_et_al_Irrigation_Merge",
+            "link_72"
+        ],
+        [
+            "link_250",
+            "Chipwi"
+        ],
+        [
+            "link_255",
+            "link_153"
+        ],
+        [
+            "Delta_West_Irrigation_Merge",
+            "Irrawaddy_Delta_output1"
+        ],
+        [
+            "link_268",
+            "link_279"
+        ],
+        [
+            "North_Yamar_et_al_Irrigation_Merge",
+            "link_279"
+        ],
+        [
+            "link_279",
+            "Linzin_et_al_Irrigation_Split"
+        ],
+        [
+            "link_284",
+            "Thapanzeik_Kintat_Irrigation_Split"
+        ],
+        [
+            "link_30",
+            "Mone Chaung"
+        ],
+        [
+            "link_300",
+            "Delta_East_Irrigation"
+        ],
+        [
+            "link_300",
+            "Delta_East_Irrigation_Merge"
+        ],
+        [
+            "Delta_East_Irrigation_Merge",
+            "link_19:1:2"
+        ],
+        [
+            "North_Yangon_Irrigation_Merge",
+            "link_19:1:2"
+        ],
+        [
+            "link_65",
+            "link_11-34-50"
+        ],
+        [
+            "link_72",
+            "Eyema_et_al_Irrigation_Split"
+        ],
+        [
+            "Khaunglanphu_Spill",
+            "link_88"
+        ],
+        [
+            "Khaunglanphu_ControlSpill",
+            "link_88"
+        ],
+        [
+            "link_88",
+            "Pisa"
+        ],
+        [
+            "link_91",
+            "Wutsok"
+        ],
+        [
+            "Wutsok_Spill",
+            "link_94"
+        ],
+        [
+            "link_94",
+            "link_250"
+        ],
+        [
+            "Lawngdin_Spill",
+            "link_97"
+        ],
+        [
+            "link_97",
+            "link_94"
+        ],
+        [
+            "Hkankawn_Spill",
+            "link_100"
+        ],
+        [
+            "Linzin_et_al_Irrigation_return",
+            "Linzin_et_al_Irrigation_Merge"
+        ],
+        [
+            "Linzin_et_al_Irrigation_Abstraction",
+            "Linzin_et_al_Irrigation"
+        ],
+        [
+            "Linzin_et_al_Irrigation_Rivergauge",
+            "Linzin_et_al_Irrigation_Merge"
+        ],
+        [
+            "Linzin_et_al_Irrigation_Split",
+            "Linzin_et_al_Irrigation_Abstraction"
+        ],
+        [
+            "Linzin_et_al_Irrigation_Split",
+            "Linzin_et_al_Irrigation_Rivergauge"
+        ],
+        [
+            "Male-Nattaung_Irrigation_Abstraction",
+            "Male-Nattaung_Irrigation"
+        ],
+        [
+            "Male-Nattaung_Irrigation_Downstream",
+            "Male-Nattaung_Irrigation_Merge"
+        ],
+        [
+            "Male-Nattaung_Irrigation_Merge",
+            "Mandalay_Split"
+        ],
+        [
+            "Male-Nattaung_Irrigation_Rivergauge",
+            "Male-Nattaung_Irrigation_Abstraction"
+        ],
+        [
+            "Male-Nattaung_Irrigation_Rivergauge",
+            "Male-Nattaung_Irrigation_Downstream"
+        ],
+        [
+            "Male-Nattaung_Irrigation_return",
+            "Male-Nattaung_Irrigation_Merge"
+        ],
+        [
+            "Mali",
+            "Mali_Spill"
+        ],
+        [
+            "Mali",
+            "Mali_Turbine"
+        ],
+        [
+            "Mali_Turbine",
+            "link_139"
+        ],
+        [
+            "Mandalay_Abstraction",
+            "Mandalay_Domestic_Water"
+        ],
+        [
+            "Mandalay_Domestic_Water",
+            "Mandalay_Restriction"
+        ],
+        [
+            "Mandalay_Domestic_Water",
+            "Mandalay_Spill"
+        ],
+        [
+            "Mandalay_Merge",
+            "Sagaing_station"
+        ],
+        [
+            "Mandalay_Restriction",
+            "Mandalay_Demand"
+        ],
+        [
+            "Mandalay_Rivergauge",
+            "Mandalay_Merge"
+        ],
+        [
+            "Mandalay_Spill",
+            "Mandalay_Merge"
+        ],
+        [
+            "Mandalay_Split",
+            "Mandalay_Abstraction"
+        ],
+        [
+            "Mandalay_Split",
+            "Mandalay_Rivergauge"
+        ],
+        [
+            "Manipur",
+            "Manipur_LinearControl"
+        ],
+        [
+            "Manipur",
+            "Manipur_Spill"
+        ],
+        [
+            "Manipur_LinearControl",
+            "Manipur_ControlSpill"
+        ],
+        [
+            "Manipur_LinearControl",
+            "Manipur_Turbine"
+        ],
+        [
+            "Manipur_ControlSpill",
+            "Manipur_recombined"
+        ],
+        [
+            "Manipur_Spill",
+            "Manipur_recombined"
+        ],
+        [
+            "Manipur_Turbine",
+            "Manipur_recombined"
+        ],
+        [
+            "Manipur_recombined",
+            "South_Khayan_Yezagyo_Irrigation_Split"
+        ],
+        [
+            "Mazali_Irrigation_Abstraction",
+            "Mazali_Irrigation"
+        ],
+        [
+            "Mazali_Irrigation_return",
+            "Mazali_Irrigation_Merge"
+        ],
+        [
+            "Mazali_Irrigation_Rivergauge",
+            "Mazali_Irrigation_Merge"
+        ],
+        [
+            "Mazali_Irrigation_Split",
+            "Mazali_Irrigation_Abstraction"
+        ],
+        [
+            "Mazali_Irrigation_Split",
+            "Mazali_Irrigation_Rivergauge"
+        ],
+        [
+            "Ma_Mya_et_al_Irrigation_Abstraction",
+            "Ma_Mya_et_al_Irrigation"
+        ],
+        [
+            "Ma_Mya_et_al_Irrigation_Merge",
+            "Delta_West_Irrigation_Split"
+        ],
+        [
+            "Ma_Mya_et_al_Irrigation_Rivergauge",
+            "Ma_Mya_et_al_Irrigation_Merge"
+        ],
+        [
+            "Ma_Mya_et_al_Irrigation_Split",
+            "Ma_Mya_et_al_Irrigation_Abstraction"
+        ],
+        [
+            "Ma_Mya_et_al_Irrigation_Split",
+            "Ma_Mya_et_al_Irrigation_Rivergauge"
+        ],
+        [
+            "Delta_Central_Irrigation_return",
+            "Delta_Central_Irrigation_Merge"
+        ],
+        [
+            "Delta_East_Irrigation_return",
+            "Delta_East_Irrigation_Merge"
+        ],
+        [
+            "catchment_Middle_Yeywa",
+            "Middle Yeywa"
+        ],
+        [
+            "Middle Yeywa",
+            "Middle Yeywa_LinearControl"
+        ],
+        [
+            "Middle Yeywa",
+            "Middle Yeywa_Spill"
+        ],
+        [
+            "Middle Yeywa_LinearControl",
+            "Middle Yeywa_ControlSpill"
+        ],
+        [
+            "Middle Yeywa_LinearControl",
+            "Middle Yeywa_Turbine"
+        ],
+        [
+            "Middle Yeywa_ControlSpill",
+            "Mid_Yeywa_recombined"
+        ],
+        [
+            "Mid_Yeywa_recombined",
+            "Yeywa"
+        ],
+        [
+            "Middle Yeywa_Spill",
+            "Mid_Yeywa_recombined"
+        ],
+        [
+            "Middle Yeywa_Turbine",
+            "Mid_Yeywa_recombined"
+        ],
+        [
+            "Mindon",
+            "Mindon_Spill"
+        ],
+        [
+            "Mindon",
+            "Mindon_Turbine"
+        ],
+        [
+            "Mindon_recombined",
+            "link_236"
+        ],
+        [
+            "Mindon_Spill",
+            "Mindon_recombined"
+        ],
+        [
+            "Mindon_Turbine",
+            "Mindon_recombined"
+        ],
+        [
+            "Mone Chaung",
+            "Mone Chaung_LinearControl"
+        ],
+        [
+            "Mone Chaung",
+            "Mone Chaung_Spill"
+        ],
+        [
+            "Mone Chaung_LinearControl",
+            "Mone Chaung_ControlSpill"
+        ],
+        [
+            "Mone Chaung_LinearControl",
+            "Mone Chaung_Turbine"
+        ],
+        [
+            "Mone Chaung_ControlSpill",
+            "Mone_Chaung_recombined"
+        ],
+        [
+            "Mone_Chaung_recombined",
+            "Kyee Ohn Kyee Wa"
+        ],
+        [
+            "Mone Chaung_Spill",
+            "Mone_Chaung_recombined"
+        ],
+        [
+            "Mone Chaung_Turbine",
+            "Mone_Chaung_recombined"
+        ],
+        [
+            "Myitsone",
+            "Myitsone_LinearControl"
+        ],
+        [
+            "Myitsone",
+            "Myitsone_Spill"
+        ],
+        [
+            "Myitsone_ControlSpill",
+            "link_255"
+        ],
+        [
+            "Myitsone_LinearControl",
+            "Myitsone_ControlSpill"
+        ],
+        [
+            "Myitsone_LinearControl",
+            "Myitsone_Turbine"
+        ],
+        [
+            "Myitsone_Spill",
+            "link_255"
+        ],
+        [
+            "Myitsone_Turbine",
+            "link_255"
+        ],
+        [
+            "Myittha",
+            "Myittha_LinearControl"
+        ],
+        [
+            "Myittha",
+            "Myittha_Irrigation_Abstraction"
+        ],
+        [
+            "Myittha",
+            "Myittha_Spill"
+        ],
+        [
+            "Myittha_LinearControl",
+            "Myittha_ControlSpill"
+        ],
+        [
+            "Myittha_LinearControl",
+            "Myittha_Turbine"
+        ],
+        [
+            "Myittha_ControlSpill",
+            "Myittha_recombined"
+        ],
+        [
+            "Myittha_Irrigation_Abstraction",
+            "Myittha_Irrigation"
+        ],
+        [
+            "Myittha_Irrigation_return",
+            "Myittha_recombined"
+        ],
+        [
+            "Myittha_recombined",
+            "Manipur_recombined"
+        ],
+        [
+            "Myittha_Spill",
+            "Myittha_recombined"
+        ],
+        [
+            "Myittha_Turbine",
+            "Myittha_recombined"
+        ],
+        [
+            "Myogyi_Irrigation_return",
+            "Myogyi_Irrigation_Merge"
+        ],
+        [
+            "Myogyi",
+            "Myogyi_LinearControl"
+        ],
+        [
+            "Myogyi",
+            "Myogyi_Spill"
+        ],
+        [
+            "catchment_Myogyi",
+            "Myogyi"
+        ],
+        [
+            "Myogyi_LinearControl",
+            "Myogyi_ControlSpill"
+        ],
+        [
+            "Myogyi_LinearControl",
+            "Myogyi_Turbine"
+        ],
+        [
+            "Myogyi_ControlSpill",
+            "Myogyi_recombined"
+        ],
+        [
+            "Myogyi_Irrigation_Abstraction",
+            "Myogyi_Irrigation"
+        ],
+        [
+            "Myogyi_Irrigation_Merge",
+            "Thinbone_et_al_Irrigation_Split"
+        ],
+        [
+            "Myogyi_Irrigation_Rivergauge",
+            "Myogyi_Irrigation_Merge"
+        ],
+        [
+            "Myogyi",
+            "Myogyi_Irrigation_Abstraction"
+        ],
+        [
+            "Myogyi_Irrigation_Split_Unused",
+            "Myogyi_Irrigation_Rivergauge"
+        ],
+        [
+            "Myogyi_recombined",
+            "Myogyi_Irrigation_Split_Unused"
+        ],
+        [
+            "Myogyi_Spill",
+            "Myogyi_recombined"
+        ],
+        [
+            "Myogyi_Turbine",
+            "Myogyi_recombined"
+        ],
+        [
+            "catchment_Myitsone",
+            "Myitsone"
+        ],
+        [
+            "Nam Li",
+            "Nam Li_Spill"
+        ],
+        [
+            "Nam Li",
+            "Nam Li_Turbine"
+        ],
+        [
+            "Nam Tabak I",
+            "Nam Tabak I_Spill"
+        ],
+        [
+            "Nam Tabak I",
+            "Nam Tabak I_Turbine"
+        ],
+        [
+            "Nam Tabak II",
+            "Nam Tabak II_Spill"
+        ],
+        [
+            "Nam Tabak II",
+            "Nam Tabak II_Turbine"
+        ],
+        [
+            "catchment_Nam_Tu",
+            "Nam Tu"
+        ],
+        [
+            "Nam Hsim",
+            "Nam Hsim_LinearControl"
+        ],
+        [
+            "Nam Hsim",
+            "Nam Hsim_Spill"
+        ],
+        [
+            "Nam Hsim_LinearControl",
+            "Nam Hsim_ControlSpill"
+        ],
+        [
+            "Nam Hsim_LinearControl",
+            "Nam Hsim_Turbine"
+        ],
+        [
+            "Nam Hsim_ControlSpill",
+            "Nam_Hsim_recombined"
+        ],
+        [
+            "Nam_Hsim_recombined",
+            "link_65"
+        ],
+        [
+            "Nam Hsim_Spill",
+            "Nam_Hsim_recombined"
+        ],
+        [
+            "Nam Hsim_Turbine",
+            "Nam_Hsim_recombined"
+        ],
+        [
+            "Nam Lang",
+            "Nam Lang_LinearControl"
+        ],
+        [
+            "Nam Lang",
+            "Nam Lang_Spill"
+        ],
+        [
+            "Nam Lang_LinearControl",
+            "Nam Lang_ControlSpill"
+        ],
+        [
+            "Nam Lang_LinearControl",
+            "Nam Lang_Turbine"
+        ],
+        [
+            "Nam Lang_ControlSpill",
+            "Nam_Lang_recombined"
+        ],
+        [
+            "Nam_Lang_recombined",
+            "link_11-34-50"
+        ],
+        [
+            "Nam Lang_Spill",
+            "Nam_Lang_recombined"
+        ],
+        [
+            "Nam Lang_Turbine",
+            "Nam_Lang_recombined"
+        ],
+        [
+            "Nam Li_Turbine",
+            "link_130"
+        ],
+        [
+            "Nam_Paw",
+            "Nam Paw_LinearControl"
+        ],
+        [
+            "Nam_Paw",
+            "Nam Paw_Spill"
+        ],
+        [
+            "Nam Paw_LinearControl",
+            "Nam Paw_ControlSpill"
+        ],
+        [
+            "Nam Paw_LinearControl",
+            "Nam Paw_Turbine"
+        ],
+        [
+            "Nam Paw_ControlSpill",
+            "Nam_Paw_recombined"
+        ],
+        [
+            "Nam_Paw_recombined",
+            "Shweli1"
+        ],
+        [
+            "Nam Paw_Spill",
+            "Nam_Paw_recombined"
+        ],
+        [
+            "Nam Paw_Turbine",
+            "Nam_Paw_recombined"
+        ],
+        [
+            "Nam Tabak II_Turbine",
+            "link_136"
+        ],
+        [
+            "Nam Tabak I_Turbine",
+            "link_133"
+        ],
+        [
+            "Nam Tu",
+            "Nam Tu_LinearControl"
+        ],
+        [
+            "Nam Tu",
+            "Nam Tu_Spill"
+        ],
+        [
+            "Nam Tu_LinearControl",
+            "Nam Tu_ControlSpill"
+        ],
+        [
+            "Nam Tu_LinearControl",
+            "Nam Tu_Turbine"
+        ],
+        [
+            "Nam Tu_ControlSpill",
+            "Nam_Tu_recombined"
+        ],
+        [
+            "Nam_Tu_recombined",
+            "link_65"
+        ],
+        [
+            "Nam Tu_Spill",
+            "Nam_Tu_recombined"
+        ],
+        [
+            "Nam Tu_Turbine",
+            "Nam_Tu_recombined"
+        ],
+        [
+            "Ma_Mya_et_al_Irrigation_return",
+            "Ma_Mya_et_al_Irrigation_Merge"
+        ],
+        [
+            "North_Yamar_et_al_Irrigation_return",
+            "North_Yamar_et_al_Irrigation_Merge"
+        ],
+        [
+            "North_Yamar_et_al_Irrigation_Abstraction",
+            "North_Yamar_et_al_Irrigation"
+        ],
+        [
+            "North_Yamar_et_al_Irrigation_Split",
+            "North_Yamar_et_al_Irrigation_Abstraction"
+        ],
+        [
+            "North_Yamar_et_al_Irrigation_Rivergauge",
+            "North_Yamar_et_al_Irrigation_Merge"
+        ],
+        [
+            "North_Yamar_et_al_Irrigation_Split",
+            "North_Yamar_et_al_Irrigation_Rivergauge"
+        ],
+        [
+            "North_Yangon_Irrigation_Abstraction",
+            "North_Yangon_Irrigation"
+        ],
+        [
+            "North_Yangon_Irrigation_Rivergauge",
+            "North_Yangon_Irrigation_Merge"
+        ],
+        [
+            "North_Yangon_Irrigation_Split",
+            "North_Yangon_Irrigation_Abstraction"
+        ],
+        [
+            "North_Yangon_Irrigation_Split",
+            "North_Yangon_Irrigation_Rivergauge"
+        ],
+        [
+            "Pisa",
+            "Pisa_Spill"
+        ],
+        [
+            "Pisa",
+            "Pisa_Turbine"
+        ],
+        [
+            "catchment_Pisa",
+            "Pisa"
+        ],
+        [
+            "Pisa_Spill",
+            "link_91"
+        ],
+        [
+            "Pisa_Turbine",
+            "link_91"
+        ],
+        [
+            "Pyay_Station",
+            "Shwedaung_et_al_Irrigation_Split"
+        ],
+        [
+            "Delta_West_Irrigation_return",
+            "Delta_West_Irrigation_Merge"
+        ],
+        [
+            "Renan",
+            "Renan_Spill"
+        ],
+        [
+            "Renan",
+            "Renan_LinearControl"
+        ],
+        [
+            "Renan_LinearControl",
+            "Renan_ControlSpill"
+        ],
+        [
+            "Renan_LinearControl",
+            "Renan_Turbine"
+        ],
+        [
+            "Renan_Turbine",
+            "Renan_Merge"
+        ],
+        [
+            "Yangon_Domestic_Water",
+            "Yangon_Domestic_Water_Spill"
+        ],
+        [
+            "Sagaing_station",
+            "link_268"
+        ],
+        [
+            "Sedawgyi",
+            "Sedawgyi_LinearControl"
+        ],
+        [
+            "Sedawgyi",
+            "Sedawgyi_Spill"
+        ],
+        [
+            "Sedawgyi_LinearControl",
+            "Sedawgyi_ControlSpill"
+        ],
+        [
+            "Sedawgyi_LinearControl",
+            "Sedawgyi_Turbine"
+        ],
+        [
+            "Sedawgyi_ControlSpill",
+            "Sedawgi_recombined"
+        ],
+        [
+            "Sedawgi_recombined",
+            "link_172"
+        ],
+        [
+            "Sedawgyi_Spill",
+            "Sedawgi_recombined"
+        ],
+        [
+            "Sedawgyi_Turbine",
+            "Sedawgi_recombined"
+        ],
+        [
+            "Sedawgyi",
+            "Sedawgyi_Irrigation_Abstraction"
+        ],
+        [
+            "catchment_Sedawgyi",
+            "Sedawgyi"
+        ],
+        [
+            "Sedawgyi_Irrigation_Abstraction",
+            "Sedawgyi_Irrigation"
+        ],
+        [
+            "Sedawgyi_Irrigation_return",
+            "link_172"
+        ],
+        [
+            "Shwedaung_et_al_Irrigation_return",
+            "Shwedaung_et_al_Irrigation_Merge"
+        ],
+        [
+            "Shwedaung_et_al_Irrigation_Merge",
+            "Yangon_Split"
+        ],
+        [
+            "Shwedaung_et_al_Irrigation_Rivergauge",
+            "Shwedaung_et_al_Irrigation_Merge"
+        ],
+        [
+            "Shwedaung_et_al_Irrigation_Split",
+            "Shwedaung_et_al_Irrigation_Abstraction"
+        ],
+        [
+            "Shwedaung_et_al_Irrigation_Split",
+            "Shwedaung_et_al_Irrigation_Rivergauge"
+        ],
+        [
+            "Shweli1",
+            "Shweli1_Spill"
+        ],
+        [
+            "Shweli1",
+            "Shweli1_Turbine"
+        ],
+        [
+            "Shweli1_recombined",
+            "Shweli2"
+        ],
+        [
+            "Shweli1_Spill",
+            "Shweli1_recombined"
+        ],
+        [
+            "Shweli1_Turbine",
+            "Shweli1_recombined"
+        ],
+        [
+            "Shweli2",
+            "Shweli2_Spill"
+        ],
+        [
+            "Shweli2",
+            "Shweli2_Turbine"
+        ],
+        [
+            "Shweli2_recombined",
+            "Shweli3"
+        ],
+        [
+            "Shweli2_Spill",
+            "Shweli2_recombined"
+        ],
+        [
+            "Shweli2_Turbine",
+            "Shweli2_recombined"
+        ],
+        [
+            "Shweli3",
+            "Shweli3_LinearControl"
+        ],
+        [
+            "Shweli3",
+            "Shweli3_Spill"
+        ],
+        [
+            "Shweli3_LinearControl",
+            "Shweli3_ControlSpill"
+        ],
+        [
+            "Shweli3_LinearControl",
+            "Shweli3_Turbine"
+        ],
+        [
+            "Shweli3_ControlSpill",
+            "Shweli3_recombined"
+        ],
+        [
+            "Shweli3_recombined",
+            "link_163"
+        ],
+        [
+            "Shweli3_Spill",
+            "Shweli3_recombined"
+        ],
+        [
+            "Shweli3_Turbine",
+            "Shweli3_recombined"
+        ],
+        [
+            "South_Khayan_Yezagyo_Irrigation_return",
+            "South_Khayan_Yezagyo_Irrigation_Merge"
+        ],
+        [
+            "South_Khayan_Yezagyo_Irrigation_Abstraction",
+            "South_Khayan_Yezagyo_Irrigation"
+        ],
+        [
+            "South_Khayan_Yezagyo_Irrigation_Merge",
+            "North_Yamar_et_al_Irrigation_Split"
+        ],
+        [
+            "South_Khayan_Yezagyo_Irrigation_Rivergauge",
+            "South_Khayan_Yezagyo_Irrigation_Merge"
+        ],
+        [
+            "South_Khayan_Yezagyo_Irrigation_Split",
+            "South_Khayan_Yezagyo_Irrigation_Abstraction"
+        ],
+        [
+            "South_Khayan_Yezagyo_Irrigation_Split",
+            "South_Khayan_Yezagyo_Irrigation_Rivergauge"
+        ],
+        [
+            "Ta Nai Hka",
+            "Ta Nai Hka_Spill"
+        ],
+        [
+            "Ta Nai Hka",
+            "Ta Nai Hka_Turbine"
+        ],
+        [
+            "Ta Rung Hka",
+            "Ta Rung Hka_Spill"
+        ],
+        [
+            "Ta Rung Hka",
+            "Ta Rung Hka_LinearControl"
+        ],
+        [
+            "North_Yangon_Irrigation_return",
+            "North_Yangon_Irrigation_Merge"
+        ],
+        [
+            "Tamanthi",
+            "Tamanthi_Spill"
+        ],
+        [
+            "Tamanthi",
+            "Tamanthi_LinearControl"
+        ],
+        [
+            "catchment_Tamanthi",
+            "Tamanthi"
+        ],
+        [
+            "Tamanthi_LinearControl",
+            "Tamanthi_ControlSpill"
+        ],
+        [
+            "Tamanthi_LinearControl",
+            "Tamanthi_Turbine"
+        ],
+        [
+            "Tamanthi_Turbine",
+            "link_145"
+        ],
+        [
+            "Tawog Hka",
+            "Tawog Hka_Spill"
+        ],
+        [
+            "Tawog Hka",
+            "Tawog Hka_LinearControl"
+        ],
+        [
+            "Tawog Hka_LinearControl",
+            "Tawog Hka_ControlSpill"
+        ],
+        [
+            "Tawog Hka_LinearControl",
+            "Tawog Hka_Turbine"
+        ],
+        [
+            "Tawog Hka_Turbine",
+            "link_118"
+        ],
+        [
+            "Ta Nai Hka_Turbine",
+            "link_121"
+        ],
+        [
+            "Ta Rung Hka_LinearControl",
+            "Ta Rung Hka_ControlSpill"
+        ],
+        [
+            "Ta Rung Hka_LinearControl",
+            "Ta Rung Hka_Turbine"
+        ],
+        [
+            "Thapanzeik",
+            "Thapanzeik_LinearControl"
+        ],
+        [
+            "Thapanzeik",
+            "Thapanzeik_Spill"
+        ],
+        [
+            "Thapanzeik_LinearControl",
+            "Thapanzeik_ControlSpill"
+        ],
+        [
+            "Thapanzeik_LinearControl",
+            "Thapanzeik_Turbine"
+        ],
+        [
+            "Thapanzeik_ControlSpill",
+            "link_284"
+        ],
+        [
+            "Thapanzeik_Kintat_Irrigation_Abstraction",
+            "Thapanzeik_Kintat_Irrigation"
+        ],
+        [
+            "Thapanzeik_Kintat_Irrigation_Merge",
+            "link_268"
+        ],
+        [
+            "Thapanzeik_Kintat_Irrigation_Rivergauge",
+            "Thapanzeik_Kintat_Irrigation_Merge"
+        ],
+        [
+            "Thapanzeik_Kintat_Irrigation_Split",
+            "Thapanzeik_Kintat_Irrigation_Abstraction"
+        ],
+        [
+            "Thapanzeik_Kintat_Irrigation_Split",
+            "Thapanzeik_Kintat_Irrigation_Rivergauge"
+        ],
+        [
+            "Thapanzeik_Spill",
+            "link_284"
+        ],
+        [
+            "Thapanzeik_Turbine",
+            "link_284"
+        ],
+        [
+            "Thinbone_et_al_Irrigation_Abstraction",
+            "Thinbone_et_al_Irrigation"
+        ],
+        [
+            "Thinbone_et_al_Irrigation_return",
+            "Sagaing_station"
+        ],
+        [
+            "Thinbone_et_al_Irrigation_Rivergauge",
+            "Sagaing_station"
+        ],
+        [
+            "Thinbone_et_al_Irrigation_Split",
+            "Thinbone_et_al_Irrigation_Abstraction"
+        ],
+        [
+            "Thinbone_et_al_Irrigation_Split",
+            "Thinbone_et_al_Irrigation_Rivergauge"
+        ],
+        [
+            "Tongxinqiao",
+            "Tongxinqiao_Spill"
+        ],
+        [
+            "Tongxinqiao",
+            "Tongxinqiao_Turbine"
+        ],
+        [
+            "Tongxinqiao_Turbine",
+            "link_106"
+        ],
+        [
+            "Laza_Turbine",
+            "link_115"
+        ],
+        [
+            "Ta Rung Hka_Turbine",
+            "link_124"
+        ],
+        [
+            "U Yu Chaung",
+            "U Yu Chaung_Spill"
+        ],
+        [
+            "U Yu Chaung",
+            "U Yu Chaung_Turbine"
+        ],
+        [
+            "Upper Sedawgyi",
+            "Upper Sedawgyi_LinearControl"
+        ],
+        [
+            "Upper Sedawgyi",
+            "Upper Sedawgyi_Spill"
+        ],
+        [
+            "Upper Sedawgyi_LinearControl",
+            "Upper Sedawgyi_ControlSpill"
+        ],
+        [
+            "Upper Sedawgyi_LinearControl",
+            "Upper Sedawgyi_Turbine"
+        ],
+        [
+            "Upper Sedawgyi_ControlSpill",
+            "Upper_Sedawgyi_recombined"
+        ],
+        [
+            "Upper Sedawgyi_Spill",
+            "Upper_Sedawgyi_recombined"
+        ],
+        [
+            "Upper Sedawgyi_Turbine",
+            "Upper_Sedawgyi_recombined"
+        ],
+        [
+            "Upper_Sedawgyi_recombined",
+            "Sedawgyi"
+        ],
+        [
+            "Upper Yeywa",
+            "Upper Yeywa_LinearControl"
+        ],
+        [
+            "Upper Yeywa",
+            "Upper Yeywa_Spill"
+        ],
+        [
+            "Upper Yeywa_LinearControl",
+            "Upper Yeywa_ControlSpill"
+        ],
+        [
+            "Upper Yeywa_LinearControl",
+            "Upper Yeywa_Turbine"
+        ],
+        [
+            "Upper Yeywa_ControlSpill",
+            "U_Yeywa_recombined"
+        ],
+        [
+            "U_Yeywa_recombined",
+            "Middle Yeywa"
+        ],
+        [
+            "Upper Yeywa_Spill",
+            "U_Yeywa_recombined"
+        ],
+        [
+            "Upper Yeywa_Turbine",
+            "U_Yeywa_recombined"
+        ],
+        [
+            "U Yu Chaung_Turbine",
+            "link_148"
+        ],
+        [
+            "Wutsok",
+            "Wutsok_Spill"
+        ],
+        [
+            "Wutsok",
+            "Wutsok_Turbine"
+        ],
+        [
+            "catchment_Wutsok",
+            "Wutsok"
+        ],
+        [
+            "Wutsok_Turbine",
+            "link_94"
+        ],
+        [
+            "Yangon_Abstraction",
+            "link_300"
+        ],
+        [
+            "Yangon_Domestic_Water",
+            "Yangon_Domestic_Water_Restriction"
+        ],
+        [
+            "Yangon_Domestic_Water_Restriction",
+            "Yangon_Domestic_Water_Abstraction"
+        ],
+        [
+            "Yangon_Domestic_Water_Spill",
+            "Yangon_output"
+        ],
+        [
+            "Yangon_Rivergauge",
+            "Delta_Central_Irrigation_Split"
+        ],
+        [
+            "Yangon_Split",
+            "Yangon_Abstraction"
+        ],
+        [
+            "Yangon_Split",
+            "Yangon_Rivergauge"
+        ],
+        [
+            "Yeywa",
+            "Yeywa_LinearControl"
+        ],
+        [
+            "Yeywa",
+            "Yeywa_Spill"
+        ],
+        [
+            "Yeywa_LinearControl",
+            "Yeywa_ControlSpill"
+        ],
+        [
+            "Yeywa_ControlSpill",
+            "Yeywa_recombined"
+        ],
+        [
+            "Yeywa_recombined",
+            "Deedoke"
+        ],
+        [
+            "Yeywa_Spill",
+            "Yeywa_recombined"
+        ],
+        [
+            "Yeywa_Turbine",
+            "Yeywa_recombined"
+        ],
+        [
+            "Zawgyi1",
+            "Zawgyi1_Spill"
+        ],
+        [
+            "Zawgyi1",
+            "Zawgyi1_Turbine"
+        ],
+        [
+            "Zawgyi1_recombined",
+            "Zawgyi2"
+        ],
+        [
+            "Zawgyi1_Spill",
+            "Zawgyi1_recombined"
+        ],
+        [
+            "Zawgyi1_Turbine",
+            "Zawgyi1_recombined"
+        ],
+        [
+            "Zawgyi2",
+            "Zawgyi2_LinearControl"
+        ],
+        [
+            "Zawgyi2",
+            "Zawgyi2_Irrigation_Abstraction"
+        ],
+        [
+            "Zawgyi2",
+            "Zawgyi2_Spill"
+        ],
+        [
+            "Zawgyi2_LinearControl",
+            "Zawgyi2_ControlSpill"
+        ],
+        [
+            "Zawgyi2_LinearControl",
+            "Zawgyi2_Turbine"
+        ],
+        [
+            "Zawgyi2_ControlSpill",
+            "Zawgyi2_recombined"
+        ],
+        [
+            "Zawgyi2_Irrigation_Abstraction",
+            "Zawgyi2_Irrigation"
+        ],
+        [
+            "Zawgyi2_Irrigation_return",
+            "link_16:22:51"
+        ],
+        [
+            "Zawgyi2_recombined",
+            "link_16:22:51"
+        ],
+        [
+            "Zawgyi2_Spill",
+            "Zawgyi2_recombined"
+        ],
+        [
+            "Zawgyi2_Turbine",
+            "Zawgyi2_recombined"
+        ],
+        [
+            "Buywa_rain",
+            "Buywa"
+        ],
+        [
+            "Buywa",
+            "Buywa_evaporation"
+        ],
+        [
+            "Dum Ban_rain",
+            "Dum Ban"
+        ],
+        [
+            "Dum Ban",
+            "Dum Ban_evaporation"
+        ],
+        [
+            "Khaunglanphu_rain",
+            "Khaunglanphu"
+        ],
+        [
+            "Khaunglanphu",
+            "Khaunglanphu_evaporation"
+        ],
+        [
+            "Kinda_rain",
+            "Kinda"
+        ],
+        [
+            "Kinda",
+            "Kinda_evaporation"
+        ],
+        [
+            "Kyee Ohn Kyee Wa_rain",
+            "Kyee Ohn Kyee Wa"
+        ],
+        [
+            "Kyee Ohn Kyee Wa",
+            "Kyee Ohn Kyee Wa_evaporation"
+        ],
+        [
+            "Laza_rain",
+            "Laza"
+        ],
+        [
+            "Laza",
+            "Laza_evaporation"
+        ],
+        [
+            "Mandalay_Domestic_Water_rain",
+            "Mandalay_Domestic_Water"
+        ],
+        [
+            "Mandalay_Domestic_Water",
+            "Mandalay_Domestic_Water_evaporation"
+        ],
+        [
+            "Manipur_rain",
+            "Manipur"
+        ],
+        [
+            "Manipur",
+            "Manipur_evaporation"
+        ],
+        [
+            "Middle Yeywa_rain",
+            "Middle Yeywa"
+        ],
+        [
+            "Middle Yeywa",
+            "Middle Yeywa_evaporation"
+        ],
+        [
+            "Mone Chaung_rain",
+            "Mone Chaung"
+        ],
+        [
+            "Mone Chaung",
+            "Mone Chaung_evaporation"
+        ],
+        [
+            "Myitsone_rain",
+            "Myitsone"
+        ],
+        [
+            "Myitsone",
+            "Myitsone_evaporation"
+        ],
+        [
+            "Myittha_rain",
+            "Myittha"
+        ],
+        [
+            "Myittha",
+            "Myittha_evaporation"
+        ],
+        [
+            "Myogyi_rain",
+            "Myogyi"
+        ],
+        [
+            "Myogyi",
+            "Myogyi_evaporation"
+        ],
+        [
+            "Nam Hsim_rain",
+            "Nam Hsim"
+        ],
+        [
+            "Nam Hsim",
+            "Nam Hsim_evaporation"
+        ],
+        [
+            "Nam Lang_rain",
+            "Nam Lang"
+        ],
+        [
+            "Nam Lang",
+            "Nam Lang_evaporation"
+        ],
+        [
+            "Nam Tu_rain",
+            "Nam Tu"
+        ],
+        [
+            "Nam Tu",
+            "Nam Tu_evaporation"
+        ],
+        [
+            "Nam_Paw_rain",
+            "Nam_Paw"
+        ],
+        [
+            "Nam_Paw",
+            "Nam_Paw_evaporation"
+        ],
+        [
+            "Renan_rain",
+            "Renan"
+        ],
+        [
+            "Renan",
+            "Renan_evaporation"
+        ],
+        [
+            "Sedawgyi_rain",
+            "Sedawgyi"
+        ],
+        [
+            "Sedawgyi",
+            "Sedawgyi_evaporation"
+        ],
+        [
+            "Shweli3_rain",
+            "Shweli3"
+        ],
+        [
+            "Shweli3",
+            "Shweli3_evaporation"
+        ],
+        [
+            "Ta Rung Hka_rain",
+            "Ta Rung Hka"
+        ],
+        [
+            "Ta Rung Hka",
+            "Ta Rung Hka_evaporation"
+        ],
+        [
+            "Tamanthi_rain",
+            "Tamanthi"
+        ],
+        [
+            "Tamanthi",
+            "Tamanthi_evaporation"
+        ],
+        [
+            "Tawog Hka_rain",
+            "Tawog Hka"
+        ],
+        [
+            "Tawog Hka",
+            "Tawog Hka_evaporation"
+        ],
+        [
+            "Thapanzeik_rain",
+            "Thapanzeik"
+        ],
+        [
+            "Thapanzeik",
+            "Thapanzeik_evaporation"
+        ],
+        [
+            "Upper Buywa_rain",
+            "Upper Buywa"
+        ],
+        [
+            "Upper Buywa",
+            "Upper Buywa_evaporation"
+        ],
+        [
+            "Upper Sedawgyi_rain",
+            "Upper Sedawgyi"
+        ],
+        [
+            "Upper Sedawgyi",
+            "Upper Sedawgyi_evaporation"
+        ],
+        [
+            "Upper Yeywa_rain",
+            "Upper Yeywa"
+        ],
+        [
+            "Upper Yeywa",
+            "Upper Yeywa_evaporation"
+        ],
+        [
+            "Yeywa_rain",
+            "Yeywa"
+        ],
+        [
+            "Yeywa",
+            "Yeywa_evaporation"
+        ],
+        [
+            "Zawgyi2_rain",
+            "Zawgyi2"
+        ],
+        [
+            "Zawgyi2",
+            "Zawgyi2_evaporation"
+        ]
+    ]
+}
