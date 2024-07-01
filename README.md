@@ -62,6 +62,7 @@ python clean_repo.py
 The repository uses a mix of `Python` and `R` and is divided into several notebooks written in Jupyter notebooks in `Python` or `R`, which have extension `.ipynb` and R Markdown files with extension `.Rmd`. We used Visual Studio code to execute all files, but alternative solutions, such as using Jupyter Notebook or Jupyter Lab in the browser for notebooks with `.ipynb` extension and R Studio for `.Rmd` files should work as well.
 
 ## Known issues
+The repository relies on data that is either generated in consecutive notebooks. The precalculated data by us can also be downloaded from Google Drive using publicly shareable links and using a python API for Google Drive called `gdown`. In some instances `gdown` may complain that the link cannot be downloaded as the file is not shared with sufficient permissions. It's a bug that can be fixed by upgrading gdown with `no-cache-dir` flag as shown below:
 
 ```
 pip install --upgrade --no-cache-dir gdown
