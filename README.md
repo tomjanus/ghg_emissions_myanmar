@@ -94,7 +94,7 @@ pip install --upgrade --no-cache-dir gdown
 
 * **Notebook_9c_generate_breakdowns_for_selected_reservoirs_for_figure3.ipynb** - This Jupyter notebook in **Python** trains a boosted tree model predicting emission intensity of HP reservoirs and use DALEX to interpret the results. The breakdown plots for selected reservoirs are plotted and saved to figures in `.svg` format.
 
-* **Notebook_10_generate_inputs_for_MOO.ipynb** - This notebook written in **Python** creates dataframes required for preparing inputs to multiobjective optimisation (MOO) study. The dataframes are saved as a collection of `.csv` files.
+* **Notebook_10_generate_inputs_for_MOO.ipynb** - This notebook written in **Python** creates dataframes required for preparing inputs to a multiobjective optimisation (MOO) algorithm. The dataframes are saved as a collection of `.csv` files.
 
 * **Notebook_11_create_input_files_for_MOO.ipynb** - This notebook written in **Python** prepares input `.txt` files for the MOO algorithm.
 
