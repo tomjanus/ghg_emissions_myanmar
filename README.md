@@ -78,6 +78,8 @@ pip install --upgrade --no-cache-dir gdown
 
 * **Notebook_4_ghg_emission_plots.ipynb** - This Jupyter notebook in **Python** creates statistical plots with emission outputs. The plots summarize net (aerial) emissions with different values of categorical variables, such as landuse intensity (low/high), soil type (mineral/organic) and water intake depth (shallow/deep), and visualise the distributions of emissions with all reservoirs types - hydroelectric, irrigation and multipurpose. The output figures are saved to `figures/ghg_visualisation`.
 
+* **Notebook_4b_comparison_of_emissions_against_gridded_data.ipynb** - This notebook loads and processes reservoir emissions in Myanmar calculated explicitly with ReEmission and estimated from the simplified parameterizations obtained by Harrison et al. 2021 [[1](https://doi.org/10.1029/2020GB006888)] and Soued et al. 2022 [[2](https://doi.org/10.1038/s41561-022-01004-2)]. Since the parameterization of Harrison et al. is fitted to emission estimates from a single year (2020) while this study relies on average emissions over the entire life-span of the reservoir (e.g. 100 years), we do not proceed with this parameterization and instead adopt the emission factors of Soued et al (emission factors vs. climatic zones). We then compare the emission fluxes and total emissions overall and due to each emission pathway between the explicitly calculated outputs from ReEmission (G-res) and Soued et al. We visualise the distributions of errors between the two approaches and provide overall statistics of fit/correspondence between both datasets. Finally, we fit the coefficients of regressions adopted in the papers of Almeida et al. 2019 [[3](https://doi.org/10.1038/s41467-019-12179-5)] and Carlino et al. 2024 [[3](https://doi.org/10.1038/s41893-024-01367-x)] which are used to disentangle net anthropogenic emissions from total reservoir emissions. We show differences between the original (default) and the fitted coefficients.
+
 * **Notebook_5_create_reservoir_tile_maps.Rmd** - This notebook written in **RMarkDown** creates tile plots of all delineated reservoirs. The tile plots of reservoir contours are saved to `figures/maps/`.
 
 * **Notebook_6_create_reservoir_maps.ipynb** - This notebook in **R** creates maps showing emissions and emission intensities of the reservoirs in Myanmar. The plots are saved to `figures/maps`.
@@ -103,4 +105,8 @@ pip install --upgrade --no-cache-dir gdown
 * **calculate_statistical_figures_for_the_manuscript.ipynb** - This short notebook is used for calculating statistical numbers for reporting in the manuscript either directly in text or in tables.
 
 
-
+## References:
+* [1] Harrison, J. A., Prairie, Y. T., Mercier-Blais, S., & Soued, C. (2021). Year-2020 global distribution and pathways of reservoir methane and carbon dioxide emissions according to the greenhouse gas from reservoirs (G-res) model. Global Biogeochemical Cycles, 35, e2020GB006888. https://doi.org/10.1029/2020GB006888 
+* [2] Soued, C., Harrison, J.A., Mercier-Blais, S. et al. Reservoir CO2 and CH4 emissions and their climate impact over the period 1900–2060. Nat. Geosci. 15, 700–705 (2022). https://doi.org/10.1038/s41561-022-01004-2
+* [3] Almeida, R.M., Shi, Q., Gomes-Selman, J.M. et al. Reducing greenhouse gas emissions of Amazon hydropower with strategic dam planning. Nat Commun 10, 4281 (2019). https://doi.org/10.1038/s41467-019-12179-5
+* [4] Carlino, A., Schmitt, R., Clark, A. et al. Rethinking energy planning to mitigate the impacts of African hydropower. Nat Sustain 7, 879–890 (2024). https://doi.org/10.1038/s41893-024-01367-x
