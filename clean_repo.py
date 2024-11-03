@@ -33,7 +33,10 @@ class DataSanitizer:
                 regex_pattern = re.compile(regex_str, re.IGNORECASE)
             else:
                 regex_pattern = re.compile(regex_str)
-            files = os.listdir(folder)
+            try:
+                files = os.listdir(folder)
+            except FileNotFoundError:
+                continue
             print("\n")
             print(f"Removing files matching pattern {regex_str} from folder {folder}")
             print("-------------------------------------------------------------------------------")
@@ -56,16 +59,17 @@ class DataSanitizer:
                 print(f"Folder {folder} removed")
             except FileNotFoundError:
                 print(f"Folder {folder} not removed. NOT FOUND")
-
-
-
-if __name__ == "__main__":
+                
+def create_ghg_emissions_repo_sanitizer() -> DataSanitizer:
+    """ """
     sanitizer = DataSanitizer()
     sanitizer.add_item(pathlib.Path('inputs/reemission'), r'reemission_inputs_[a-zA-Z]*_[a-zA-Z]*_[a-zA-Z]*\.json')
     sanitizer.add_item(pathlib.Path('outputs/reemission'), r'outputs_[a-zA-Z]*_[a-zA-Z]*_[a-zA-Z]*\.(?:xlsx?|json)')
     sanitizer.add_item(pathlib.Path('outputs/reemission/combined'), r'combined_outputs\.(?:xlsx?|csv)')
     sanitizer.add_item(pathlib.Path('outputs/pywr_hp'), r'.*\.(csv|xlsx)$')
+    sanitizer.add_item(pathlib.Path('outputs/emission_comparison'), r'.*\.(csv|xlsx)$')
     sanitizer.add_item(pathlib.Path('figures/ghg_visualisation'), r'.*\.(svg|png|jpe?g)$')
+    sanitizer.add_item(pathlib.Path('figures/emission_comparison'), r'.*\.(svg|png|jpe?g)$')
     sanitizer.add_item(pathlib.Path('figures/ifc_pywr_power_comparison'), r'.*\.(svg|png|jpe?g)$')
     sanitizer.add_item(pathlib.Path('figures/maps'), r'.*\.(svg|png|jpe?g)$')
     sanitizer.add_item(pathlib.Path('figures/data_exploration'), r'.*\.(svg|png|jpe?g)$')
@@ -75,4 +79,8 @@ if __name__ == "__main__":
     sanitizer.add_folder(pathlib.Path('outputs/model_explanations'))
     sanitizer.add_folder(pathlib.Path('saved_models'))
     sanitizer.add_folder(pathlib.Path("figures/clustering"))
+    return sanitizer
+
+if __name__ == "__main__":
+    sanitizer = create_ghg_emissions_repo_sanitizer()
     sanitizer.sanitize()
