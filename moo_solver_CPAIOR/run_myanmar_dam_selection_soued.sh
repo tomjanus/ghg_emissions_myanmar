@@ -12,4 +12,8 @@
 # Run Scenario 1 with all dams set to not built
 ./Myanmar_lp -lp -epsilon 2 -thread 4 -path Basin_Input_Files/mya_5_obj_nobuilt_soued.txt -criteria 5 energy ghg firm_energy loss_agri loss_forest -w 1 2 0.5 0.5 -savename outputs/mya_5_obj_nobuilt_soued.sol
 
+./Myanmar_lp -lp -epsilon 2 -thread 4 -path Basin_Input_Files/mya_3_obj_built_soued.txt -criteria 3 energy ghg firm_energy -savename outputs/mya_3_obj_built_soued.sol 
+
+# Run Scenario 1 with all dams set to not built
+./Myanmar_lp -lp -epsilon 2 -thread 4 -path Basin_Input_Files/mya_3_obj_nobuilt_soued.txt -criteria 3 energy ghg firm_energy -savename outputs/mya_3_obj_nobuilt_soued.sol
 

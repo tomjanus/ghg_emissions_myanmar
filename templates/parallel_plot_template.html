@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: auto;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    figure {
+        margin: 0;
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    /* Centering values in the "Unit" column */
+    td:nth-child(2),
+    td:nth-child(3) {
+        text-align: center;
+    }
+    th:nth-child(2),
+    th:nth-child(3) {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Planning low-carbon reservoir investments with spatially-explicit emission models</h1>
+    <h2>RESULTS OF OPTIMAL MULTIOBJECTIVE HYDROELECTRIC PLANT SELECTION STUDY IN MYANMAR</h2>
+    {{ fig }}
+    <table>
+        <thead>
+            <tr>
+                <th>Variable Name</th>
+                <th>Type</th>
+                <th>Unit</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mean HP</td>
+                <td>Objective 1</td>
+                <td>GWh / d</td>
+                <td>Average daily hydropower generation in a year</td>
+            </tr>
+            <tr>
+                <td>Firm HP</td>
+                <td>Objective 2</td>
+                <td>GWh / d</td>
+                <td>Average daily firm power in a year</td>
+            </tr>
+            <tr>
+                <td>GHG Emissions</td>
+                <td>Objective 3</td>
+                <td>Mt CO<sub>2,eq</sub> / year</td>
+                <td>Total annual GHG emissions from hydropower generation</td>
+            </tr>
+            <tr>
+                <td>Agricultural land loss</td>
+                <td>Objective 4</td>
+                <td>km<sup>2</sup></td>
+                <td>Loss of agricultural land due to impoundment</td>
+            </tr>
+            <tr>
+                <td>Deforestation</td>
+                <td>Objective 5</td>
+                <td>km<sup>2</sup></td>
+                <td>Loss of forest due to impoundment</td>
+            </tr>
+            <tr>
+                <td>Land Loss</td>
+                <td>Tracked metric 1</td>
+                <td>km<sup>2</sup></td>
+                <td>Total loss of valuable land due to impoundment (equals Agricultural land loss + Deforestation)</td>
+            </tr>
+            <tr>
+                <td>GHG intensity</td>
+                <td>Tracked metric 2</td>
+                <td>g CO<sub>2,eq</sub> / kWh</td>
+                <td>Emission intensity of hydropower production</td>
+            </tr>
+            <tr>
+                <td>Firm power ratio</td>
+                <td>Tracked metric 3</td>
+                <td>%</td>
+                <td>Ratio of firm to mean HP production</td>
+            </tr>
+            <tr>
+                <td>Scenario [1/0]</td>
+                <td>Selector variable</td>
+                <td>--</td>
+                <td>Optimization Scenario: 1 = "built", i.e. the built dams are fixed, 0 = "not built", ie. all dams are available for optimal selection</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
