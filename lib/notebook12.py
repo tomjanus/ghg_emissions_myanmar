@@ -1,4 +1,4 @@
-""" """
+"""Helper functions supporting Notebook_12"""
 from typing import Set, TypeVar, List, Dict, Tuple, Sequence, Any, ClassVar, TypeAlias
 from dataclasses import dataclass, field
 import pathlib
@@ -550,9 +550,15 @@ class ObjectiveCalculator:
     """
     obj_df: pd.DataFrame
     ids: List[NumType] = field(default_factory = list)
-    obj_names: ClassVar[List[str]] = [
-        'HP_mean', 'HP_firm', 'tot_em', 'crop_area_loss_km2', 
-        'forest_area_loss_km2']
+    obj_names: List[str] = field(default_factory = list)
+    
+    def __post_init__(self) -> None:
+        """ """
+        if not self.obj_names:
+             self.obj_names = [
+                'HP_mean', 'HP_firm', 'tot_em', 'tot_em_soued', 
+                'crop_area_loss_km2', 'forest_area_loss_km2'
+            ]
     
     def _filter_df(self) -> Tuple[pd.DataFrame, List[NumType]]:
         """
